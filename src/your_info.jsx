@@ -2,7 +2,7 @@
 
 // your_info.jsx
 
-const backgroundImageUrl = 'https://images.wallpaperscraft.com/image/single/man_photographer_roof_146991_3840x2400.jpg';
+const backgroundImageUrl = '';
 
 
 // Enter here your first and last name
