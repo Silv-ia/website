@@ -7,6 +7,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+@font-face {
+  font-family: "CustomFont1";
+  src: url("/fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont2";
+  src: url("/fonts/tDbV2o-flEEny0FZhsfKu5WU4xD7OwE.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --light-white: #f2fbfc ;
   --light-color: #ffffff;
@@ -37,11 +51,11 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Alex Brush', sans-serif;
+  font-family: 'CustomFont1', sans-serif;
 }
 
 p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'CustomFont2', sans-serif;
 }
 
 /* h2  {
