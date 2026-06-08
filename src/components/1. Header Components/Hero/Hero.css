@@ -66,11 +66,11 @@
   padding-bottom: 0.1em;
   font-weight: 800;
   line-height: 50px;
-  color: var(--highlight-color);
+  color: var(--dark-color);
   /*text-shadow: 0px 3px 8px var(--dark-color);*/
   text-transform: capitalize;
   align-items: center;
-  --text-shadow-color: 0px 3px 8px var(--dark-color);
+  /*--text-shadow-color: 0px 3px 8px var(--dark-color)*/;
 }
 
 h1.first-name {
