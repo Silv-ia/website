@@ -20,6 +20,7 @@
   --highlight-color: #cfebde;
   --accent-color: #6d9281;
   --beige-color:#d3dea5;
+  --light-purple: #9f98b9;
 
 }
 
@@ -39,7 +40,7 @@ body {
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
-  background-color: #f5f5f5;
+  background-color: var(--light-purple);
   
 }
 
