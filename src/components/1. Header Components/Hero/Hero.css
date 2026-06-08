@@ -26,7 +26,7 @@
 }
 
 .hero-content h1 span {
-  border-top: 1px solid var(--light-color);
+  border-top: 1px solid var(--dark-color);
   padding-top: 10px;
 }
 
@@ -79,7 +79,7 @@ h1.first-name {
   padding-bottom: 1em;
   letter-spacing: 0.4em;
   text-align: center;
-  color: var(--highlight-color);
+  color: var(--dark-color);
 }
 
 h1.last-name {
