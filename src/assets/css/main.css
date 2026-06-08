@@ -15,10 +15,11 @@
 :root {
   --light-white: #f2fbfc ;
   --light-color: #ffffff;
-  --medium-color: #B9BAB3;
-  --dark-color: #001F26;
-  --highlight-color: #cfe5eb;
-  --accent-color: #6d8a92;
+  --medium-color: #60a365;
+  --dark-color: #145b2c;
+  --highlight-color: #cfebde;
+  --accent-color: #6d9281;
+  --beige-color:#d3dea5;
 
 }
 
