@@ -118,10 +118,10 @@ const categories = [
 const achievements = [
   { word: 'Bachelor\'s degree', value: 100, unit: '%' },
   { word: 'Master\'s degree', value: 50, unit: '%' },
-  { word: 'experience', value: 20, unit: ' years' },
+  //{ word: 'experience', value: 20, unit: ' years' },
 ];
 
-// Languages?
+// Languages!!
 const languages = [
   { word: 'English', value: 100, unit: '%' },
   { word: 'Swedish', value: 100, unit: '%' },
