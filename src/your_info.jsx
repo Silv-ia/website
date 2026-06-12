@@ -71,7 +71,7 @@ const categories = [
     ],
   },
   {
-    name: 'skills',
+    name: 'programming languages',
     icon: 'lni lni-code',
     title: 'Software',
     description:
