@@ -24,7 +24,7 @@ const Spinner = () => {
     <div id="page-loader">
       <div className="team-loader">
         <div id="loader-text" className="loader-text">
-          <span>WELCOME</span>
+          <span>loading</span>
         </div>
         <div className="pulse-loader">
           <div className="countup">{count}%</div>
