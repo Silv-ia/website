@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Hero from './components/1. Header Components/Hero/Hero';
 
 // 2. Content Components
-import Skillz from './components/2. Content Components/Skillz/Skillz';
+import Skills from './components/2. Content Components/Skills/Skills';
 import Achievement from './components/2. Content Components/Achievement/Achievement';
 import Projects from './components/2. Content Components/Projects/Projects';
 
@@ -36,7 +36,7 @@ function App() {
       ) : (
         <>
           <Hero />
-          <Skillz />
+          <Skills />
           <ScrollToTopButton />
           <Achievement />
           <Projects />
