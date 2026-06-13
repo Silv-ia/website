@@ -2,7 +2,7 @@
 
 #page-loader {
   position: fixed;
-  inset: 1;
+  inset: 1px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;

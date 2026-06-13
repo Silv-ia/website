@@ -28,7 +28,7 @@ const Spinner = () => {
         <span className="cursor"></span>
       </div>
 
-      {displayed.length === command.length && (
+      {displayed.length === text.length && (
         <div className="line output">
           &gt; Page loading ...
         </div>
