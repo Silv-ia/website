@@ -28,19 +28,19 @@
 }
 
 .prompt {
-  color: var(--highlight-color);
+  color: var(--terminal-text);
 }
 
 .output {
   margin-top: 8px;
   margin-left: 2ch;
-  color: var(--medium-color);
+  color: var(--terminal-text);
 }
 
 .cursor {
   width: 10px;
   height: 1.2em;
-  background: var(--highlight-color);
+  background: var(--terminal-text);
   margin-left: 2px;
   animation: blink 1s steps(1) infinite;
 }
