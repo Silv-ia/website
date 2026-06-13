@@ -33,7 +33,7 @@
 
 .output {
   margin-top: 8px;
-  margin-left: 2ch;
+  /*margin-left: 2ch;*/
   color: var(--terminal-green);
 }
 
