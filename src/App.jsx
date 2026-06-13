@@ -22,11 +22,12 @@ function App() {
   const [loading, setLoading] = useState(true);
 
 
+  // Spinner, load page, timeout
   useEffect(() => {
     document.title = `${name.firstname} ${name.lastname}`;
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 5000);
   }, []);
 
   return (
