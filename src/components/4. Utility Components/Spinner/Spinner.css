@@ -13,7 +13,7 @@
 .terminal-loader {
   font-family: 'Courier New', monospace;
   font-size: 1.2rem;
-  color: var(--highlight-color);
+  color: var(--terminal-text);
 
   display: flex;
   flex-direction: column;
