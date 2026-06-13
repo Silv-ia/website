@@ -2,18 +2,18 @@
 
 #page-loader {
   position: fixed;
-  inset: 0;
+  inset: 1;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background: var(--dark-color);
+  background: var(--terminal-black);
   z-index: 9999;
 }
 
 .terminal-loader {
   font-family: 'Courier New', monospace;
   font-size: 1.2rem;
-  color: var(--highlight-color);
+  color: var(--terminal-text);
   display: flex;
   align-items: center;
 }
@@ -25,7 +25,7 @@
 .cursor {
   width: 10px;
   height: 1.2em;
-  background: var(--highlight-color);
+  background: var(--terminal-text);
   margin-left: 4px;
   animation: blink 1s steps(1) infinite;
 }
