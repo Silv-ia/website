@@ -6,7 +6,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background: var(--terminal-black);
+  /*background: var(--terminal-black);*/
   z-index: 9999;
 }
 

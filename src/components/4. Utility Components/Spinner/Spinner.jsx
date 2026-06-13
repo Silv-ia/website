@@ -27,6 +27,10 @@ const Spinner = () => {
         <span>{displayed}</span>
         <span className="cursor"></span>
       </div>
+
+      <div className="line output">
+        &gt; Page loading ...
+      </div>
     </div>
   );
 };
