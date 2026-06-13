@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Spinner.css';
 
-const text = 'guest@laira:~$ cat homepage.html';
+const command = 'cat homepage.html';
 
 const Spinner = () => {
   const [displayed, setDisplayed] = useState('');
@@ -10,10 +10,10 @@ const Spinner = () => {
     let index = 0;
 
     const interval = setInterval(() => {
-      setDisplayed(text.slice(0, index + 1));
+      setDisplayed(command.slice(0, index + 1));
       index++;
 
-      if (index >= text.length) {
+      if (index >= command.length) {
         clearInterval(interval);
       }
     }, 50);
@@ -24,15 +24,18 @@ const Spinner = () => {
   return (
     <div id="page-loader">
       <div className="terminal-loader">
-        <span>{displayed}</span>
-        <span className="cursor"></span>
-      </div>
-
-      {displayed.length === text.length && (
-        <div className="line output">
-          &gt; Page loading ...
+        <div className="line">
+          <span className="prompt">guest@laira:~$ </span>
+          <span>{displayed}</span>
+          <span className="cursor" />
         </div>
-      )}
+
+        {displayed.length === command.length && (
+          <div className="line output">
+            &gt; Page loading ...
+          </div>
+        )}
+      </div>
     </div>
   );
 };
