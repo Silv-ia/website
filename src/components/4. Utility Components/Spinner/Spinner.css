@@ -4,8 +4,8 @@
   position: fixed;
   inset: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background: var(--dark-color);
   z-index: 9999;
 }
