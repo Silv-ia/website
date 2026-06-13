@@ -12,7 +12,7 @@
 
 .terminal-loader {
   font-family: 'Courier New', monospace;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--terminal-text);
 
   display: flex;
@@ -39,7 +39,7 @@
 
 .cursor {
   width: 10px;
-  height: 1.2em;
+  height: 1em;
   background: var(--terminal-text);
   margin-left: 2px;
   animation: blink 1s steps(1) infinite;
