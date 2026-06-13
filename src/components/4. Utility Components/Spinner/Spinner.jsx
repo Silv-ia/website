@@ -5,18 +5,23 @@ const command = 'cat homepage.html';
 
 const Spinner = () => {
   const [displayed, setDisplayed] = useState('');
+  const [showOutput, setShowOutput] = useState(false);
 
   useEffect(() => {
-    let index = 0;
+  let index = 0;
 
-    const interval = setInterval(() => {
-      setDisplayed(command.slice(0, index + 1));
-      index++;
+  const interval = setInterval(() => {
+    setDisplayed(command.slice(0, index + 1));
+    index++;
 
-      if (index >= command.length) {
-        clearInterval(interval);
+    if (index >= command.length) {
+      clearInterval(interval);
+
+      setTimeout(() => {
+        setShowOutput(true);
+        }, 500); // delay in milliseconds
       }
-    }, 50);
+    }, 100); // typing speed
 
     return () => clearInterval(interval);
   }, []);
