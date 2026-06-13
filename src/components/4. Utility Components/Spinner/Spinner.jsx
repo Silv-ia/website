@@ -28,9 +28,11 @@ const Spinner = () => {
         <span className="cursor"></span>
       </div>
 
-      <div className="line output">
-        &gt; Page loading ...
-      </div>
+      {displayed.length === command.length && (
+        <div className="line output">
+          &gt; Page loading ...
+        </div>
+      )}
     </div>
   );
 };
