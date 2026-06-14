@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 .About {
-    background-color: var(--dark-color);
+    background-color: var(--light-white);
   }
   
   .About .cta-content {

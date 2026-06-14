@@ -13,7 +13,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: var(--accent-color);
+    background-color: var(--light-white);
     color: var(--dark-color);
     font-size: 20px;
     z-index: 999;
