@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 .skills {
-  background-color: var(--medium-color);
+  background-color: var(--light-white);
 }
 
 .skills .section-title {
@@ -16,7 +16,7 @@
 .skills .single-feature {
   text-align: center; /* Change to center alignment */
   padding: 35px;
-  background-color: var(--light-color);
+  background-color: var(--light-white);
   border-radius: 6px;
   position: relative;
   margin-top: 30px;
