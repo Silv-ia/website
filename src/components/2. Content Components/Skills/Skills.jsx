@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Skills.css';
 import WOW from 'wow.js';
 import { categories } from '../../../your_info';
@@ -47,12 +47,12 @@ const Skills = () => {
                         <button
                             key={category.name}
                             className={`tab-btn ${
-                                activeCategory === category.name
+                                activeTab === category.name
                                     ? 'active'
                                     : ''
                             }`}
                             onClick={() =>
-                                setActiveCategory(category.name)
+                                setActiveTab(category.name)
                             }
                         >
                             {category.title}
@@ -62,13 +62,13 @@ const Skills = () => {
 
                 {/* Selected category info */}
                 <div className="category-description">
-                    <h3>{selectedCategory.title}</h3>
-                    <p>{selectedCategory.description}</p>
+                    <h3>{currentCategory.title}</h3>
+                    <p>{currentCategory.description}</p>
                 </div>
 
                 {/* Skills */}
                 <div className="skills-grid">
-                    {selectedCategory.skills.map((skill, index) => (
+                    {currentCategory.skills.map((skill, index) => (
                         <div className="skill-box" key={index}>
                             <i className={skill.icon}></i>
                             <span>{skill.title}</span>
