@@ -28,7 +28,7 @@
 }
 
 .prompt {
-  color: var(--terminal-text);
+  color: var(--terminal-green);
 }
 
 .output {
