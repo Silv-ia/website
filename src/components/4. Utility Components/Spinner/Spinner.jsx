@@ -29,17 +29,21 @@ const Spinner = () => {
   return (
     <div id="page-loader">
       <div className="terminal-loader">
+
         <div className="line">
           <span className="prompt">guest@laira:~$ </span>
           <span>{displayed}</span>
-          <span className="cursor" />
+
+          {!showOutput && <span className="cursor" />}
         </div>
 
-        {displayed.length === command.length && (
+        {showOutput && (
           <div className="line output">
-            &gt; Page loading ...
+            <span>&gt; Page loading ...</span>
+            <span className="cursor" />
           </div>
         )}
+
       </div>
     </div>
   );
