@@ -266,6 +266,8 @@ h1.last-name {
   background: var(--light-white);
   display: flex;
   justify-content: center;
+  /*Try*/
+  justify-content: flex-start;
   align-items: center;
   padding: 80px 20px;
 }
