@@ -280,6 +280,7 @@ h1.last-name {
   border-radius: 0%;
   border-color: var(--dark-color);
   border-width: 0.1mm;
+  
   /*box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);*/
   /*opacity: 0.75;*/
 }
@@ -318,6 +319,7 @@ h1.last-name {
   font-family: "Courier New", monospace;
   color: var(--text-dark);
   line-height: 1.8;
+  text-align: left;
 }
 
 .terminal-body p {
