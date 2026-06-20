@@ -67,7 +67,7 @@
   padding-bottom: 0.1em;
   font-weight: 800;
   line-height: 50px;
-  color: var(--dark-color);
+  color: var(--light-white);
   /*text-shadow: 0px 3px 8px var(--dark-color);*/
   text-transform: capitalize;
   align-items: center;
@@ -80,7 +80,7 @@ h1.first-name {
   padding-bottom: 1em;
   letter-spacing: 0.4em;
   text-align: center;
-  color: var(--dark-color);
+  color: var(--text-dark);
 }
 
 h1.last-name {
@@ -104,7 +104,7 @@ h1.last-name {
 }
 
 .hero-area .hero-content .btn {
-  color: var(--highlight-color);
+  color: var(--terminal-text);
   margin-right: 12px;
 }
 
@@ -116,8 +116,8 @@ h1.last-name {
 }
 
 .hero-area .hero-content .btn:hover {
-  background-color: var(--highlight-color);
-  color: var(--light-color);
+  background-color: var(--terminal-text);
+  color: var(--light-white);
   text-align: center;
 }
 
@@ -276,7 +276,7 @@ h1.last-name {
   max-width: 800px;
   background: var(--light-white);
 
-  border: 1px solid var(--dark-color);
+  border: 1px solid var(--text-dark);
   border-radius: 12px;
 
   overflow: hidden;
