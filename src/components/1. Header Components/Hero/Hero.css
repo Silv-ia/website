@@ -270,16 +270,18 @@ h1.last-name {
   padding: 80px 20px;
 }
 
+/*Ensure it works on mobile*/
 .terminal-window {
   width: 100%;
   max-width: 800px;
-  background: var(--terminal-black);
+  background: var(--light-white);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-  opacity: 0.75;
+  /*box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);*/
+  /*opacity: 0.75;*/
 }
 
+/*Remove
 .terminal-header {
   height: 40px;
   background: var(--terminal-grey);
@@ -287,7 +289,7 @@ h1.last-name {
   align-items: center;
   padding: 0 15px;
   gap: 8px;
-}
+}*/
 
 .dot {
   width: 12px;
