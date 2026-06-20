@@ -324,6 +324,7 @@ h1.last-name {
   color: var(--text-dark);
   line-height: 1.8;
   text-align: left;
+  justify-content: flex-start;
 }
 
 .terminal-body p {
