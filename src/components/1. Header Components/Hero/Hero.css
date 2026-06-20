@@ -259,3 +259,60 @@ h1.last-name {
     margin-right: 5px;
   }
 }
+
+
+.about-section {
+  min-height: 100vh;
+  background: var(--light-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.terminal-window {
+  width: 100%;
+  max-width: 800px;
+  background: var(--terminal-black);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.terminal-header {
+  height: 40px;
+  background: var(--terminal-grey);
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red {
+  background: #ff5f56;
+}
+
+.yellow {
+  background: #ffbd2e;
+}
+
+.green {
+  background: #27c93f;
+}
+
+.terminal-body {
+  padding: 30px;
+  font-family: "Courier New", monospace;
+  color: var(--terminal-text);
+  line-height: 1.8;
+}
+
+.terminal-body p {
+  margin-bottom: 16px;
+}
