@@ -289,34 +289,6 @@ h1.last-name {
   /*opacity: 0.75;*/
 }
 
-/*Remove
-.terminal-header {
-  height: 40px;
-  background: var(--terminal-grey);
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  gap: 8px;
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-.red {
-  background: #ff5f56;
-}
-
-.yellow {
-  background: #ffbd2e;
-}
-
-.green {
-  background: #27c93f;
-}
-*/
 
 .terminal-body {
   padding: 30px;
@@ -325,6 +297,7 @@ h1.last-name {
   line-height: 1.8;
   text-align: left;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .terminal-body p {
