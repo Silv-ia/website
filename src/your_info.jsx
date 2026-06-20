@@ -25,12 +25,12 @@ const socialProfiles = [
   {
     name: 'LinkedIn',
     icon: 'lni lni-linkedin',
-    url: 'https://www.linkedin.com/in/silvialinlu',
+    url: 'https://www.linkedin.com/',
   },
   {
     name: 'GitHub',
     icon: 'lni lni-github',
-    url: 'https://github.com/Silv-ia',
+    url: 'https://github.com/',
   },
   //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
   //   {
