@@ -61,7 +61,8 @@ const Hero = () => {
             <p>$ whoami</p>
             <p>
               Hi, I'm {firstname}. I'm an MSc student in Cybersecurity, with a BSc in 
-              Information Technology.
+              Information Technology. I am curious about forensics and offensive security. Here you 
+              can see my projects and achievements! 
             </p>
 
             <p>$ cat interests.txt</p>
