@@ -267,7 +267,6 @@ h1.last-name {
   display: flex;
   justify-content: center;
   /*Try*/
-  justify-content: flex-start;
   align-items: center;
   padding: 80px 20px;
 }
@@ -280,6 +279,8 @@ h1.last-name {
 
   border: 1px solid var(--text-dark);
   border-radius: 12px;
+
+  justify-content: flex-start;
 
   overflow: hidden;
   
