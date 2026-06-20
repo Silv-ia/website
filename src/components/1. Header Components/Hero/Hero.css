@@ -277,6 +277,7 @@ h1.last-name {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  opacity: 0.75;
 }
 
 .terminal-header {

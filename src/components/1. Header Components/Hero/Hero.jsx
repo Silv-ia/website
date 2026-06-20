@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
       </section>
 
-    /* About Me Section */
+    {/* About Me Section */}
       <section className="about-section">
         <div className="terminal-window">
           <div className="terminal-header">
