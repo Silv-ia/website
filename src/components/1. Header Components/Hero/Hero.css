@@ -278,7 +278,7 @@ h1.last-name {
   max-width: 800px;
   background: var(--terminal-black);
 
-  border: 1px solid var(--terminal-text);
+  border: 1px solid var(--terminal-cool);
   border-radius: 12px;
 
   justify-content: flex-start;
