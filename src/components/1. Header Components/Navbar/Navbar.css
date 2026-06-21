@@ -66,7 +66,7 @@
 }
 
 .link-span {
-  color: var(--light-color);
+  color: var(--light-white);
 }
 
 .link-span:hover {
@@ -75,7 +75,7 @@
 
 .nav-link:hover::before {
   transform: scaleX(1);
-  background-color: var(--accent-color);
+  background-color: var(--light-white);
 }
 
 .navbar-nav li {
@@ -147,10 +147,10 @@
     right: -100%;
     width: 70%;
     max-width: 300px;
-    background-color: var(--medium-color);
+    background-color: var(--light-white);
     transition: right 0.3s;
     z-index: 999;
-    box-shadow: var(--dark-color) 5px;
+    box-shadow: var(--light-white) 5px;
   }
 
   .navbar-open .navbar-collapse {
@@ -178,7 +178,7 @@
     display: block;
     width: 100%;
     height: 2px;
-    background-color: var(--light-color);
+    background-color: var(--light-white);
     margin-bottom: 4px;
     transition: transform 0.3s, opacity 0.3s;
   }
@@ -200,7 +200,7 @@
   .navbar-toggler.custom-toggler.open span:nth-child(1),
   .navbar-toggler.custom-toggler.open span:nth-child(2),
   .navbar-toggler.custom-toggler.open span:nth-child(3) {
-    background-color: var(--light-color);
+    background-color: var(--light-white);
   }
 
   .navbar-nav {
@@ -249,7 +249,7 @@
   @media screen and (min-width: 992px) {
     .nav-item:hover .nav-link::before {
       transform: scaleX(1);
-      background-color: var(--accent-color);
+      background-color: var(--light-white);
     }
   }
 }
@@ -262,7 +262,7 @@
     right: -100%;
     width: 70%;
     max-width: 300px;
-    background-color: var(--medium-color);
+    background-color: var(--light-white);
     transition: right 0.3s;
     z-index: 999;
     
