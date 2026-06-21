@@ -17,8 +17,8 @@
 
 .hero-content h1 {
   font-size: 4rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  /*font-weight: bold;
+  text-transform: uppercase;*/
   color: var(--terminal-grey);
   margin: 0;
   display: flex;
