@@ -276,9 +276,9 @@ h1.last-name {
 .terminal-window {
   width: 100%;
   max-width: 800px;
-  background: var(--light-white);
+  background: var(--terminal-black);
 
-  border: 1px solid var(--text-dark);
+  border: 1px solid var(--terminal-text);
   border-radius: 12px;
 
   justify-content: flex-start;
