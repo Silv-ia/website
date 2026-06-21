@@ -40,8 +40,8 @@ const Navbar = () => {
             <span></span>
           </button>
 
-          <a class="navbar-brand" href="#top">
-            Home
+          <a className="navbar-brand home-btn" href="#top">
+            home
           </a>
 
           <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show slide-in' : ''}`}>
