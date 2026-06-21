@@ -290,7 +290,7 @@ h1.last-name {
 }
 
 
-.terminal-body {
+.terminal-body p {
   padding: 30px;
   font-family: "Courier New", monospace;
   color: var(--text-dark);
