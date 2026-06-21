@@ -104,7 +104,7 @@ h1.last-name {
 }
 
 .hero-area .hero-content .btn {
-  color: var(--terminal-text);
+  color: var(--terminal-grey);
   margin-right: 12px;
 }
 
@@ -117,7 +117,7 @@ h1.last-name {
 
 .hero-area .hero-content .btn:hover {
   background-color: var(--terminal-text);
-  color: var(--light-white);
+  color: var(--terminal-grey);
   text-align: center;
 }
 
