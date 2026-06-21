@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 
-.section.aboutme {
+.typewriter-container wow fadeInLeft p {
   color: var(--text-dark);
   font-size: 24px;
   font-weight: bold;
