@@ -226,6 +226,11 @@
     transform: scaleX(1);
     background-color: var(--light-white);
   }
+
+  .navbar-nav {
+    margin-top: 15px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
