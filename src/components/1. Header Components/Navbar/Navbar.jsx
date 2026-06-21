@@ -44,27 +44,27 @@ const Navbar = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#Skills" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>Skills</span>
+                  <span className='link-span'>about</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
 
-                  <span className='link-span'>Projects</span>
+                  <span className='link-span'>skills</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#AboutMe" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>About Me</span>
+                  <span className='link-span'>projects</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#ContactMe" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>Contact Me</span>
+                  <span className='link-span'>education</span>
                 </a>
               </li>
               
-              {/*<li className="nav-item">
+              {/*<li className="nav-item"> OTHER (writing things)
                 <a href={url} className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
                   <span className='link-span'>
                     Resume<i className="icon lni lni-download"></i>
