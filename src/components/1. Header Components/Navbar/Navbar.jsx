@@ -29,6 +29,11 @@ const Navbar = () => {
     <>
       <nav className={`navbar navbar-expand-lg  ${isMenuOpen ? 'navbar-open' : ''}`}>
         <div className="container-fluid">
+
+          <a className="navbar-brand home-btn" href="#top">
+            Home
+          </a>
+          
           <button
             className={`navbar-toggler custom-toggler ${isMenuOpen ? 'open' : ''}`}
             type="button"
@@ -39,10 +44,6 @@ const Navbar = () => {
             <span></span>
             <span></span>
           </button>
-
-          <a className="navbar-brand home-btn" href="#top">
-            Home
-          </a>
 
           <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show slide-in' : ''}`}>
             <ul className="navbar-nav">

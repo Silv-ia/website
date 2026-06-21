@@ -223,9 +223,23 @@
 }
 
 @media screen and (min-width: 992px) {
-  .nav-item:hover .nav-link::before {
-    transform: scaleX(1);
-    background-color: var(--light-white);
+  .navbar-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .home-btn {
+    font-size: 18px;
+    color: var(--terminal-grey);
+    text-decoration: none;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0; /* prevents collapse div from taking full width */
   }
 
   .navbar-nav {
