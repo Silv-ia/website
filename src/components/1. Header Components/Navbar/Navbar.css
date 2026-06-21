@@ -66,16 +66,16 @@
 }
 
 .link-span {
-  color: var(--light-white);
+  color: var(--terminal-grey);
 }
 
 .link-span:hover {
-  color: var(--light-white);
+  color: var(--terminal-grey);
 }
 
 .nav-link:hover::before {
   transform: scaleX(1);
-  background-color: var(--light-white);
+  background-color: var(--terminal-grey);
 }
 
 .navbar-nav li {
