@@ -96,7 +96,7 @@ h1.last-name {
 .hero-area .hero-content p {
   margin-top: 2.8em;
   font-size: 2em;
-  color: var(--light-white);
+  color: var(--text-dark);
 }
 
 .hero-area .hero-content {
