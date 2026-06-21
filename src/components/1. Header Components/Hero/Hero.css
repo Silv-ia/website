@@ -269,6 +269,7 @@ h1.last-name {
   /*Try*/
   align-items: center;
   padding: 80px 20px;
+  color: var(--terminal-grey);
 }
 
 /*Ensure it works on mobile*/
