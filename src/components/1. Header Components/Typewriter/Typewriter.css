@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 
-.typewriter-container wow fadeInLeft p {
+.typewriter-container p {
   color: var(--text-dark);
   font-size: 24px;
   font-weight: bold;
@@ -9,11 +9,13 @@
  
 }
 
+/*
 .typewriter-text {
   color: var(--text-dark);
   font-size: 24px;
   font-weight: bold;
 }
+  */
 
 .blinking-cursor {
   display: inline-block;
