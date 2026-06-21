@@ -2,7 +2,7 @@
 
 
 .section.aboutme p {
-  color: var(--terminal-grey);
+  color: var(--text-dark);
   font-size: 24px;
   font-weight: bold;
   margin-top: 10px;
