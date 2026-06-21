@@ -40,11 +40,11 @@ const Navbar = () => {
             <span></span>
           </button>
 
-          <a className="navbar-brand home-btn" href="#top">
-            home
-          </a>
-
           <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show slide-in' : ''}`}>
+
+            <a className="navbar-brand home-btn" href="#top">
+              home
+            </a>
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#Skills" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
