@@ -219,15 +219,22 @@
   .nav-link:hover::before {
     transform: scaleX(1);
   }
+}
 
-  @media screen and (min-width: 992px) {
-    .nav-item:hover .nav-link::before {
-      transform: scaleX(1);
-      background-color: var(--light-white);
-    }
+@media screen and (min-width: 992px) {
+  .nav-item:hover .nav-link::before {
+    transform: scaleX(1);
+    background-color: var(--light-white);
   }
 }
 
 @media screen and (max-width: 500px) {
   
+}
+
+.home-btn {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  z-index: 1000;
 }
