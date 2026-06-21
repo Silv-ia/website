@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 
-.section.aboutme p {
+.section.aboutme {
   color: var(--text-dark) !important;
   font-size: 24px;
   font-weight: bold;
