@@ -7,7 +7,7 @@
   filter: brightness(0.8) contrast(1.2);
   background-position: right bottom ;
   background-repeat: no-repeat;
-  color: var(--light-white);
+  background-color: var(--light-white);
 }
 
 .hero-content,
@@ -290,7 +290,7 @@ h1.last-name {
 }
 
 
-.terminal-body p {
+.terminal-body {
   padding: 30px;
   font-family: "Courier New", monospace;
   color: var(--text-dark);
