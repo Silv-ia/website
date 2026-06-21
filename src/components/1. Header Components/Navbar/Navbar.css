@@ -41,7 +41,7 @@
 
 .nav-link {
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 5px 0;
   position: relative;
   display: flex;
