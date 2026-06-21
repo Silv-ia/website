@@ -23,7 +23,7 @@
   width: 0.2em;
   height: 1.2em;
   margin-left: 0.1em;
-  background-color: var(--highlight-color);
+  /*background-color: var(--highlight-color);*/
   animation: blink 1s infinite;
 }
 

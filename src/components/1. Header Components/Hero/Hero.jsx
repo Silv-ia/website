@@ -26,7 +26,7 @@ const Hero = () => {
                   <h1 className='last-name'>{lastname}</h1>
                 </name>
               </div>
-              <div className='typewriter-container' data-wow-delay='.6s'>
+              <div className='typewriter-container wow fadeInLeft' data-wow-delay='.6s'>
                 <Typewriter />
         
               </div>
