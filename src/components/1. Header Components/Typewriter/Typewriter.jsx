@@ -44,7 +44,9 @@ function Typewriter() {
   }, [isFullyDisplayed]);
 
   return (
-    <p className="typewriter-text">{skill}{blinkingCursor}</p>
+    <p className="typewriter-text">
+      {skill}{blinkingCursor}
+    </p>
   );
 }
 
