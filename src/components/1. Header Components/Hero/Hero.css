@@ -19,7 +19,7 @@
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--light-white);
+  color: var(--light-color);
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 .hero-content h1 span {
-  border-top: 1px solid var(--light-white);
+  border-top: 1px solid var(--light-color);
   padding-top: 10px;
 }
 
