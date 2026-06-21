@@ -78,8 +78,9 @@
   background-color: var(--terminal-grey);
 }
 
-.navbar-nav {
-  gap: 12px;
+.navbar-nav li {
+  padding-left: 25px;
+  margin-top: -15px;
 }
 
 .icon {
