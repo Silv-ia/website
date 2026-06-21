@@ -40,19 +40,19 @@
 #button {
   padding: 0.4em 3em;
   margin-top: 0.6em;
-  border: 1px solid var(--light-purple);
-  background-color: var(--light-purple);
+  border: 1px solid var(--light-gray);
+  background-color: var(--light-gray);
   border-radius: 6px;
 }
 
 #button:hover {
-  background-color: var(--light-purple);
-  border-color: var(--light-purple);
+  background-color: var(--light-gray);
+  border-color: var(--light-gray);
 }
 
 .btn:hover {
   /*box-shadow: 0px 5px 20px var(--dark-color);*/
-  background-color: var(--light-purple);
+  background-color: var(--light-gray);
 }
 
 .hero-area .hero-content {
