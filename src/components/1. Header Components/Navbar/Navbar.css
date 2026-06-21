@@ -247,6 +247,12 @@
     margin-top: 5px;
   }
 
+  .navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: unset !important;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
