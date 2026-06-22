@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show slide-in' : ''}`}>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="#about-section" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                <a href="#About" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
                   <span className='link-span'>about</span>
                 </a>
               </li>

@@ -49,7 +49,7 @@ const Hero = () => {
       </section>
 
     {/* About Me Section */}
-      <section className="about-section">
+      <section id='About' className="about-section">
         <div className="terminal-window">
           <div className="terminal-header">
             <span className="dot red"></span>
