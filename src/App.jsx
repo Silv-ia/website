@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // 1. Header Components
+import Navbar from './components/1. Header Components/Navbar/Navbar';
 import Hero from './components/1. Header Components/Hero/Hero';
 
 // 2. Content Components
@@ -36,6 +37,7 @@ function App() {
         <Spinner />
       ) : (
         <>
+          <Navbar />
           <Hero />
           <Skills />
           <ScrollToTopButton />
