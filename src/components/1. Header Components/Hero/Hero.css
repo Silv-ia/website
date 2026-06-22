@@ -308,3 +308,18 @@ h1.last-name {
   font-weight: 600;
   margin-bottom: 8px;
 }
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1.2em;
+  background: var(--terminal-text);
+  vertical-align: middle;
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

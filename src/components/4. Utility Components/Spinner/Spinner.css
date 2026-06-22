@@ -39,10 +39,11 @@
 }
 
 .cursor {
+  display: inline-block;
   width: 10px;
-  height: 1em;
+  height: 1.2em;
   background: var(--terminal-text);
-  margin-left: 2px;
+  vertical-align: middle;
   animation: blink 1s steps(1) infinite;
 }
 
