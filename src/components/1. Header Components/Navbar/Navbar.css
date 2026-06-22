@@ -251,6 +251,8 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     min-height: unset !important;
+
+    border-bottom: 1mm;
   }
 
 }

@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="container-fluid">
 
           <a className="navbar-brand home-btn" href="#top">
-            Home
+            root
           </a>
           
           <button
