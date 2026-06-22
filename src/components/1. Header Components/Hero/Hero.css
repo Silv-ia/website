@@ -260,16 +260,27 @@ h1.last-name {
   }
 }
 
+.terminal-header {
+  height: 42px;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
 
 .about-section {
   min-height: 100vh;
-  background: var(--light-white);
+
   display: flex;
   justify-content: center;
-  /*Try*/
   align-items: center;
-  padding: 80px 20px;
-  color: var(--terminal-grey);
+
+  padding: 20px;
+  background: var(--light-white);
 }
 
 .terminal-window {
@@ -287,7 +298,7 @@ h1.last-name {
 
 
 .terminal-body {
-  padding: 30px;
+  padding: 50px;
   font-family: "JetBrains Mono", monospace;
   color: var(--terminal-text);
   line-height: 1.8;
@@ -352,6 +363,9 @@ h1.last-name {
   align-items: flex-start;
   text-align: left;
   width: 100%;
+  max-width: 1200px;
+
+  padding: 40px 50px;
 }
 
 .hero-terminal h1,
