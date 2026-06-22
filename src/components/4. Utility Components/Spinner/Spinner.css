@@ -42,6 +42,10 @@
   color: var(--terminal-text);
 }
 
+.output-line {
+  width: 100%;
+}
+
 .cursor {
   display: inline-block;
   width: 10px;
