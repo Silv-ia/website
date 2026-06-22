@@ -14,7 +14,7 @@
 }
 
 .skills .single-feature {
-  text-align: center; /* Change to center alignment */
+  text-align: left; /* Change to center alignment */
   padding: 35px;
   background-color: var(--light-white);
   border-radius: 6px;
@@ -34,7 +34,7 @@
   height: 60px;
   width: 60px;
   line-height: 60px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
   vertical-align: middle;
   background-color: var(--accent-color);
