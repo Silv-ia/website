@@ -300,6 +300,7 @@ h1.last-name {
 .terminal-body {
   padding: 50px 60px;
   font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
   color: var(--terminal-text);
   line-height: 1.8;
 
@@ -376,5 +377,6 @@ h1.last-name {
   width: 100%;
   text-align: left;
   font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
   color: var(--terminal-text);
 }
