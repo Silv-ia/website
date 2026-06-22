@@ -272,15 +272,16 @@ h1.last-name {
   color: var(--terminal-grey);
 }
 
-/*Ensure it works on mobile*/
 .terminal-window {
-  width: 100%;
-  max-width: 800px;
-  background: var(--terminal-black);
-  border: 1px solid var(--terminal-cool);
-  border-radius: 12px;
-  overflow: hidden;
+  width: min(1400px, 96vw);
+  min-height: 70vh;
 
+  background: var(--terminal-black);
+  border: 1px solid var(--terminal-grey);
+
+  border-radius: 6px; /* less rounded */
+
+  overflow: hidden;
   text-align: left;
 }
 

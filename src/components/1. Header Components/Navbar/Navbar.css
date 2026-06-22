@@ -21,6 +21,10 @@
   animation: slide-in 0.3s ease-in-out forwards;
 }
 
+body {
+  padding-top: 60px;
+}
+
 @keyframes slide-in {
   from {
     transform: translateY(-100%);
@@ -260,4 +264,8 @@
 
 @media screen and (max-width: 500px) {
   
+}
+.navbar {
+  background-color: var(--light-white);
+  z-index: 9999;
 }
