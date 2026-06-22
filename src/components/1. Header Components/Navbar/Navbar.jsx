@@ -59,13 +59,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>projects</span>
+                <a href="#Achievements" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                  <span className='link-span'>education</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Achievements" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>education</span>
+                <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                  <span className='link-span'>projects</span>
                 </a>
               </li>
               
