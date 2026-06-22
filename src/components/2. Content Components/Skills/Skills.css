@@ -57,4 +57,69 @@
 }
 
 
-  
+/* Tabs */
+
+.skill-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    color: var(--dark-color);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tab-btn:hover {
+    transform: translateY(-2px);
+}
+
+.tab-btn.active {
+    background: var(--accent-color);
+    color: white;
+}
+
+
+/* Skills */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: white;
+    border: 1px solid var(--medium-color);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.skill-card i {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.skill-card span {
+    font-size: 1rem;
+    font-weight: 500;
+}

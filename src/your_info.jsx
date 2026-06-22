@@ -47,7 +47,7 @@ const socialProfiles = [
 
 //////////////////////////////////////// ** CONTENT SECTION **//////////////////////////////////////////////////
 
-
+// categories = skills
 const categories = [
   {
     name: 'about',
@@ -126,7 +126,8 @@ const languages = [
   { word: 'English', value: 100, unit: '%' },
   { word: 'Swedish', value: 100, unit: '%' },
   {word: 'Chinese', value: 50, unit: '%' },
-  { word: 'Spanish', value: 75, unit: ' %' },
+  { word: 'Spanish', value: 75, unit: '%' },
+  {word: 'German', value: 10, unit: '%'}
 ];
 
 

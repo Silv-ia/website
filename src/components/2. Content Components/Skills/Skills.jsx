@@ -47,29 +47,19 @@ const Skills = () => {
                         <button
                             key={category.name}
                             className={`tab-btn ${
-                                activeTab === category.name
-                                    ? 'active'
-                                    : ''
+                                activeTab === category.name ? "active" : ""
                             }`}
-                            onClick={() =>
-                                setActiveTab(category.name)
-                            }
+                            onClick={() => setActiveTab(category.name)}
                         >
                             {category.title}
                         </button>
                     ))}
                 </div>
 
-                {/* Selected category info */}
-                <div className="category-description">
-                    <h3>{currentCategory.title}</h3>
-                    <p>{currentCategory.description}</p>
-                </div>
-
                 {/* Skills */}
                 <div className="skills-grid">
                     {currentCategory.skills.map((skill, index) => (
-                        <div className="skill-box" key={index}>
+                        <div className="skill-card" key={index}>
                             <i className={skill.icon}></i>
                             <span>{skill.title}</span>
                         </div>

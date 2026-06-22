@@ -253,6 +253,7 @@
     min-height: unset !important;
 
     border-bottom: 1mm;
+    border-color: var(--terminal-grey);
   }
 
 }
