@@ -53,18 +53,18 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                <a href="#Skills" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
 
                   <span className='link-span'>skills</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#AboutMe" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
                   <span className='link-span'>projects</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#ContactMe" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                <a href="#Achievements" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
                   <span className='link-span'>education</span>
                 </a>
               </li>
