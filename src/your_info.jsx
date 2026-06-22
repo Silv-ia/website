@@ -50,9 +50,9 @@ const socialProfiles = [
 // categories = skills
 const categories = [
   {
-    name: 'programming languages',
+    name: 'prog',
     icon: 'lni lni-code',
-    title: 'Photography',
+    title: 'programming languages',
     skills: [
       {
         icon: 'lni lni-camera',
@@ -103,7 +103,7 @@ const categories = [
   {
     name: 'tech',
     icon: 'lni lni-code',
-    title: 'Software',
+    title: 'tech',
     skills: [
       {
         icon: 'lni lni-adobe',
@@ -138,7 +138,7 @@ const categories = [
   {
     name: 'other',
     icon: 'lni lni-code',
-    title: 'Software',
+    title: 'other',
     skills: [
       {
         icon: 'lni lni-adobe',
@@ -165,9 +165,7 @@ const categories = [
   {
     name: 'languages',
     icon: 'lni lni-code',
-    title: 'Brands',
-    description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+    title: 'languages',
     skills: [
       {
         icon: 'lni lni-pinterest',
