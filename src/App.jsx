@@ -27,7 +27,7 @@ function App() {
     //document.title = `${name.firstname} ${name.lastname}`;
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3000);
   }, []);
 
   return (
