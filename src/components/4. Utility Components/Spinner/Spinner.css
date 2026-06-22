@@ -33,8 +33,12 @@
 }
 
 .output {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+
   margin-top: 8px;
-  /*margin-left: 2ch;*/
   color: var(--terminal-text);
 }
 
