@@ -50,9 +50,9 @@ const socialProfiles = [
 // categories = skills
 const categories = [
   {
-    name: 'prog',
+    name: 'Prog',
     
-    title: 'programming languages',
+    title: 'Programming Languages',
     skills: [
       {
         
@@ -64,15 +64,15 @@ const categories = [
       },
       {
         
-        title: 'bash',
+        title: 'Bash',
       },
       {
         
-        title: 'assembly',
+        title: 'Assembly',
       },
       {
         
-        title: 'prolog',
+        title: 'Prolog',
       },
       {
         
@@ -101,9 +101,9 @@ const categories = [
     ],
   },
   {
-    name: 'tech',
+    name: 'Tech',
     
-    title: 'tech',
+    title: 'Tech',
     skills: [
       {
         
@@ -140,9 +140,9 @@ const categories = [
     ],
   },
   {
-    name: 'other',
+    name: 'Other',
     
-    title: 'other',
+    title: 'Other',
     skills: [
       {
         
@@ -167,9 +167,9 @@ const categories = [
     ],
   },
   {
-    name: 'languages',
+    name: 'Languages',
     
-    title: 'languages',
+    title: 'Languages',
     skills: [
       {
         
