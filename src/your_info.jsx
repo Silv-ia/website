@@ -50,32 +50,64 @@ const socialProfiles = [
 // categories = skills
 const categories = [
   {
-    name: 'about',
+    name: 'programming languages',
     icon: 'lni lni-code',
     title: 'Photography',
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
     skills: [
       {
         icon: 'lni lni-camera',
-        title: 'HTML5',
+        title: 'Python',
       },
       {
         icon: 'lni lni-certificate',
-        title: 'CSS3',
+        title: 'Java',
       },
       {
         icon: 'lni lni-instagram',
-        title: 'JavaScript',
+        title: 'bash',
+      },
+      {
+        icon: 'lni lni-camera',
+        title: 'assembly',
+      },
+      {
+        icon: 'lni lni-certificate',
+        title: 'prolog',
+      },
+      {
+        icon: 'lni lni-instagram',
+        title: 'SML',
       },
     ],
   },
   {
-    name: 'skills',
+    name: 'tech',
     icon: 'lni lni-code',
     title: 'Software',
-    description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+    skills: [
+      {
+        icon: 'lni lni-adobe',
+        title: 'FTK',
+      },
+      {
+        icon: 'lni lni-code',
+        title: 'Wireshark',
+      },
+      {
+        icon: 'lni lni-sketch',
+        title: 'SIFT/Kali'
+      },
+      {
+        icon: 'lni lni-sketch',
+        title: 'Windows/Linux'
+      },
+      
+    ],
+  },
+  {
+    name: 'other',
+    icon: 'lni lni-code',
+    title: 'Software',
     skills: [
       {
         icon: 'lni lni-adobe',
@@ -94,7 +126,7 @@ const categories = [
     ],
   },
   {
-    name: 'projects',
+    name: 'languages',
     icon: 'lni lni-code',
     title: 'Brands',
     description:
@@ -102,11 +134,27 @@ const categories = [
     skills: [
       {
         icon: 'lni lni-pinterest',
-        title: 'Pinterest',
+        title: 'Swedish',
       },
       {
         icon: 'lni lni-crop',
-        title: 'Crop',
+        title: 'English',
+      },
+      {
+        icon: 'lni lni-crop',
+        title: 'Spanish',
+      },
+      {
+        icon: 'lni lni-crop',
+        title: 'Chinese',
+      },
+      {
+        icon: 'lni lni-crop',
+        title: 'German',
+      },
+      {
+        icon: 'lni lni-crop',
+        title: 'Italian',
       },
       
     ],
