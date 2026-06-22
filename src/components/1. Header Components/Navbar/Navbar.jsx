@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg  ${isMenuOpen ? 'navbar-open' : ''}`}>
+      <nav className={`navbar fixed-top navbar-expand-lg ${isMenuOpen ? 'navbar-open' : ''}`}>
         <div className="container-fluid">
 
           <a className="navbar-brand home-btn" href="#top">
