@@ -40,6 +40,9 @@ const Spinner = () => {
         {showOutput && (
           <div className="line output">
             <span>&gt; Page loading ...</span>
+          </div>
+
+          <div className="line">
             <span className="prompt">guest@laira:~$ </span>
             <span className="cursor"></span>
           </div>
