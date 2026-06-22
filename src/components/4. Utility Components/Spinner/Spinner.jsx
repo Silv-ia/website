@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Spinner.css';
 
-const command = 'cat homepage.html';
+const command = ' cat homepage.html';
 
 const Spinner = () => {
   const [displayed, setDisplayed] = useState('');
