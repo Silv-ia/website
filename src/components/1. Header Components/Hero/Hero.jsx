@@ -64,7 +64,7 @@ const Hero = () => {
               <span>whoami</span>
             </div>
 
-            <h1>{firstname}</h1>
+            <p>{firstname}</p>
 
             <div className="terminal-line">
               <span className="prompt">guest@laira:~$ </span>
