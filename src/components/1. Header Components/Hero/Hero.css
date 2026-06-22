@@ -349,7 +349,12 @@ h1.last-name {
   width: 100%;
 }
 
+.hero-terminal h1,
+.hero-terminal h2,
+.hero-terminal h3,
 .hero-terminal p {
+  width: 100%;
+  text-align: left;
   font-family: "JetBrains Mono", monospace;
   color: var(--terminal-text);
 }
