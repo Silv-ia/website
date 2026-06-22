@@ -335,3 +335,12 @@ h1.last-name {
   color: var(--accent-color);
   font-weight: 600;
 }
+
+.prompt {
+  color: var(--terminal-text);
+}
+
+.hero-terminal p {
+  font-family: "JetBrains Mono", monospace;
+  color: var(--terminal-text);
+}
