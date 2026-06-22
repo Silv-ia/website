@@ -57,24 +57,37 @@ const Hero = () => {
             <span className="dot green"></span>
           </div>
 
-          <div className="terminal-body">
-            <p className="command">guest@laira:~$ whoami.txt</p>
-            <p>
-              Hi, I'm {firstname}. I'm an MSc student in Cybersecurity, with a BSc in
-              Information Technology. I am curious about digital forensics and offensive
-              security. Here you can see my projects and achievements!
-            </p>
+          <div className="hero-terminal">
 
-            <p className="command">guest@laira:~$ cat interests.txt</p>
+            <div className="terminal-line">
+              <span className="prompt">guest@laira:~$ </span>
+              <span>whoami</span>
+            </div>
+
+            <h1>{firstname}</h1>
+
+            <div className="terminal-line">
+              <span className="prompt">guest@laira:~$ </span>
+              <span>cat role.txt</span>
+            </div>
+
+            <p>MSc Student in Cybersecurity</p>
+
+            <div className="terminal-line">
+              <span className="prompt">guest@laira:~$ </span>
+              <span>ls interests/</span>
+            </div>
+
             <p>
-              Python • Digital Forensics • Ethical Hacking • Machine Learning • CTF
+              Digital Forensics • Offensive Security • Machine Learning
             </p>
 
             <div className="terminal-line">
               <span className="prompt">guest@laira:~$ </span>
               <span className="cursor"></span>
             </div>
-          </div>
+
+        </div>
         </div>
       </section>
     </>
