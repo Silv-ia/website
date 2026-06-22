@@ -255,18 +255,20 @@ body {
     margin-top: 5px;
   }
 
-  .navbar {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    min-height: unset !important;
-
-    border-bottom: 1mm;
-    border-color: var(--terminal-grey);
-    background-color: var(--light-white);
-    z-index: 9999;
-  }
-
 }
 
 @media screen and (max-width: 500px) {
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: var(--light-white);
+  z-index: 9999;
+
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
