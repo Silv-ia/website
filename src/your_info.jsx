@@ -51,120 +51,120 @@ const socialProfiles = [
 const categories = [
   {
     name: 'prog',
-    icon: 'lni lni-code',
+    
     title: 'programming languages',
     skills: [
       {
-        icon: 'lni lni-camera',
+        
         title: 'Python',
       },
       {
-        icon: 'lni lni-certificate',
+        
         title: 'Java',
       },
       {
-        icon: 'lni lni-instagram',
+        
         title: 'bash',
       },
       {
-        icon: 'lni lni-camera',
+        
         title: 'assembly',
       },
       {
-        icon: 'lni lni-certificate',
+        
         title: 'prolog',
       },
       {
-        icon: 'lni lni-instagram',
+        
         title: 'SML',
       },
       {
-        icon: 'lni lni-camera',
+        
         title: 'C',
       },
       {
-        icon: 'lni lni-certificate',
+        
         title: 'Arduino',
       },
       {
-        icon: 'lni lni-instagram',
+        
         title: 'HTML5',
       },
       {
-        icon: 'lni lni-camera',
+        
         title: 'JavaScript',
       },
       {
-        icon: 'lni lni-certificate',
+        
         title: 'SQL',
       },
     ],
   },
   {
     name: 'tech',
-    icon: 'lni lni-code',
+    
     title: 'tech',
     skills: [
       {
-        icon: 'lni lni-adobe',
+        
         title: 'FTK',
       },
       {
-        icon: 'lni lni-code',
+        
         title: 'Wireshark',
       },
       {
-        icon: 'lni lni-sketch',
+        
         title: 'SIFT/Kali'
       },
       {
-        icon: 'lni lni-sketch',
+        
         title: 'Windows/Linux'
       },
       {
-        icon: 'lni lni-code',
+        
         title: 'Volatility',
       },
       {
-        icon: 'lni lni-sketch',
+        
         title: 'Burp'
       },
       {
-        icon: 'lni lni-sketch',
+        
         title: 'React'
       },
     ],
   },
   {
     name: 'other',
-    icon: 'lni lni-code',
+    
     title: 'other',
     skills: [
       {
-        icon: 'lni lni-adobe',
+        
         title: 'Lean',
       },
       {
-        icon: 'lni lni-code',
+        
         title: 'GDPR',
       },
       {
-        icon: 'lni lni-sketch',
+        
         title: 'NIS 2'
       },
       {
-        icon: 'lni lni-code',
+        
         title: 'CRA',
       },
       {
-        icon: 'lni lni-sketch',
+        
         title: 'ISO 27001'
       },
     ],
   },
   {
     name: 'languages',
-    icon: 'lni lni-code',
+    
     title: 'languages',
     skills: [
       {
