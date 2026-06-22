@@ -323,3 +323,14 @@ h1.last-name {
     opacity: 0;
   }
 }
+
+.terminal-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.command {
+  color: var(--accent-color);
+  font-weight: 600;
+}
