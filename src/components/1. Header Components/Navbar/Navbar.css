@@ -262,3 +262,14 @@
   
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--light-white);
+    z-index: 1000;
+
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
