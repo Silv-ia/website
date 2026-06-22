@@ -78,6 +78,26 @@ const categories = [
         icon: 'lni lni-instagram',
         title: 'SML',
       },
+      {
+        icon: 'lni lni-camera',
+        title: 'C',
+      },
+      {
+        icon: 'lni lni-certificate',
+        title: 'Arduino',
+      },
+      {
+        icon: 'lni lni-instagram',
+        title: 'HTML5',
+      },
+      {
+        icon: 'lni lni-camera',
+        title: 'JavaScript',
+      },
+      {
+        icon: 'lni lni-certificate',
+        title: 'SQL',
+      },
     ],
   },
   {
