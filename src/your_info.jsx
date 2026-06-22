@@ -119,7 +119,11 @@ const categories = [
       },
       {
         
-        title: 'Windows/Linux'
+        title: 'Windows'
+      },
+      {
+        
+        title: 'Linux'
       },
       {
         
