@@ -121,7 +121,18 @@ const categories = [
         icon: 'lni lni-sketch',
         title: 'Windows/Linux'
       },
-      
+      {
+        icon: 'lni lni-code',
+        title: 'Volatility',
+      },
+      {
+        icon: 'lni lni-sketch',
+        title: 'Burp'
+      },
+      {
+        icon: 'lni lni-sketch',
+        title: 'React'
+      },
     ],
   },
   {
@@ -131,18 +142,24 @@ const categories = [
     skills: [
       {
         icon: 'lni lni-adobe',
-        title: 'adobe',
+        title: 'Lean',
       },
       {
         icon: 'lni lni-code',
-        title: 'Code',
+        title: 'GDPR',
       },
       {
         icon: 'lni lni-sketch',
-        title: 'Sketch'
+        title: 'NIS 2'
       },
-     
-      
+      {
+        icon: 'lni lni-code',
+        title: 'CRA',
+      },
+      {
+        icon: 'lni lni-sketch',
+        title: 'ISO 27001'
+      },
     ],
   },
   {
