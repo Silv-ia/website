@@ -1,6 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 .skills {
+  display: flex;
   background-color: var(--light-white);
   justify-content: flex-start;
 
