@@ -69,6 +69,11 @@ const Hero = () => {
             <p>
               Python • Digital Forensics • Ethical Hacking • Machine Learning • CTF
             </p>
+
+            <div className="terminal-line">
+              <span className="prompt">guest@laira:~$ </span>
+              <span className="cursor"></span>
+            </div>
           </div>
         </div>
       </section>
