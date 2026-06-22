@@ -329,6 +329,8 @@ h1.last-name {
   display: flex;
   align-items: flex-start;
   width: 100%;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--terminal-text);
 }
 
 .command {
