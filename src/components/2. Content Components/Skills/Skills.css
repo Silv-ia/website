@@ -7,14 +7,12 @@
 
 }
 
-.wow {
-  display: flex;
-  justify-content: flex-start;
-}
 
 .skills .section-title {
   margin-bottom: 30px;
   text-align: left;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .skills .section-title h3 {
