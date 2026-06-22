@@ -287,7 +287,7 @@ h1.last-name {
 
 .terminal-body {
   padding: 30px;
-  font-family: "Courier New", monospace;
+  font-family: "JetBrains Mono", monospace;
   color: var(--terminal-text);
   line-height: 1.8;
 
