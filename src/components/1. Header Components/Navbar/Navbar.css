@@ -248,11 +248,15 @@ body {
   }
 
   .navbar-collapse {
-    flex-grow: 0; /* prevents collapse div from taking full width */
+    display: flex !important;
+    justify-content: flex-end;
+    flex-grow: 1;
   }
 
   .navbar-nav {
-    margin-top: 5px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
   }
 
 }
