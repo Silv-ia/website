@@ -18,13 +18,12 @@ const Achievement = () => {
   }, [inView]);
 
   return (
-    <section className="our-achievement section">
+    <section id='Achievements' className="our-achievement section">
       <div className="container">
         <div className="row">
           <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
             <div className="title">
-              <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing"</h2>
-              <p>Fusce at libero id massa ornare molestie sed eu tellus.</p>
+              <h2>Education</h2>
             </div>
           </div>
         </div>
