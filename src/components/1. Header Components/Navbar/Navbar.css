@@ -262,14 +262,11 @@ body {
 
     border-bottom: 1mm;
     border-color: var(--terminal-grey);
+    background-color: var(--light-white);
+    z-index: 9999;
   }
 
 }
 
 @media screen and (max-width: 500px) {
-  
-}
-.navbar {
-  background-color: var(--light-white);
-  z-index: 9999;
 }
