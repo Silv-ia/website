@@ -168,27 +168,27 @@ const categories = [
     title: 'languages',
     skills: [
       {
-        icon: 'lni lni-pinterest',
+        
         title: 'Swedish',
       },
       {
-        icon: 'lni lni-crop',
+        
         title: 'English',
       },
       {
-        icon: 'lni lni-crop',
+        
         title: 'Spanish',
       },
       {
-        icon: 'lni lni-crop',
+        
         title: 'Chinese',
       },
       {
-        icon: 'lni lni-crop',
+        
         title: 'German',
       },
       {
-        icon: 'lni lni-crop',
+        
         title: 'Italian',
       },
       
