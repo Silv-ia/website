@@ -58,11 +58,14 @@ const Hero = () => {
           </div>
 
           <div className="terminal-body">
-            <p>guest@laira:~$ whoami.txt</p>
-            <p>Hi, I'm {firstname}. I'm an MSc student in Cybersecurity, with a BSc in Information Technology. I am curious about forensics and offensive security. Here you can see my projects and achievements! 
+            <p className="command">guest@laira:~$ whoami.txt</p>
+            <p>
+              Hi, I'm {firstname}. I'm an MSc student in Cybersecurity, with a BSc in
+              Information Technology. I am curious about digital forensics and offensive
+              security. Here you can see my projects and achievements!
             </p>
 
-            <p>guest@laira:~$ cat interests.txt</p>
+            <p className="command">guest@laira:~$ cat interests.txt</p>
             <p>
               Python • Digital Forensics • Ethical Hacking • Machine Learning • CTF
             </p>

@@ -301,3 +301,9 @@ h1.last-name {
   margin-bottom: 16px;
   text-align: left;
 }
+
+.command {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
