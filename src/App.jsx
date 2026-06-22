@@ -24,7 +24,7 @@ function App() {
 
   // Spinner, load page, timeout
   useEffect(() => {
-    document.title = `${name.firstname} ${name.lastname}`;
+    //document.title = `${name.firstname} ${name.lastname}`;
     setTimeout(() => {
       setLoading(false);
     }, 4000);
