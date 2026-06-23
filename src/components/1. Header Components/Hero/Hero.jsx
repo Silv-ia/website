@@ -16,7 +16,6 @@ const Hero = () => {
   return (
     <>
       <section id='Home' className='hero-area' style={heroStyle}>
-        <Navbar />
         <div className='container'>
           <div className='row align-items-center'>
             <div className='hero-content'>
