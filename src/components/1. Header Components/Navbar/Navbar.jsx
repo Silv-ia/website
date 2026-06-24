@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="container-fluid">
 
           <a className="navbar-brand home-btn" href="#top">
-            root
+            /
           </a>
           
           <button
@@ -49,23 +49,23 @@ const Navbar = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#About" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>about</span>
+                  <span className='link-span'>/about</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#Skills" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
 
-                  <span className='link-span'>skills</span>
+                  <span className='link-span'>/skills</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#Achievements" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>education</span>
+                  <span className='link-span'>/education</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>projects</span>
+                  <span className='link-span'>/projects</span>
                 </a>
               </li>
               
