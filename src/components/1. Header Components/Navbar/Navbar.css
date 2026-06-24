@@ -49,7 +49,7 @@ body {
 
 .nav-link {
   font-family: "JetBrains Mono", monospace;
-  font-size: 18px;
+  font-size: 16px;
   /*text-transform: uppercase;*/
   padding: 5px 0;
   position: relative;
@@ -238,7 +238,7 @@ body {
   }
 
   .home-btn {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--terminal-grey);
     text-decoration: none;
     padding: 5px 0;
