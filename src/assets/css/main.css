@@ -51,6 +51,8 @@ body {
   font-style: normal;
   overflow-x: hidden;
   background-color: var(--light-white);
+  margin: 0;
+  padding: 0;
   
 }
 
