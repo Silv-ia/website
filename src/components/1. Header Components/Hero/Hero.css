@@ -349,10 +349,12 @@ h1.last-name {
   text-align: left;
 }
 
+/*
 .command {
   color: var(--accent-color);
   font-weight: 600;
 }
+  */
 
 .prompt {
   color: var(--terminal-text);
