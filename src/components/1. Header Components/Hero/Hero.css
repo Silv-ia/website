@@ -317,7 +317,7 @@ h1.last-name {
 }
 
 .command {
-  color: var(--accent-color);
+  /*color: var(--accent-color);*/
   font-weight: 600;
   margin-bottom: 8px;
 }
