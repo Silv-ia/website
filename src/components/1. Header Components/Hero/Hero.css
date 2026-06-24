@@ -288,7 +288,7 @@ h1.last-name {
 }
 
 .terminal-window {
-  width: min(1200px, 96vw);
+  width: min(1000px, 96vw);
   min-height: 70vh;
 
   background: var(--terminal-black);
