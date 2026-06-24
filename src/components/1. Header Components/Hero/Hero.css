@@ -41,13 +41,13 @@
   padding: 0.4em 3em;
   margin-top: 0.6em;
   border: 1px solid var(--light-gray);
-  background-color: var(--light-gray);
+  background-color: var(--light-white);
   border-radius: 6px;
 }
 
 #button:hover {
   background-color: var(--light-gray);
-  border-color: var(--light-gray);
+  border-color: var(--light-white);
 }
 
 .btn:hover {
