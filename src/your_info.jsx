@@ -26,11 +26,13 @@ const socialProfiles = [
     name: 'LinkedIn',
     icon: 'lni lni-linkedin',
     url: 'https://www.linkedin.com/',
+    label: 'linkedin',
   },
   {
     name: 'GitHub',
     icon: 'lni lni-github',
     url: 'https://github.com/',
+    label: 'git clone repos'
   },
   //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
   //   {
