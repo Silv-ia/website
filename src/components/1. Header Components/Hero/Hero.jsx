@@ -33,12 +33,12 @@ const Hero = () => {
                 {socialProfiles.map((profile, index) => (
                   <a
                     href={profile.url}
-                    id={`button`}
+                    id='button'
                     className='btn wow fadeInLeft'
                     data-wow-delay={`${index * 0.2 + 0.8}s`}
                     key={index}
                   >
-                    <i className={`icon ${profile.icon}`}></i>
+                    {profile.label}
                   </a>
                 ))}
               </div>
