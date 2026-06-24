@@ -8,6 +8,7 @@
   background-position: right bottom ;
   background-repeat: no-repeat;
   background-color: var(--light-white);
+  display: flow-root;
 }
 
 .hero-content,
