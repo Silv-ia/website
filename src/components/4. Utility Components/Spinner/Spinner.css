@@ -30,6 +30,7 @@
 
 .prompt {
   color: var(--terminal-text);
+  padding-right: 0.5rem;
 }
 
 .output {
