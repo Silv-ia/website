@@ -4,6 +4,7 @@
   display: flex;
   background-color: var(--light-white);
   justify-content: flex-start;
+  font-family: "JetBrains Mono", monospace;
 
 }
 
