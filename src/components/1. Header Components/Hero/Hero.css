@@ -4,7 +4,6 @@
   position: relative;
   padding: 25px 0 100px 0;
   background-size: 150% auto;
-  filter: brightness(0.8) contrast(1.2);
   background-position: right bottom ;
   background-repeat: no-repeat;
   background: var(--light-white);
