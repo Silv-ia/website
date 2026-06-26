@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-color: var(--light-white);
   display: flow-root;
-  border-top: 10px solid red;
 }
 
 .hero-content,
