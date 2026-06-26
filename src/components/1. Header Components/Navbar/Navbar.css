@@ -275,6 +275,6 @@ body {
   background-color: var(--navbar);
   z-index: 9999;
 
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  padding: 12px 0 !important;   /* taller navbar */
+  min-height: 72px;
 }
