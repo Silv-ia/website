@@ -45,6 +45,7 @@ function Typewriter() {
 
   return (
     <p className="typewriter-text">
+      <span className="terminal-prompt">:~$ </span>
       {skill}{blinkingCursor}
     </p>
   );

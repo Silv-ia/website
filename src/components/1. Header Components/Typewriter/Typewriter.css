@@ -6,7 +6,6 @@
   font-size: 24px;
   margin-top: 10px;
   font-family: "JetBrains Mono", monospace;
- 
 }
 
 /*
@@ -16,6 +15,13 @@
   font-weight: bold;
 }
   */
+
+.terminal-prompt {
+  color: var(--text-dark); 
+  font-weight: 600;
+  user-select: none;
+  font-family: "JetBrains Mono", monospace;
+}
 
 .blinking-cursor {
   display: inline-block;
