@@ -117,7 +117,7 @@ h1.last-name {
   align-items: center;
 }
 
-.hero-area .hero-content .btn:hover {
+.btn:hover {
   background-color: var(--terminal-text);
   color: var(--terminal-grey);
   text-align: center;
