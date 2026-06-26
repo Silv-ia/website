@@ -272,11 +272,13 @@ body {
   left: 0;
   width: 100%;
 
-  background-color: var(--navbar);
+  background-color: var(--charcoal);
   z-index: 9999;
 
   padding: 0 !important;   /* taller navbar */
   min-height: 56px;
+
+  color: var(--sage-green);
 }
 
 .nav-link,
