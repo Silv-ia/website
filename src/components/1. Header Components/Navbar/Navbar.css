@@ -276,7 +276,7 @@ body {
   z-index: 9999;
 
   padding: 12px 0 !important;   /* taller navbar */
-  min-height: 72px;
+  min-height: 56px;
 }
 
 .nav-link,
