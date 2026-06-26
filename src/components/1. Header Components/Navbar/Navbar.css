@@ -75,16 +75,16 @@ body {
 }
 
 .link-span {
-  color: var(--terminal-grey);
+  color: var(--sage-green);
 }
 
 .link-span:hover {
-  color: var(--terminal-grey);
+  color: var(--sage-green);
 }
 
 .nav-link:hover::before {
   transform: scaleX(1);
-  background-color: var(--terminal-grey);
+  background-color: var(--sage-green);
 }
 
 .navbar-nav li {
@@ -240,7 +240,7 @@ body {
 
   .home-btn {
     font-size: 15px;
-    color: var(--terminal-grey);
+    color: var(--sage-green);
     text-decoration: none;
     padding: 5px 0;
     display: flex;
@@ -272,7 +272,7 @@ body {
   left: 0;
   width: 100%;
 
-  background-color: var(--charcoal);
+  background-color: var(--terminal-black);
   z-index: 9999;
 
   padding: 0 !important;   /* taller navbar */
