@@ -278,3 +278,9 @@ body {
   padding: 12px 0 !important;   /* taller navbar */
   min-height: 72px;
 }
+
+.nav-link,
+.navbar-brand,
+.home-btn {
+    letter-spacing: -0.4px;
+}
