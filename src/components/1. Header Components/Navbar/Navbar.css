@@ -272,7 +272,7 @@ body {
   left: 0;
   width: 100%;
 
-  background-color: var(--medium-color);
+  background-color: var(--navbar);
   z-index: 9999;
 
   padding-top: 0 !important;
