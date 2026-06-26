@@ -7,7 +7,7 @@
   filter: brightness(0.8) contrast(1.2);
   background-position: right bottom ;
   background-repeat: no-repeat;
-  background-color: var(--light-white);
+  background: var(--light-white);
   display: flow-root;
   font-family: "JetBrains Mono", monospace;
 }
@@ -21,7 +21,6 @@
   font-size: 4rem;
   /*font-weight: bold;
   text-transform: uppercase;*/
-  color: var(--terminal-grey);
   margin: 0;
   display: flex;
   flex-direction: column;
