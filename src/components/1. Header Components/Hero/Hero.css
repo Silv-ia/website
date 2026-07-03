@@ -255,6 +255,14 @@ h1.last-name {
 
   padding: 20px;
   background: var(--light-white);
+
+  background-image:
+  linear-gradient(rgba(80,90,100,.02) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(80,90,100,.02) 1px, transparent 1px);
+
+  background-size: 24px 24px;
+
+  /*
   background-image:
     repeating-linear-gradient(
       90deg,
@@ -262,7 +270,7 @@ h1.last-name {
       rgba(60,70,90,.025) 1px,
       transparent 1px,
       transparent 28px
-    );
+    );*/
 }
 
 .terminal-window {
