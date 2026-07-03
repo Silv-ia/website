@@ -95,10 +95,6 @@ h1.last-name {
 }
 
 .btn {
-  width: 180px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   color: var(--terminal-grey);
   margin-right: 12px;
 }
@@ -114,6 +110,17 @@ h1.last-name {
   background-color: var(--sage-shadow);
   color: var(--terminal-grey);
   border-color: var(--light-white);
+  text-align: center;
+}
+
+#button:hover {
+  background-color: var(--sage-shadow);
+  border-color: var(--light-white);
+}
+
+.btn:hover {
+  /*box-shadow: 0px 5px 20px var(--dark-color);*/
+  background-color: var(--sage-shadow);
 }
 
 @keyframes pulse-border {
