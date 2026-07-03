@@ -38,13 +38,33 @@
   
 }
 
-#button {
+.btn {
+  width: 180px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
   padding: 0.4em 3em;
   margin-top: 0.6em;
+  margin-right: 12px;
+
   border: 1px solid var(--light-gray);
-  background-color: var(--light-white);
   border-radius: 6px;
+
+  background-color: var(--light-white);
+  color: var(--terminal-grey);
+
   font-family: "JetBrains Mono", monospace;
+
+  transition: background-color .2s ease,
+              border-color .2s ease,
+              color .2s ease;
+}
+
+.btn:hover {
+  background-color: var(--sage-shadow);
+  border-color: var(--light-white);
+  color: var(--terminal-grey);
 }
 
 .hero-area .hero-content {
@@ -94,37 +114,11 @@ h1.last-name {
   padding-top: 40px;
 }
 
-.btn {
-  width: 180px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--terminal-grey);
-  margin-right: 12px;
-}
-
 .hero-area .hero-content .btn i {
   display: flex;
   font-size: 1.2em;
   text-align: center;
   align-items: center;
-}
-
-.btn:hover {
-  background-color: var(--sage-shadow);
-  color: var(--terminal-grey);
-  border-color: var(--light-white);
-  text-align: center;
-}
-
-#button:hover {
-  background-color: var(--sage-shadow);
-  border-color: var(--light-white);
-}
-
-.btn:hover {
-  /*box-shadow: 0px 5px 20px var(--dark-color);*/
-  background-color: var(--sage-shadow);
 }
 
 @keyframes pulse-border {
