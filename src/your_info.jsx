@@ -79,7 +79,7 @@ const categories = [
       },
       {
         
-        title: 'SML',
+        title: 'ProVerif',
       },
       {
         
