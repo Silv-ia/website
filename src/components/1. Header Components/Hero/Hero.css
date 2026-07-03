@@ -39,7 +39,6 @@
 }
 
 .btn {
-  width: 180px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -51,14 +50,10 @@
   border: 1px solid var(--light-gray);
   border-radius: 6px;
 
-  background-color: var(--light-white);
+  background: var(--light-white);
   color: var(--terminal-grey);
 
-  font-family: "JetBrains Mono", monospace;
-
-  transition: background-color .2s ease,
-              border-color .2s ease,
-              color .2s ease;
+  white-space: nowrap;   /* Prevent text wrapping */
 }
 
 .btn:hover {
