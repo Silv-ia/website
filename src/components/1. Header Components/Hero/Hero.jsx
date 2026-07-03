@@ -1,5 +1,5 @@
 import React from 'react';
-import { name, socialProfiles } from '../../../your_info';
+import { name, profileImage, socialProfiles } from '../../../your_info';
 import Navbar from '../Navbar/Navbar';
 import Typewriter from '../Typewriter/Typewriter';
 import './Hero.css';
@@ -27,11 +27,11 @@ const Hero = () => {
               </div>
 
               <img
-                src={your_info.profileImage}
+                src={profileImage}
                 alt="Portrait"
                 className="profile-image"
               />
-              
+
               <div className='typewriter-container wow fadeInLeft' data-wow-delay='.6s'>
                 <Typewriter />
         

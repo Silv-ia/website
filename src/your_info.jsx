@@ -14,8 +14,6 @@ const name = {
   // url: 'https://www.google.com',
 };
 
-const profileImage
-
 // Display your job title or skills or whatever you want in the typewriter
 const typeWriterText = [
   'Cybersecurity',
@@ -274,6 +272,7 @@ const emailConfig = {
 export {
   backgroundImageUrl,
   name,
+  profileImage,
   typeWriterText,
   socialProfiles,
   categories,
