@@ -16,7 +16,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
 
 :root {
-  --light-white: #ebeff3 ;
+  
   --light-color: #ffffff;
   --medium-color: #94ad96;
   --dark-color: #145b2c;
@@ -24,8 +24,7 @@
   --accent-color: #6d9281;
   --beige-color:#d3dea5;
   --light-purple: #9f98b9;
-  --terminal-black: #202328eb;
-  --terminal-grey: #323232;
+  
   --terminal-text: #e8f6eb;
   --terminal-green: #e6ffe5;
   --terminal-cool: #323239;
@@ -33,9 +32,13 @@
   --light-gray: #cecece;
   --navbar: #edf3eac3;
 
-  --sage-green1: #7EE787;
+  --light-white: #ebeff3;
   --sage-green: #9ad89f;
   --sage-shadow: #b7c5b8;
+  --terminal-black: #202328eb;
+  --terminal-grey: #323232;
+
+  --sage-green1: #7EE787;
   --emerald: #3FB950;
   --charcoal: #161B22;
 
