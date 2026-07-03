@@ -83,8 +83,7 @@
 
 h1.first-name {
   margin-top: 0;
-  margin-bottom: 0.4em;
-  padding-bottom: 1em;
+  margin-bottom: 0.2em;
   text-align: center;
   color: var(--text-dark);
 }
