@@ -1,6 +1,7 @@
 //////////////////////////////////////// ** HEADER / HERO SECTION **///////////////////////////////////////////
 
 // your_info.jsx
+import profileImage from './assets/images/profile.jpg';
 
 const backgroundImageUrl = '';
 
@@ -12,6 +13,8 @@ const name = {
 // Enter as url a link where your resume can be downloaded ( dropbox, OneDrive, ect )
   // url: 'https://www.google.com',
 };
+
+const profileImage
 
 // Display your job title or skills or whatever you want in the typewriter
 const typeWriterText = [

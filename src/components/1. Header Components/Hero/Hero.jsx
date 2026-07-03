@@ -25,6 +25,13 @@ const Hero = () => {
                   <h1 className='last-name'>{lastname}</h1>
                 </name>
               </div>
+
+              <img
+                src={your_info.profileImage}
+                alt="Portrait"
+                className="profile-image"
+              />
+              
               <div className='typewriter-container wow fadeInLeft' data-wow-delay='.6s'>
                 <Typewriter />
         
