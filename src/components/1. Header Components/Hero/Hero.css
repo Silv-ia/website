@@ -95,6 +95,10 @@ h1.last-name {
 }
 
 .btn {
+  width: 180px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   color: var(--terminal-grey);
   margin-right: 12px;
 }
