@@ -6,7 +6,7 @@
   background-size: 150% auto;
   background-position: right bottom ;
   background-repeat: no-repeat;
-  background: var(--light-white);
+  background-color: var(--light-white);
   display: flow-root;
   font-family: "JetBrains Mono", monospace;
   background-image:
@@ -254,7 +254,7 @@ h1.last-name {
   align-items: center;
 
   padding: 20px;
-  background: var(--light-white);
+  background-color: var(--light-white);
 
   background-image:
   linear-gradient(rgba(80,90,100,.02) 1px, transparent 1px),
@@ -277,7 +277,7 @@ h1.last-name {
   width: min(1000px, 96vw);
   min-height: 70vh;
 
-  background: var(--terminal-black);
+  background-color: var(--terminal-black);
   border: 1px solid var(--terminal-grey);
 
   border-radius: 6px; /* less rounded */
@@ -316,7 +316,7 @@ h1.last-name {
   display: inline-block;
   width: 10px;
   height: 1.2em;
-  background: var(--terminal-text);
+  background-color: var(--terminal-text);
   vertical-align: middle;
   animation: blink 1s steps(1) infinite;
   opacity: 0.35;
@@ -401,7 +401,7 @@ h1.last-name {
   border: 1px solid var(--sage-shadow) !important;
   border-radius: 6px;
 
-  background: var(--light-white);
+  background-color: var(--light-white);
   color: var(--terminal-grey);
 
   white-space: nowrap;   /* Prevent text wrapping */
