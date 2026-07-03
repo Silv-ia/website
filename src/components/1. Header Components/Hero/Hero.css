@@ -47,16 +47,6 @@
   font-family: "JetBrains Mono", monospace;
 }
 
-#button:hover {
-  background-color: var(--sage-shadow);
-  border-color: var(--light-white);
-}
-
-.btn:hover {
-  /*box-shadow: 0px 5px 20px var(--dark-color);*/
-  background-color: var(--sage-shadow);
-}
-
 .hero-area .hero-content {
   border-radius: 0;
   position: relative;
@@ -117,9 +107,9 @@ h1.last-name {
 }
 
 .btn:hover {
-  background-color: var(--terminal-text);
+  background-color: var(--sage-shadow);
   color: var(--terminal-grey);
-  text-align: center;
+  border-color: var(--light-white);
 }
 
 @keyframes pulse-border {
