@@ -164,7 +164,7 @@ body {
   }
 
   .navbar-collapse .nav-link {
-    color: var(--terminal-text);
+    color: var(--text-dark);
   }
 
   .navbar-collapse .nav-link:hover {
