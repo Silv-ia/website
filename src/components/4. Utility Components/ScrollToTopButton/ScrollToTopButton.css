@@ -21,7 +21,7 @@
   
 
   .scroll-to-top:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--sage-shadow);
     color: var(--text-dark);
   }
 
