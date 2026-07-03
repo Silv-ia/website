@@ -83,7 +83,7 @@
 
 h1.first-name {
   margin-top: 0;
-  margin-bottom: 0.2em;
+  margin-bottom: 0;
   padding-bottom: 0;
   text-align: center;
   color: var(--text-dark);
@@ -91,8 +91,6 @@ h1.first-name {
 
 h1.last-name {
   text-align: center;
-  padding-bottom: 2.4em;
-  margin-bottom: 2em;
 }
 
 .hero-area .hero-content h1 span {
