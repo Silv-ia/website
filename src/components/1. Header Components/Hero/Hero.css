@@ -379,7 +379,7 @@ h1.last-name {
 
   margin-right: 12px;
 
-  border: 1px solid var(--sage-shadow);
+  border: 1px solid var(--sage-shadow) !important;
   border-radius: 6px;
 
   background: var(--light-white);
