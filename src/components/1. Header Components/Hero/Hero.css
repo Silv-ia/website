@@ -243,7 +243,7 @@ h1.last-name {
   gap: 10px;
 
   border-bottom: 1px solid rgba(255,255,255,.08);
-  color: var(--terminal-text);
+  color: var(--terminal-black);
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
 }
@@ -299,7 +299,7 @@ h1.last-name {
   display: inline-block;
   width: 10px;
   height: 1.2em;
-  background-color: var(--terminal-text);
+  background-color: var(--terminal-black);
   vertical-align: middle;
   animation: blink 1s steps(1) infinite;
   opacity: 0.35;
@@ -323,7 +323,7 @@ h1.last-name {
 }
 
 .prompt {
-  color: var(--sage-green);
+  color: var(--terminal-black);
 
 }
 
@@ -346,7 +346,7 @@ h1.last-name {
   text-align: left;
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
-  color: var(--terminal-text);
+  color: var(--terminal-black);
 }
 
 .profile-image {
