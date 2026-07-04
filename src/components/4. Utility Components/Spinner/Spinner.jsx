@@ -3,25 +3,34 @@ import './Spinner.css';
 
 const command = ' cat homepage.html';
 
+
 const Spinner = () => {
   const [displayed, setDisplayed] = useState('');
-  const [showOutput, setShowOutput] = useState(false);
+  const [showLoading, setShowLoading] = useState(false);
+  const [showPrompt, setShowPrompt] = useState(false);
 
   useEffect(() => {
-  let index = 0;
+    let index = 0;
 
-  const interval = setInterval(() => {
-    setDisplayed(command.slice(0, index + 1));
-    index++;
+    const interval = setInterval(() => {
+      setDisplayed(command.slice(0, index + 1));
+      index++;
 
-    if (index >= command.length) {
-      clearInterval(interval);
+      if (index >= command.length) {
+        clearInterval(interval);
 
-      setTimeout(() => {
-        setShowOutput(true);
-        }, 500); // delay in milliseconds
+        // Show "Page loading..."
+        setTimeout(() => {
+          setShowLoading(true);
+
+          // Show the next prompt 500 ms later
+          setTimeout(() => {
+            setShowPrompt(true);
+          }, 500);
+
+        }, 500);
       }
-    }, 100); // typing speed
+    }, 100);
 
     return () => clearInterval(interval);
   }, []);
@@ -37,9 +46,14 @@ const Spinner = () => {
           {!showOutput && <span className="cursor" />}
         </div>
 
-        {showOutput && (
+        {showLoading && (
           <div className="line output">
             <span>&gt; Page loading ...</span>
+          </div>
+        )}
+
+        {showPrompt && (
+          <div className="line">
             <span className="prompt">
               guest@laira:~$ <span className="cursor"></span>
             </span>
