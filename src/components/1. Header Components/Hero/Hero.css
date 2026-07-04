@@ -384,7 +384,7 @@ h1.last-name {
 }
 
 .btn:hover {
-  background-color: var(--sage-shadow);
+  background-color: var(--sage-light);
   border-color: var(--light-white);
   color: var(--terminal-grey);
 }
