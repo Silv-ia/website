@@ -374,6 +374,17 @@ h1.last-name {
   word-break: break-word;
 }*/
 
+.hero-terminal p {
+  width: 100%;
+  text-align: left;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  color: var(--terminal-text);
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 .profile-image {
   width: 190px;
   height: 190px;
