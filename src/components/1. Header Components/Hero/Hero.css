@@ -375,10 +375,12 @@ h1.last-name {
 .cmd { 
   color: var(--sage-shadow); 
   padding-right: 0.5rem; 
+  font-size: smaller;
 } 
 
 .prompt { 
   color: var(--sage-shadow) !important; 
+  font-size: smaller;
 }
 
 .btn {
