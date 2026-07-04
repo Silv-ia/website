@@ -14,10 +14,12 @@
   text-align: left;
   display: flex;
   justify-content: flex-start;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .skills .section-title h3 {
   font-size: 3em;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .skills .single-feature {
