@@ -6,6 +6,12 @@
   justify-content: flex-start;
   font-family: "JetBrains Mono", monospace;
 
+  background-image:
+  linear-gradient(rgba(80,90,100,.02) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(80,90,100,.02) 1px, transparent 1px);
+
+  background-size: 24px 24px;
+
 }
 
 
