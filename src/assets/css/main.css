@@ -25,7 +25,7 @@
   --beige-color:#d3dea5;
   --light-purple: #9f98b9;
   
-  --terminal-text: #e8f6eb;
+  --terminal-text1: #e8f6eb;
   --terminal-green: #e6ffe5;
   --terminal-cool: #323239;
   --text-dark: #202020;
@@ -35,11 +35,12 @@
   --light-white: #ebeff3;
   --sage-green: #9ad89f;
   --sage-shadow: #b7c5b8;
-  --terminal-black1: #202328eb;
+  --terminal-text: #eaf5ec; 
   --terminal-black: #272c32d6;
   --terminal-grey: #323232;
 
   --sage-green1: #7EE787;
+  --terminal-black1: #202328eb;
   --emerald: #3FB950;
   --charcoal: #161B22;
 
