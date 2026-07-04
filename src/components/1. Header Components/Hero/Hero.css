@@ -22,11 +22,18 @@
 }
 
 .section-title {
-  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.section-title h3 {
+  margin: 0;
   text-align: left;
-  display: flex;
-  justify-content: flex-start;
-  font-size: 3em;
+
+  font-size: 3rem;
+  font-weight: 300;
+  font-family: "JetBrains Mono", monospace;
+
+  color: var(--text-dark);
 }
 
 .hero-content h1 {
@@ -271,6 +278,19 @@ h1.last-name {
 
   display: flex;
   flex-direction: column;
+}.section-title {
+  margin-bottom: 24px;
+}
+
+.section-title h3 {
+  margin: 0;
+  text-align: left;
+
+  font-size: 3rem;
+  font-weight: 300;
+  font-family: "JetBrains Mono", monospace;
+
+  color: var(--text-dark);
 }
 
 .terminal-window {
