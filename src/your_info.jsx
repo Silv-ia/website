@@ -176,27 +176,27 @@ const categories = [
     skills: [
       {
         
-        title: 'Swedish',
+        title: 'Swedish - C2',
       },
       {
         
-        title: 'English',
+        title: 'English - C1',
       },
       {
         
-        title: 'Spanish',
+        title: 'Spanish - B1',
       },
       {
         
-        title: 'Chinese',
+        title: 'Chinese - C1',
       },
       {
         
-        title: 'German',
+        title: 'German - A1',
       },
       {
         
-        title: 'Italian',
+        title: 'Italian - A1',
       },
       
     ],
