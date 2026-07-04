@@ -278,7 +278,7 @@ h1.last-name {
   margin: 0; 
   text-align: left; 
   font-size: 3rem; 
-  font-weight: 300; 
+  font-weight: 600; 
   font-family: "JetBrains Mono", monospace; 
   color: var(--text-dark); 
 } 
