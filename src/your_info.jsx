@@ -184,7 +184,7 @@ const categories = [
       },
       {
         
-        title: 'Spanish - B1',
+        title: 'Spanish - B2',
       },
       {
         
