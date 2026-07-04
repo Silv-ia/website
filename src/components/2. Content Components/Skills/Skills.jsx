@@ -29,7 +29,7 @@ const Skills = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title">
-                            <h3 className="wow zoomIn" data-wow-delay=".2s">
+                            <h3>
                                 Skills
                             </h3>
                         </div>
