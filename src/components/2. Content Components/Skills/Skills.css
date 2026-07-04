@@ -63,7 +63,7 @@
 
 .skills .single-feature h3 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 20px;
 }
 
@@ -89,7 +89,7 @@
     background: white;
     color: var(--text-dark);
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 300;
     transition: all .25s ease;
     box-shadow: 0 2px 8px rgba(0,0,0,.08);
 }
@@ -154,5 +154,5 @@
 
 .skill-card span {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 300;
 }
