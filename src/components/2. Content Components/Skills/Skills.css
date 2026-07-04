@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 .section-container {
-  width: min(1100px, 92vw);
+  width: min(1000px, 80vw);
   margin: 0 auto;
 }
 
