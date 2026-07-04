@@ -377,6 +377,10 @@ h1.last-name {
 
   white-space: normal;
   overflow-wrap: break-word;
+
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  color: var(--terminal-text);
 }
 
 .profile-image {
