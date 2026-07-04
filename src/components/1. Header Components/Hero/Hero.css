@@ -1,5 +1,10 @@
 @import url('../../../assets/css/main.css');
 
+.section-container {
+  width: min(1100px, 92vw);
+    margin: 0 auto;
+}
+
 .hero-area {
   position: relative;
   padding: 25px 0 100px 0;
@@ -22,7 +27,7 @@
 }
 
 .section-title {
-  margin-bottom: 24px;
+  margin-bottom: 2rem;
 }
 
 .section-title h3 {
@@ -294,7 +299,7 @@ h1.last-name {
 }
 
 .terminal-window {
-  width: 60vw;
+  width: 100%;
   min-height: 60vh;
 
   background-color: var(--terminal-black);
