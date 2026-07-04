@@ -294,6 +294,7 @@ h1.last-name {
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
   color: var(--sage-shadow);
+  color: tomato;
   line-height: 1.8;
 
   display: flex;
