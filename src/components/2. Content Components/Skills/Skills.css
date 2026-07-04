@@ -81,7 +81,7 @@
     border: 1px solid var(--sage-green);
     border-radius: 12px;    /* shaved corners */
     background: white;
-    color: var(--sage-shadow);
+    color: var(--text-dark);
     cursor: pointer;
     font-weight: 600;
     transition: all .25s ease;
