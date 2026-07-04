@@ -338,6 +338,7 @@ h1.last-name {
   font-weight: 300;
   align-items: center;
   text-align: left;
+  color: var(--sage-green);
 }
 
 /*
