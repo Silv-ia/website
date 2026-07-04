@@ -255,20 +255,6 @@ h1.last-name {
   }
 }
 
-.terminal-header {
-  height: 42px;
-  padding: 0 16px;
-
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  color: var(--terminal-text);
-  font-family: "JetBrains Mono", monospace;
-  font-weight: 300;
-}
-
 
 .about-section {
   min-height: 100vh;
@@ -310,6 +296,20 @@ h1.last-name {
 
   overflow: hidden;
   text-align: left;
+}
+
+.terminal-header {
+  height: 42px;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  color: var(--terminal-text);
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
 }
 
 .command {
@@ -370,6 +370,9 @@ h1.last-name {
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
   color: var(--terminal-text);
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .profile-image {
