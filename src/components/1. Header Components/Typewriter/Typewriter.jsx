@@ -40,7 +40,7 @@ function Typewriter() {
   }, [skill, isDeleting, index, isFullyDisplayed]);
 
   const blinkingCursor = useMemo(() => {
-    return isFullyDisplayed ? '' : <span className="blinking-cursor">_</span>;
+    return isFullyDisplayed ? '' : <span className="blinking-cursor"></span>;
   }, [isFullyDisplayed]);
 
   return (
