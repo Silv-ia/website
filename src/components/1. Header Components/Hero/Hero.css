@@ -289,6 +289,8 @@ h1.last-name {
   text-align: left;
 }
 
+/*
+
 .terminal-body {
   padding: 10px 16px;
   font-family: "JetBrains Mono", monospace;
@@ -308,6 +310,8 @@ h1.last-name {
   margin-bottom: 16px;
   text-align: left;
 }
+
+*/
 
 .command {
   /*color: var(--accent-color);*/
