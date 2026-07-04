@@ -280,8 +280,8 @@ h1.last-name {
   width: min(1000px, 80vw);
   min-height: 60vh;
 
-  background-color: var(--sage-shadow);
-  border: 2px solid var(--sage-border);
+  background-color: var(--terminal-black);
+  border: 2px solid var(--terminal-grey);
 
   border-radius: 6px; /* less rounded */
 
@@ -299,7 +299,7 @@ h1.last-name {
   display: inline-block;
   width: 10px;
   height: 1.2em;
-  background-color: var(--terminal-black);
+  background-color: var(--terminal-text);
   vertical-align: middle;
   animation: blink 1s steps(1) infinite;
   opacity: 0.35;
@@ -319,11 +319,11 @@ h1.last-name {
   font-weight: 300;
   align-items: center;
   text-align: left;
-  color: var(--text-dark);
+  color: var(--terminal-text);
 }
 
 .prompt {
-  color: var(--terminal-black);
+  color: var(--terminal-text);
 
 }
 
@@ -346,7 +346,7 @@ h1.last-name {
   text-align: left;
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
-  color: var(--terminal-black);
+  color: var(--terminal-text);
 }
 
 .profile-image {
