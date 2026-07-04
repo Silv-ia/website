@@ -341,13 +341,6 @@ h1.last-name {
   color: var(--sage-green);
 }
 
-/*
-.command {
-  color: var(--accent-color);
-  font-weight: 600;
-}
-  */
-
 .prompt {
   color: var(--sage-shadow);
 
@@ -361,7 +354,7 @@ h1.last-name {
   width: 100%;
   max-width: 1200px;
 
-  padding: 40px 50px;
+  padding: 10px 16px;
 }
 
 .hero-terminal h1,
