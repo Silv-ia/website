@@ -426,6 +426,7 @@ h1.last-name {
   color: var(--terminal-grey);
 
   white-space: nowrap;   /* Prevent text wrapping */
+  flex: 1;
 }
 
 .btn:hover {
