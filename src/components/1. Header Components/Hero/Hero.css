@@ -290,7 +290,7 @@ h1.last-name {
 }
 
 .terminal-body {
-  padding: 50px 60px;
+  padding: 10px 16px;
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
   color: var(--sage-shadow);
@@ -336,7 +336,6 @@ h1.last-name {
   width: 100%;
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
-  color: var(--terminal-text);
   align-items: center;
   text-align: left;
 }
@@ -349,7 +348,7 @@ h1.last-name {
   */
 
 .prompt {
-  color: var(--terminal-text);
+  color: var(--sage-shadow);
 
 }
 
@@ -372,7 +371,7 @@ h1.last-name {
   text-align: left;
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
-  color: var(--sage-shadow);
+  color: var(--sage-green);
 }
 
 .profile-image {
