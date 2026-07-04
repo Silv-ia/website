@@ -370,7 +370,7 @@ h1.last-name {
   text-align: left;
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
-  color: var(--sage-green);
+  color: var(--terminal-text);
 }
 
 .profile-image {
