@@ -57,6 +57,7 @@ const Hero = () => {
       <section id='About' className="about-section">
         <div className="terminal-window">
           <div className="terminal-header">
+            <span>About</span>
             <span className="dot red"></span>
             <span className="dot yellow"></span>
             <span className="dot green"></span>
