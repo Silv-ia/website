@@ -258,34 +258,23 @@ h1.last-name {
 
 
 .about-section {
-  min-height: 80vh;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: var(--light-white);
 
   display: flex;
   justify-content: center;
-  align-items: center;
+}
 
-  padding: 20px;
-  background-color: var(--light-white);
+.about-content {
+  width: min(1000px, 96vw);
 
-  background-image:
-  linear-gradient(rgba(80,90,100,.02) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(80,90,100,.02) 1px, transparent 1px);
-
-  background-size: 24px 24px;
-
-  /*
-  background-image:
-    repeating-linear-gradient(
-      90deg,
-      rgba(60,70,90,.025) 0px,
-      rgba(60,70,90,.025) 1px,
-      transparent 1px,
-      transparent 28px
-    );*/
+  display: flex;
+  flex-direction: column;
 }
 
 .terminal-window {
-  width: min(1000px, 80vw);
+  width: 60vw;
   min-height: 60vh;
 
   background-color: var(--terminal-black);

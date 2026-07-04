@@ -55,54 +55,56 @@ const Hero = () => {
 
     {/* About Me Section */}
       <section id='About' className="about-section">
-        <div className="section-title">
-          <h3>
-              About
-          </h3>
-      </div>
-        <div className="terminal-window">
-          <div className="terminal-header">
-            <span>About</span>
-            <span className="dot red"></span>
-            <span className="dot yellow"></span>
-            <span className="dot green"></span>
+        <div className="about-content">
+          <div className="section-title">
+            <h3>
+                About
+            </h3>
           </div>
-
-          <div className="hero-terminal">
-
-            <div className="terminal-line">
-              <span className="prompt">guest@laira:~$ </span>
-              <span className='cmd'>whoami</span>
+          <div className="terminal-window">
+            <div className="terminal-header">
+              <span>About</span>
+              <span className="dot red"></span>
+              <span className="dot yellow"></span>
+              <span className="dot green"></span>
             </div>
 
-            <p>My name is Laira and I specialise in digital forensics and offensive security. In particular, 
-              network and file forensics. 
-            </p>
+            <div className="hero-terminal">
 
-            <div className="terminal-line">
-              <span className="prompt">guest@laira:~$ </span>
-              <span className='cmd'>cat </span>
-              <span>role.txt</span>
-            </div>
+              <div className="terminal-line">
+                <span className="prompt">guest@laira:~$ </span>
+                <span className='cmd'>whoami</span>
+              </div>
 
-            <p>MSc Student in Cybersecurity</p>
+              <p>My name is Laira and I specialise in digital forensics and offensive security. In particular, 
+                network and file forensics. 
+              </p>
 
-            <div className="terminal-line">
-              <span className="prompt">guest@laira:~$ </span>
-              <span className='cmd'>ls </span>
-              <span>interests/</span>
-            </div>
+              <div className="terminal-line">
+                <span className="prompt">guest@laira:~$ </span>
+                <span className='cmd'>cat </span>
+                <span>role.txt</span>
+              </div>
 
-            <p>
-              Digital Forensics • Offensive Security • Machine Learning
-            </p>
+              <p>MSc Student in Cybersecurity</p>
 
-            <div className="terminal-line">
-              <span className="prompt">guest@laira:~$ </span>
-              <span className="cursor"></span>
-            </div>
+              <div className="terminal-line">
+                <span className="prompt">guest@laira:~$ </span>
+                <span className='cmd'>ls </span>
+                <span>interests/</span>
+              </div>
 
-        </div>
+              <p>
+                Digital Forensics • Offensive Security • Machine Learning
+              </p>
+
+              <div className="terminal-line">
+                <span className="prompt">guest@laira:~$ </span>
+                <span className="cursor"></span>
+              </div>
+
+          </div>
+          </div>
         </div>
       </section>
     </>
