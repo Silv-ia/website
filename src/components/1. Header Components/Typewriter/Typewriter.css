@@ -23,15 +23,28 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+/*
 .blinking-cursor {
   display: inline-block;
   vertical-align: bottom;
   width: 0.2em;
   height: 1.2em;
   margin-left: 0.1em;
-  /*background-color: var(--highlight-color);*/
+  background-color: var(--highlight-color);
   animation: blink 1s infinite;
 }
+*/
+
+.blinking-cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1.2em;
+  background-color: var(--terminal-text);
+  vertical-align: middle;
+  animation: blink 1s steps(1) infinite;
+  opacity: 0.35;
+}
+
 
 @keyframes blink {
   0% {
