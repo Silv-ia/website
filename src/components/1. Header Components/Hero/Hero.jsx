@@ -92,7 +92,7 @@ const Hero = () => {
                 <div className="terminal-line">
                   <span className="prompt">guest@laira:~$ </span>
                   <span className='cmd'>ls </span>
-                  <span>interests/</span>
+                  <span>interests</span>
                 </div>
 
                 <p>

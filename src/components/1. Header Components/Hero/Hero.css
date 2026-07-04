@@ -347,11 +347,6 @@ h1.last-name {
   color: var(--terminal-text);
 }
 
-.prompt {
-  color: var(--terminal-text);
-
-}
-
 .hero-terminal {
   display: flex;
   flex-direction: column;
@@ -395,6 +390,10 @@ h1.last-name {
 .cmd {
   color: var(--sage-green);
   padding-right: 0.5rem;
+}
+
+.prompt {
+  color: var(--sage-shadow);
 }
 
 .btn {
