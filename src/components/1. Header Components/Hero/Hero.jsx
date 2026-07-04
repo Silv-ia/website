@@ -55,6 +55,11 @@ const Hero = () => {
 
     {/* About Me Section */}
       <section id='About' className="about-section">
+        <div className="section-title">
+          <h3>
+              About
+          </h3>
+      </div>
         <div className="terminal-window">
           <div className="terminal-header">
             <span>About</span>

@@ -21,6 +21,14 @@
   text-align: center;
 }
 
+.section-title {
+  margin-bottom: 30px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3em;
+}
+
 .hero-content h1 {
   font-size: 4rem;
   /*font-weight: bold;
