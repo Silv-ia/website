@@ -366,6 +366,7 @@ h1.last-name {
 
 .cmd {
   color: var(--sage-green);
+  padding-right: 0.5rem;
 }
 
 .btn {
