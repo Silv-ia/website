@@ -394,12 +394,12 @@ h1.last-name {
 }
 
 .cmd {
-  color: var(--sage-green);
+  /*color: var(--sage-green);*/
   padding-right: 0.5rem;
 }
 
 .prompt {
-  color: var(--sage-shadow) !important;
+  color: var(--sage-shadow);
 }
 
 .btn {
