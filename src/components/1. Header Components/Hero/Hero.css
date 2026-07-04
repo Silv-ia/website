@@ -266,7 +266,7 @@ h1.last-name {
 }
 
 .about-content {
-  width: min(1000px, 96vw);
+  width: min(1000px, 80vw);
 
   display: flex;
   flex-direction: column;
