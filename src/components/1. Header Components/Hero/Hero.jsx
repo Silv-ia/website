@@ -70,7 +70,9 @@ const Hero = () => {
               <span>whoami</span>
             </div>
 
-            <p>{firstname}</p>
+            <p>My name is Laira and I specialise in digital forensics and offensive security. In particular, 
+              network and file forensics. 
+            </p>
 
             <div className="terminal-line">
               <span className="prompt">guest@laira:~$ </span>
