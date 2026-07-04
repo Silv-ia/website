@@ -18,7 +18,8 @@ const name = {
 const typeWriterText = [
   'Cybersecurity',
   'Information Technology',
-  'Forensics'  
+  'Forensics',
+  'Information Security'
 ];
 
 // Social media profiles buttons
