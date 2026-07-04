@@ -2,7 +2,13 @@
 
 .section-container {
   width: min(1100px, 92vw);
-    margin: 0 auto;
+  margin: 0 auto;
+
+  background-image:
+    linear-gradient(rgba(70,80,95,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(70,80,95,.03) 1px, transparent 1px);
+
+  background-size: 32px 32px;
 }
 
 .hero-area {
@@ -14,11 +20,6 @@
   background-color: var(--light-white);
   display: flow-root;
   font-family: "JetBrains Mono", monospace;
-  background-image:
-    linear-gradient(rgba(70,80,95,.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(70,80,95,.03) 1px, transparent 1px);
-
-  background-size: 32px 32px;
 }
 
 .hero-content,
