@@ -339,7 +339,7 @@ h1.last-name {
 
 .terminal-line {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   
 }
