@@ -13,7 +13,7 @@
 .terminal-loader {
   font-family: "JetBrains Mono", monospace;
   font-size: 1rem;
-  color: var(--sage-shadow);
+  color: var(--terminal-text);
   font-weight: 300;
   /*font-weight: bold;*/
 
