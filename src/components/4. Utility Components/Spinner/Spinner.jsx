@@ -30,7 +30,7 @@ const Spinner = () => {
 
         }, 500);
       }
-    }, 100);
+    }, 70);
 
     return () => clearInterval(interval);
   }, []);
