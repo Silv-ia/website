@@ -309,7 +309,7 @@ h1.last-name {
   gap: 10px;
 
   border-bottom: 1px solid rgba(255,255,255,.08);
-  color: var(--terminal-text);
+  color: var(--sage-shadow);
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
 }
