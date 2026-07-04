@@ -9,7 +9,6 @@
   display: flex;
   background-color: var(--light-white);
   justify-content: flex-start;
-  font-family: "JetBrains Mono", monospace;
 
 }
 
@@ -77,6 +76,7 @@
     gap: 1rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
+    font-family: "JetBrains Mono", monospace;
 }
 
 .tab-btn {
@@ -137,6 +137,7 @@
     gap: 15px;
     transition: 0.3s;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+     font-family: "JetBrains Mono", monospace;
 }
 
 .skill-card:hover {
