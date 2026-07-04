@@ -343,11 +343,11 @@ h1.last-name {
   font-weight: 300;
   align-items: center;
   text-align: left;
-  color: var(--sage-green);
+  color: var(--sage-shadow);
 }
 
 .prompt {
-  color: var(--sage-shadow);
+  color: var(--sage-green);
 
 }
 
