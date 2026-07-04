@@ -46,11 +46,11 @@
   text-align: left;
   display: inline-block;
   vertical-align: middle;
-  background-color: var(--accent-color);
-  color: var(--light-color);
+  background-color: var(--sage-green);
+  color: var(--sage-green);
   font-size: 20px;
   border-radius: 7px;
-  box-shadow: 0px 4px 6px var(--medium-color);
+  box-shadow: 0px 4px 6px var(--sage-shadow);
   
   margin: 0px 5px 30px 5px;
 }
@@ -78,7 +78,7 @@
 
 .tab-btn {
     padding: 12px 32px;
-    border: 1px solid var(--medium-color);
+    border: 1px solid var(--sage-green);
     border-radius: 12px;    /* shaved corners */
     background: white;
     color: var(--dark-color);
@@ -94,9 +94,9 @@
 }
 
 .tab-btn.active {
-    background: var(--accent-color);
+    background: var(--sage-green);
     color: white;
-    border-color: var(--accent-color);
+    border-color: var(--sage-shadow);
 }
 
 
@@ -125,7 +125,7 @@
 
 .skill-card {
     background: white;
-    border: 1px solid var(--medium-color);
+    border: 1px solid var(--sage-green);
     border-radius: 12px;
     padding: 20px;
     display: flex;
@@ -143,7 +143,7 @@
 
 .skill-card i {
     font-size: 1.5rem;
-    color: var(--accent-color);
+    color: var(--sage-green);
 }
 
 .skill-card span {
