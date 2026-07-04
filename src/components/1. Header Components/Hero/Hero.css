@@ -340,7 +340,13 @@ h1.last-name {
 
 .terminal-line {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  align-items: center;
+  text-align: left;
+  color: var(--terminal-text);
   width: 100%;
   
 }
@@ -355,6 +361,8 @@ h1.last-name {
 
   font-family: "JetBrains Mono", monospace;
   font-weight: 300;
+
+  text-align: left;
 }
 /*
 .hero-terminal h1,
