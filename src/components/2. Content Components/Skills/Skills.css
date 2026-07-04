@@ -97,7 +97,7 @@
 }
 
 .tab-btn.active {
-    background: var(--light-sage);
+    background: var(--steel-blue);
     color: var(--text-dark);
     border-color: var(--sage-shadow);
 }
