@@ -280,7 +280,7 @@ h1.last-name {
   width: min(1000px, 80vw);
   min-height: 70vh;
 
-  background-color: var(--terminal-black);
+  background-color: var(--sage-shadow);
   border: 1px solid var(--terminal-grey);
 
   border-radius: 6px; /* less rounded */
@@ -343,7 +343,7 @@ h1.last-name {
   font-weight: 300;
   align-items: center;
   text-align: left;
-  color: var(--sage-shadow);
+  color: var(--text-dark);
 }
 
 .prompt {
