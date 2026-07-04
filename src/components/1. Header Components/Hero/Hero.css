@@ -345,6 +345,7 @@ h1.last-name {
   align-items: center;
   text-align: left;
   color: var(--terminal-text);
+  
 }
 
 .hero-terminal {
@@ -358,9 +359,21 @@ h1.last-name {
   padding: 10px 16px;
 }
 
+/*
 .hero-terminal h1,
 .hero-terminal h2,
 .hero-terminal h3,
+.hero-terminal p {
+  width: 100%;
+  text-align: left;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  color: var(--terminal-text);
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}*/
+
 .hero-terminal p {
   width: 100%;
   text-align: left;
