@@ -281,7 +281,7 @@ h1.last-name {
   min-height: 70vh;
 
   background-color: var(--sage-shadow);
-  border: 1px solid var(--sage-border);
+  border: 2px solid var(--sage-border);
 
   border-radius: 6px; /* less rounded */
 
