@@ -395,7 +395,7 @@ h1.last-name {
 }
 
 .prompt {
-  color: var(--sage-shadow);
+  color: var(--sage-shadow) !important;
 }
 
 .btn {
