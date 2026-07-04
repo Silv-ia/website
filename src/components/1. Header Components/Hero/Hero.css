@@ -364,6 +364,10 @@ h1.last-name {
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
+.cmd {
+  color: var(--sage-green);
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;
