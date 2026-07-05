@@ -233,22 +233,26 @@ const projectData = [
   {
     title: 'Project 1',
     description: 'Description of Project 1',
-    demoUrl: 'https://wallpaperaccess.com/full/530366.jpg' 
+    demoUrl: '' ,
+    githubUrl: '',
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
-    demoUrl: 'https://wallpapercave.com/wp/wp1933134.jpg' 
+    demoUrl: '',
+    githubUrl: '',
   },
   {
     title: 'Project 3',
     description: 'Description of Project 3',
-    demoUrl: 'https://c4.wallpaperflare.com/wallpaper/43/399/700/photography-camera-birds-animals-wallpaper-preview.jpg' 
+    demoUrl: '',
+    githubUrl: '', 
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
-    demoUrl: 'src/assets/images/Jonathan Dominion Template.gif' 
+    demoUrl: '',
+    githubUrl: '',
   },
   
 ];
