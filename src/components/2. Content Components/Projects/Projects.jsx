@@ -16,21 +16,25 @@ const Projects = () => {
         <div className="project-grid">
           {projectData.map((proj, index) => (
             <div className="project-card" key={index}>
-              <h3 className="proj-title">{proj.title}</h3>
-              <span className='description'>{proj.description}</span>
-              <div className="project-links">
-                {proj.github && (
-                  <a href={proj.github} target="_blank" rel="noreferrer">
-                    <FaGithub />
-                  </a>
-                )}
+              <div className="project-header">
+                <h3 className="proj-title">{proj.title}</h3>
 
-                {proj.website && (
-                  <a href={proj.website} target="_blank" rel="noreferrer">
-                    <FaGlobe />
-                  </a>
-                )}
+                <div className="project-links">
+                  {proj.github && (
+                    <a href={proj.github} target="_blank" rel="noreferrer">
+                      <FaGithub />
+                    </a>
+                  )}
+
+                  {proj.website && (
+                    <a href={proj.website} target="_blank" rel="noreferrer">
+                      <FaGlobe />
+                    </a>
+                  )}
+                </div>
               </div>
+
+              <span className='description'>{proj.description}</span>
               <div className="project-skills">
                 {proj.skills.map((skill) => (
                   <span className="skill-pill" key={skill}>

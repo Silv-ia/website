@@ -48,6 +48,14 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+
 .proj-title,
 .description,
 .project-links {
@@ -55,9 +63,12 @@
 }
 
 .proj-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--text-dark);
+    margin: 0;
+    flex: 1;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
 }
 
 .description {
