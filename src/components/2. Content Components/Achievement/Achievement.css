@@ -14,7 +14,7 @@
       linear-gradient(rgba(70,80,95,.03) 1px, transparent 1px),
       linear-gradient(90deg, rgba(70,80,95,.03) 1px, transparent 1px);
 
-    background-size: 16px 32px;
+    background-size: 32px 16px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

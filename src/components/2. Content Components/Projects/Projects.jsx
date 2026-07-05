@@ -6,55 +6,16 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const Projects = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1, // Aangepaste waarde
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
-  
-
-  const renderDemoContent = (project) => {
-    if (isImageURL(project.demoUrl)) {
-      return <img src={project.demoUrl} alt="Project Thumbnail" />;
-    } else {
-      return <iframe src={project.demoUrl} title="Project Demo" allowFullScreen />;
-    }
-  };
-
-  const isImageURL = (url) => {
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif'];
-    return imageExtensions.some((extension) => url.toLowerCase().endsWith(extension));
-  };
 
   return (
     <section id="Projects" className="projects section">
       <div className="container">
-        <div className="section-title">
-          <h2 className="wow zoomIn" data-wow-delay=".2s">
-            Projects
-          </h2>
-          <h2 className="wow fadeInUp" data-wow-delay=".4s">
-            Lorem Ipsum
-          </h2>
-          <p className="wow fadeInUp" data-wow-delay=".6s">
-            A diverse set of skills and technologies I have acquired to develop impactful solutions
-          </p>
+        <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
+          <div className="section-title">
+            <h2 className="wow zoomIn" data-wow-delay=".2s">
+              Projects
+            </h2>
+          </div>
         </div>
         <Slider {...settings}>
           {projectData.map((project, index) => (
