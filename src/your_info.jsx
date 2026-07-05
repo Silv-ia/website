@@ -244,7 +244,7 @@ const projectData = [
   },
   {
     title: 'Occupant Window Behavior in Smart Buildings',
-    description: 'Bachelor\'s Thesis Project. We processed sensor data from KTH Live-In Lab and trained multivariate logistic regression models for window opening and closing predictions. We discovered certain links between indoor and outdoor climate and window operations. Future work could explore other behavioural causes.',
+    description: 'Bachelor\'s Thesis Project. Sensor data processing from KTH Live-In Lab and multivariate logistic regression modeling.',
     skills: [
       "Python",
       "Pandas",
