@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="project-card" key={index}>
               <span className='proj-title'>{proj.title}</span>
               <span className='description'>{proj.description}</span>
-              <span className='git-link'>{proj.url}</span>
+              <span className='proj-link'>{proj.url}</span>
             </div>
           ))}
         </div>
