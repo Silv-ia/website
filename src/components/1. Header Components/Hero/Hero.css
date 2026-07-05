@@ -290,6 +290,7 @@ h1.last-name {
   overflow: hidden; 
   text-align: left; 
   font-weight: 200;
+  letter-spacing: -0.05em
 } 
 
 .terminal-header { 
