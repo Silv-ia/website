@@ -95,7 +95,7 @@
 
 .institution {
   font-size: 0.70rem;
-  color: var(--text-dark);
+  color: var(--terminal-black);
 }
 
 .year-loc {
