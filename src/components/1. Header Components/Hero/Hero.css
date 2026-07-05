@@ -353,7 +353,7 @@ h1.last-name {
   font-weight: 300; 
   color: var(--terminal-text); 
   
-  margin: 0.25rem 0 0.6rem;
+  margin: 0.25rem 0;
   line-height: 1.5;
 
   white-space: normal;
