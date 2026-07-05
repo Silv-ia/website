@@ -42,27 +42,27 @@ const Spinner = () => {
           <span>bash</span>
         </div>
 
-        <div className="line">
-          <span className="prompt">guest@laira:~$ </span>
-          <span>{displayed}</span>
-
-          {!showLoading && <span className="cursor" />}
-        </div>
-
-        {showLoading && (
-          <div className="line output">
-            <span>Page loading ...</span>
-          </div>
-        )}
-
-        {showPrompt && (
+        <div className='terminal-spinner'>
           <div className="line">
-            <span className="prompt">
-              guest@laira:~$ <span className="cursor"></span>
-            </span>
+            <span className="prompt">guest@laira:~$ </span>
+            <span>{displayed}</span>
+            {!showLoading && <span className="cursor" />}
           </div>
-        )}
 
+          {showLoading && (
+            <div className="line output">
+              <span>Page loading ...</span>
+            </div>
+          )}
+
+          {showPrompt && (
+            <div className="line">
+              <span className="prompt">
+                guest@laira:~$ <span className="cursor"></span>
+              </span>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
