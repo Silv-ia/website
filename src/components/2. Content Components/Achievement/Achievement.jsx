@@ -20,8 +20,10 @@ const Achievement = () => {
   return (
     <section id='Education' className="our-achievement section">
       <div className='section-container'>
-        <div className="title">
-          <h2>Education</h2>
+        <div ref={ref} className="single-achievement wow fadeInUp" data-wow-delay={(index * 0.2) + 's'}>
+          <div className="title">
+            <h2>Education</h2>
+          </div>
         </div>
         <div className="education-grid">
           {achievements.map((skill, index) => (
