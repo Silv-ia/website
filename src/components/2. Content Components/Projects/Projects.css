@@ -78,7 +78,10 @@
 
 .project-links {
     display: flex;
-    gap: .8rem;
+    gap: 0.8rem;
+
+    justify-content: flex-end;
+    margin-left: auto;
 }
 
 .project-links a {
