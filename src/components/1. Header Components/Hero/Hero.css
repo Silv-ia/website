@@ -54,7 +54,7 @@
 }
 
 .hero-content p { 
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .hero-area .hero-content {
@@ -343,7 +343,7 @@ h1.last-name {
   text-align: left; 
   width: 100%; 
   max-width: 1200px; 
-  padding: 10px 16px; 
+  padding: 10px 10x; 
 } 
 
 /* .hero-terminal h1, .hero-terminal h2, .hero-terminal h3, .hero-terminal p { width: 100%; text-align: left; font-family: "JetBrains Mono", monospace; font-weight: 300; color: var(--terminal-text); white-space: normal; overflow-wrap: break-word; word-break: break-word; }*/ 
