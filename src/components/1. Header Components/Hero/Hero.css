@@ -332,6 +332,9 @@ h1.last-name {
   align-items: center; 
   text-align: left; 
   color: var(--terminal-text); 
+
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
 } 
 
 .hero-terminal { 
@@ -352,17 +355,18 @@ h1.last-name {
   font-family: "JetBrains Mono", monospace; 
   font-weight: 300; 
   color: var(--terminal-text); 
-  
-  margin: 0.25rem 0;
+
+  margin: 0;
   line-height: 1.5;
 
   white-space: normal;
   overflow-wrap: break-word;
 } 
 
-.hero-terminal p:last-of-type {
-  margin-bottom: 0.8rem;
+.hero-terminal p + p {
+    margin-top: 0.3rem;
 }
+
 
 .profile-image { 
   width: 190px; 
