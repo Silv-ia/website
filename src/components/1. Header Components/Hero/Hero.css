@@ -331,7 +331,7 @@ h1.last-name {
   text-align: left; 
   color: var(--terminal-text); 
 
-  margin-top: 1rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 } 
 
