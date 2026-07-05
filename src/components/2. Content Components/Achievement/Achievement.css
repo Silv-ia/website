@@ -1,9 +1,15 @@
 @import url('../../../assets/css/main.css');
 
 .our-achievement {
-    background-color: var(--dark-color);
+    background-color: var(--light-white);
     text-align: center;
     padding: 130px 0;
+
+    background-image:
+      linear-gradient(rgba(70,80,95,.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(70,80,95,.03) 1px, transparent 1px);
+
+    background-size: 32px 32px;
   }
   
   @media only screen and (min-width: 768px) and (max-width: 991px) {
