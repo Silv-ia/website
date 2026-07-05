@@ -231,14 +231,14 @@ const projectData = [
   {
     title: 'Project 1',
     description: 'Description of Project 1',
-    skills: '',
+    skills: ['Python', 'ML'],
     url: '',
     githubUrl: '',
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
-    skills: '',
+    skills: ['Python', 'ML'],
     url: '',
     githubUrl: '',
   },
@@ -256,7 +256,7 @@ const projectData = [
   {
     title: 'Project 2',
     description: 'Description of Project 2',
-    skills: '',
+    skills: ['Python', 'ML'],
     url: '',
     githubUrl: '',
   },
