@@ -81,7 +81,7 @@ const Hero = () => {
                   I specialise in digital forensics and offensive security, in particular, 
                   network and file forensics. 
                 </p>
-                <p>I like solving puzzles, learning new languages, and participating in CTFs.</p>
+                <p>I am multilingual, a dancer, and like solving puzzles.</p>
 
                 <div className="terminal-line">
                   <span className="prompt">guest@laira:~$ </span>
