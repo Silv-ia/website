@@ -88,18 +88,18 @@
 }
 
 .education-title {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--text-dark);
 }
 
 .institution {
-  font-size: 0.95rem;
+  font-size: 0.70rem;
   color: var(--text-dark);
 }
 
 .year-loc {
-  font-size: 0.85rem;
+  font-size: 0.70rem;
   color: var(--sage-shadow);
 }
 
