@@ -352,12 +352,16 @@ h1.last-name {
   font-weight: 300; 
   color: var(--terminal-text); 
   
-  margin: 0.25rem 0 0.8rem;
+  margin: 0.25rem 0 0.6rem;
   line-height: 1.5;
 
   white-space: normal;
   overflow-wrap: break-word;
 } 
+
+.hero-terminal p:last-of-type {
+  margin-bottom: 0.8rem;
+}
 
 .profile-image { 
   width: 190px; 
