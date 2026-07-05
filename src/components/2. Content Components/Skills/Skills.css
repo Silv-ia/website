@@ -85,6 +85,7 @@
     border-radius: 12px;    /* shaved corners */
     background-color: var(--terminal-black);
     color: var(--sage-green);
+    opacity: 0.75;
     cursor: pointer;
     font-weight: 400;
     transition: all .25s ease;
