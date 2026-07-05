@@ -54,6 +54,8 @@
   color: var(--sage-green);
   font-weight: 500;
   text-transform: capitalize;
+  font-family: "JetBrains Mono", monospace;
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
