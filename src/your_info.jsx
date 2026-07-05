@@ -232,15 +232,15 @@ const projectData = [
     title: 'Project 1',
     description: 'Description of Project 1',
     skills: ['Python', 'ML'],
-    url: '',
-    githubUrl: '',
+    website: '',
+    github: '',
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
     skills: ['Python', 'ML'],
-    url: '',
-    githubUrl: '',
+    website: '',
+    github: '',
   },
   {
     title: 'Occupant Window Behavior in Smart Buildings',
@@ -251,15 +251,15 @@ const projectData = [
       "Scikit-learn",
       "Logistic Regression"
     ],
-    url: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
-    githubUrl: '',
+    website: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
+    github: '',
   },
   {
     title: 'AES encryption',
     description: 'Fully implemented AES in ECB mode in Python.',
     skills: ['Python', 'AES'],
-    url: '',
-    githubUrl: 'https://github.com/Silv-ia/DD2520',
+    website: '',
+    github: 'https://github.com/Silv-ia/DD2520',
   },
   
 ];
