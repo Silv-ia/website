@@ -57,10 +57,12 @@ const Hero = () => {
       <section id='About' className="about-section">
         <div className="about-content">
           <div className='section-container'>
-            <div className="section-title">
-              <h3>
-                  About
-              </h3>
+            <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
+              <div className="section-title">
+                <h3>
+                    About
+                </h3>
+              </div>
             </div>
             <div className="terminal-window">
               <div className="terminal-header">
