@@ -83,7 +83,7 @@
     padding: 12px 20px;
     border: 1px solid var(--sage-shadow);
     border-radius: 12px;    /* shaved corners */
-    background: white;
+    background-color: var(--terminal-black);
     color: var(--text-dark);
     cursor: pointer;
     font-weight: 400;
