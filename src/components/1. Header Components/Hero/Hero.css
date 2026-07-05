@@ -351,9 +351,12 @@ h1.last-name {
   font-family: "JetBrains Mono", monospace; 
   font-weight: 300; 
   color: var(--terminal-text); 
-  white-space: normal; 
-  overflow-wrap: break-word; 
-  word-break: break-word; 
+  
+  margin: 0.25rem 0 0.8rem;
+  line-height: 1.5;
+
+  white-space: normal;
+  overflow-wrap: break-word;
 } 
 
 .profile-image { 
