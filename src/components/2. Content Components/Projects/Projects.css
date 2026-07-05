@@ -25,29 +25,41 @@
   gap: 10px;
 }
 
-
 .project-card {
   background: white;
   border: 1px solid var(--sage-shadow);
   border-radius: 12px;
-  padding: 10px;
+  padding: 16px;
+
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
+  flex-direction: column;   /* <-- stack vertically */
+
+  align-items: flex-start;  /* left-align */
+  gap: 4px;
+
   transition: 0.3s;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,.05);
   font-family: "JetBrains Mono", monospace;
 }
 
+.proj-title,
+.description,
+.proj-link {
+    width: 100%;
+}
+
 .proj-title {
+  font-size: 0.8rem;
+  font-weight: 600;
   color: var(--text-dark);
 }
 
 .description {
+  font-size: 0.70rem;
   color: var(--terminal-black);
 }
 
 .proj-link {
-  
+  font-size: 0.70rem;
+  color: var(--terminal-black-75);
 }
