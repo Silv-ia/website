@@ -303,11 +303,6 @@ h1.last-name {
   font-weight: 300; 
 } 
 
-.command { 
-  /*color: var(--accent-color);*/ 
-  font-weight: 600; 
-  margin-bottom: 8px; 
-} 
 
 .cursor { 
   display: inline-block; 
