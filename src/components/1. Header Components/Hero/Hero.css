@@ -289,8 +289,8 @@ h1.last-name {
   border-radius: 6px; /* less rounded */ 
   overflow: hidden; 
   text-align: left; 
-  font-weight: 200;
-  letter-spacing: -0.05em;
+  font-weight: 300;
+  letter-spacing: -0.02em;
 } 
 
 .terminal-header { 
