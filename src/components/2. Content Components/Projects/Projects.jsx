@@ -29,6 +29,19 @@ const Projects = () => {
     ],
   };
 
+   const renderDemoContent = (project) => {
+    if (isImageURL(project.demoUrl)) {
+      return <img src={project.demoUrl} alt="Project Thumbnail" />;
+    } else {
+      return <iframe src={project.demoUrl} title="Project Demo" allowFullScreen />;
+    }
+  };
+
+  const isImageURL = (url) => {
+    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif'];
+    return imageExtensions.some((extension) => url.toLowerCase().endsWith(extension));
+  };
+
   return (
     <section id="Projects" className="projects section">
       <div className="container">
