@@ -1,5 +1,10 @@
 @import url('../../../assets/css/main.css');
 
+.container {
+  width: min(1000px, 80vw);
+  margin: 0 auto;
+}
+
 .our-achievement {
     background-color: var(--light-white);
     text-align: left;
@@ -10,11 +15,6 @@
       linear-gradient(90deg, rgba(70,80,95,.03) 1px, transparent 1px);
 
     background-size: 32px 32px;
-}
-
-.container {
-  width: min(1000px, 80vw);
-  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
