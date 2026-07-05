@@ -15,11 +15,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-grid">
-          {achievements.map((skill, index) => (
-            <div className="education-card" key={index}>
-              <span className='education-title'>{skill.word}</span>
-              <span className='institution'>{skill.value}</span>
-              <span className='year-loc'>{skill.unit}</span>
+          {projectData.map((proj, index) => (
+            <div className="project-card" key={index}>
+              <span className='proj-title'>{proj.title}</span>
+              <span className='description'>{proj.description}</span>
+              <span className='git-link'>{proj.url}</span>
             </div>
           ))}
         </div>

@@ -233,26 +233,26 @@ const projectData = [
   {
     title: 'Project 1',
     description: 'Description of Project 1',
-    demoUrl: '' ,
-    githubUrl: '',
+    skills: [{title: 'Python'},{title: 'ML'}],
+    url: '',
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
-    demoUrl: '',
-    githubUrl: '',
+    skills: [{title: 'Python'},{title: 'ML'}],
+    url: '',
   },
   {
-    title: 'Project 3',
-    description: 'Description of Project 3',
-    demoUrl: '',
-    githubUrl: '', 
+    title: 'Occupant Window Behavior in Smart Buildings',
+    description: 'Bachelor\'s Thesis Project. We processed sensor data from KTH Live-In Lab and trained multivariate logistic regression models for window opening and closing predictions. We discovered certain links between indoor and outdoor climate and window operations. Future work could explore other behavioural causes.',
+    skills: [{title: 'Python'},{title: 'Multivariate Logistic Regression'}],
+    url: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
-    demoUrl: '',
-    githubUrl: '',
+    skills: [{title: 'Python'},{title: 'ML'}],
+    url: '',
   },
   
 ];
