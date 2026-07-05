@@ -215,7 +215,7 @@ const achievements = [
 ];
 
 const cert = [
-  {word: ''}
+  {word: 'High School'},
 ]
 
 // Languages!!
