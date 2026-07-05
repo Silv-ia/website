@@ -89,14 +89,15 @@
 }
 
 .skill-pill {
-  padding: 6px 12px;
+  padding: 3px 3px;
+  font-size: 0.72rem;
+  line-height: 1.2;
 
   border-radius: 6px;
 
   background: var(--steel-blue);
   border: 1px solid var(--sage-shadow);
 
-  font-size: .8rem;
   color: var(--terminal-black);
 
   font-family: "JetBrains Mono", monospace;
