@@ -82,7 +82,7 @@
 
 .tab-btn {
     padding: 12px 32px;
-    border: 1px solid var(--sage-green);
+    border: 1px solid var(--sage-shadow);
     border-radius: 12px;    /* shaved corners */
     background: white;
     color: var(--text-dark);
@@ -100,7 +100,7 @@
 .tab-btn.active {
     background: var(--steel-blue);
     color: var(--text-dark);
-    border-color: var(--sage-shadow);
+    border-color: var(--terminal-black);
 }
 
 
