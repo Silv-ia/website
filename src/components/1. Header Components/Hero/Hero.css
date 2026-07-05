@@ -394,7 +394,7 @@ h1.last-name {
   border: 1px solid;
   border-radius: 6px;
 
-  border-color: var(--sage-shadow);
+  border-color: var(--sage-shadow) !important;
 
   background-color: var(--light-white);
   color: var(--terminal-grey);
@@ -405,6 +405,6 @@ h1.last-name {
 
 .btn:hover {
   background-color: var(--steel-blue);
-  border-color: var(--terminal-black);
+  border-color: var(--terminal-black) !important;
   color: var(--terminal-grey);
 }
