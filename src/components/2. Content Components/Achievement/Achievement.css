@@ -31,13 +31,15 @@
 
 .our-achievement .title h2 {
   color: var(--text-dark);
-  font-weight: 700;
   font-size: 35px;
   margin-bottom: 10px;
   margin-bottom: 2rem;
   text-align: left;
   display: flex;
   justify-content: flex-start;
+
+  font-size: 3em;
+  font-weight: 600;
 }
 
 .our-achievement .title p {
