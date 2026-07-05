@@ -20,7 +20,11 @@ const Achievement = () => {
   return (
     <section id='Education' className="our-achievement section">
       <div className='section-container'>
-        <div ref={ref} className="single-achievement wow fadeInUp" data-wow-delay={(index * 0.2) + 's'}>
+        <div
+          ref={ref}
+          className="single-achievement wow fadeInUp"
+          data-wow-delay="0.2s"
+        >
           <div className="title">
             <h2>Education</h2>
           </div>
