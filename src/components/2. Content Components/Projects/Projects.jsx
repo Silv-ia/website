@@ -7,6 +7,28 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Projects = () => {
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1, // Aangepaste waarde
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <section id="Projects" className="projects section">
       <div className="container">
