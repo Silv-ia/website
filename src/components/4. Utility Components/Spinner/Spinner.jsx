@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Spinner.css';
 
-const command = ' cat homepage.html';
+const command = './lairas-portfolio.elf';
 
 
 const Spinner = () => {
@@ -38,6 +38,9 @@ const Spinner = () => {
   return (
     <div id="page-loader">
       <div className="terminal-loader">
+        <div className="terminal-header">
+          <span>bash</span>
+        </div>
 
         <div className="line">
           <span className="prompt">guest@laira:~$ </span>

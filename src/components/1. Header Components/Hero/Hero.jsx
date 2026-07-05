@@ -67,9 +67,6 @@ const Hero = () => {
             <div className="terminal-window">
               <div className="terminal-header">
                 <span>bash</span>
-                <span className="dot red"></span>
-                <span className="dot yellow"></span>
-                <span className="dot green"></span>
               </div>
 
               <div className="hero-terminal">
