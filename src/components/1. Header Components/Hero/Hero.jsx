@@ -77,15 +77,15 @@ const Hero = () => {
                   <span className='cmd'>whoami</span>
                 </div>
 
-                <p>My name is Laira and I am a Master's student in Cybsec. 
+                <p>My name is Laira and I am a Master's student in Cybersecurity. 
                   I specialise in digital forensics and offensive security, in particular, 
                   network and file forensics. 
                 </p>
-                <p>I am multilingual, a dancer, and like solving puzzles.</p>
+                <p>I am a polyglot, a dancer, and like solving puzzles.</p>
 
                 <div className="terminal-line">
                   <span className="prompt">guest@laira:~$ </span>
-                  <span className='cmd'>cat role.txt</span>
+                  <span className='cmd'>cat education.txt</span>
                   <span></span>
                 </div>
 
