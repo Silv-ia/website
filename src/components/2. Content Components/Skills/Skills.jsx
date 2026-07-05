@@ -28,10 +28,12 @@ const Skills = () => {
             <div className="section-container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="section-title">
-                            <h2>
-                                Skills
-                            </h2>
+                        <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
+                            <div className="section-title">
+                                <h2>
+                                    Skills
+                                </h2>
+                            </div>
                         </div>
                     </div>
                 </div>
