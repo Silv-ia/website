@@ -48,7 +48,7 @@ const Spinner = () => {
 
         {showLoading && (
           <div className="line output">
-            <span>&gt; Page loading ...</span>
+            <span>Page loading ...</span>
           </div>
         )}
 
