@@ -84,7 +84,7 @@
     border: 1px solid var(--sage-shadow);
     border-radius: 12px;    /* shaved corners */
     background-color: white;
-    color: var(--text-dark);
+    color: var(--terminal-black);
     cursor: pointer;
     font-weight: 400;
     transition: all .25s ease;
@@ -98,7 +98,7 @@
 
 .tab-btn.active {
     background: var(--steel-blue) !important;
-    color: var(--terminal-black);
+    color: var(--text-dark);
     border-color: var(--terminal-black);
 }
 
