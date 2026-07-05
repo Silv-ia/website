@@ -21,20 +21,16 @@ const Achievement = () => {
     <section id='Education' className="our-achievement section">
       <div className='section-container'>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
-              <div className="title">
-                <h2>Education</h2>
-              </div>
-            </div>
+          <div className="title">
+            <h2>Education</h2>
           </div>
           <div className="education-grid">
             {achievements.map((skill, index) => (
-                <div className="education-card" key={index}>
-                    <span className='education-title'>{skill.word}</span>
-                    <span className='institution'>{skill.value}</span>
-                    <span className='year-loc'>{skill.unit}</span>
-                </div>
+              <div className="education-card" key={index}>
+                  <span className='education-title'>{skill.word}</span>
+                  <span className='institution'>{skill.value}</span>
+                  <span className='year-loc'>{skill.unit}</span>
+              </div>
             ))}
           </div>
         </div>
