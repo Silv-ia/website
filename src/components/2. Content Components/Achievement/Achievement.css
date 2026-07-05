@@ -70,3 +70,34 @@
     font-size: 28px;
   }
 }
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.education-card {
+  background: white;
+  border: 1px solid var(--sage-shadow);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-family: "JetBrains Mono", monospace;
+}
+
+
+.education-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.education-card span {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
