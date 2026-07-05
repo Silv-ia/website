@@ -42,6 +42,10 @@
   box-sizing: border-box;
 }
 
+.prompt-line {
+  margin-top: 8px;
+}
+
 .line {
   display: flex;
   align-items: center;

@@ -43,7 +43,7 @@ const Spinner = () => {
         </div>
 
         <div className='terminal-spinner'>
-          <div className="line">
+          <div className="line prompt-line">
             <span className="prompt">guest@laira:~$ </span>
             <span>{displayed}</span>
             {!showLoading && <span className="cursor" />}
@@ -56,7 +56,7 @@ const Spinner = () => {
           )}
 
           {showPrompt && (
-            <div className="line">
+            <div className="line prompt-line">
               <span className="prompt">
                 guest@laira:~$ <span className="cursor"></span>
               </span>
