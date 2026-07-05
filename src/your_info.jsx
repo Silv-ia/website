@@ -227,25 +227,30 @@ const languages = [
   {word: 'German', value: 10, unit: '%'}
 ];
 
-
-// If you already have some projects, fill the url 
 const projectData = [
   {
     title: 'Project 1',
     description: 'Description of Project 1',
     skills: [{title: 'Python'},{title: 'ML'}],
     url: '',
+    githubUrl: '',
   },
   {
     title: 'Project 2',
     description: 'Description of Project 2',
     skills: [{title: 'Python'},{title: 'ML'}],
     url: '',
+    githubUrl: '',
   },
   {
     title: 'Occupant Window Behavior in Smart Buildings',
     description: 'Bachelor\'s Thesis Project. We processed sensor data from KTH Live-In Lab and trained multivariate logistic regression models for window opening and closing predictions. We discovered certain links between indoor and outdoor climate and window operations. Future work could explore other behavioural causes.',
-    skills: [{title: 'Python'},{title: 'Multivariate Logistic Regression'}],
+    skills: [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Logistic Regression"
+    ],
     url: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
   },
   {
@@ -253,6 +258,7 @@ const projectData = [
     description: 'Description of Project 2',
     skills: [{title: 'Python'},{title: 'ML'}],
     url: '',
+    githubUrl: '',
   },
   
 ];

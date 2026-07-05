@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import { projectData } from '../../../your_info';
+import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -15,9 +16,28 @@ const Projects = () => {
         <div className="project-grid">
           {projectData.map((proj, index) => (
             <div className="project-card" key={index}>
-              <span className='proj-title'>{proj.title}</span>
+              <h3 className="proj-title">{proj.title}</h3>
               <span className='description'>{proj.description}</span>
-              <span className='proj-link'>{proj.url}</span>
+              <div className="project-links">
+                {proj.github && (
+                  <a href={proj.github} target="_blank" rel="noreferrer">
+                    <FaGithub />
+                  </a>
+                )}
+
+                {proj.website && (
+                  <a href={proj.website} target="_blank" rel="noreferrer">
+                    <FaGlobe />
+                  </a>
+                )}
+              </div>
+              <div className="project-skills">
+                {proj.skills.map((skill) => (
+                  <span className="skill-pill" key={skill}>
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           ))}
         </div>

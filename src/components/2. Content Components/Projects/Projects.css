@@ -50,7 +50,7 @@
 
 .proj-title,
 .description,
-.proj-link {
+.project-links {
     width: 100%;
 }
 
@@ -65,7 +65,17 @@
   color: var(--terminal-black);
 }
 
-.proj-link {
-  font-size: 1rem;
-  color: var(--terminal-black-75);
+.project-links {
+    display: flex;
+    gap: .8rem;
+}
+
+.project-links a {
+    color: var(--sage-shadow);
+    font-size: 1.2rem;
+    transition: .2s;
+}
+
+.project-links a:hover {
+    color: var(--sage-green);
 }
