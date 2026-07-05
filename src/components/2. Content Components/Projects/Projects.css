@@ -55,17 +55,17 @@
 }
 
 .proj-title {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-dark);
 }
 
 .description {
-  font-size: 0.70rem;
+  font-size: 0.8rem;
   color: var(--terminal-black);
 }
 
 .proj-link {
-  font-size: 0.70rem;
+  font-size: 0.8rem;
   color: var(--terminal-black-75);
 }
