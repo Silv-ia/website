@@ -189,7 +189,7 @@ const categories = [
       },
       {
         
-        title: 'Chinese - C1',
+        title: 'Chinese - B2',
       },
       {
         
