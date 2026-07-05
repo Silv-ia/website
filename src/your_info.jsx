@@ -214,6 +214,10 @@ const achievements = [
   //{ word: 'degree', value: uni name, unit: ' years and location' },
 ];
 
+const cert = [
+  {word: ''}
+]
+
 // Languages!!
 const languages = [
   { word: 'English', value: 100, unit: '%' },
@@ -283,4 +287,5 @@ export {
   projectData,
   aboutMeText,
   emailConfig,
+  cert,
 };

@@ -18,24 +18,30 @@ const Achievement = () => {
   }, [inView]);
 
   return (
-    <section id='Education' className="our-achievement section">
-      <div className='section-container'>
-        <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
-          <div className="title">
-            <h2>Education</h2>
+    <>
+      <section id='Education' className="our-achievement section">
+        <div className='section-container'>
+          <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
+            <div className="title">
+              <h2>Education</h2>
+            </div>
+          </div>
+          <div className="education-grid">
+            {achievements.map((skill, index) => (
+              <div className="education-card" key={index}>
+                  <span className='education-title'>{skill.word}</span>
+                  <span className='institution'>{skill.value}</span>
+                  <span className='year-loc'>{skill.unit}</span>
+              </div>
+            ))}
           </div>
         </div>
-        <div className="education-grid">
-          {achievements.map((skill, index) => (
-            <div className="education-card" key={index}>
-                <span className='education-title'>{skill.word}</span>
-                <span className='institution'>{skill.value}</span>
-                <span className='year-loc'>{skill.unit}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+
+      <section id='Achievements' className='achievement-section'>
+        
+      </section>
+    </>
   );
 };
 
