@@ -250,7 +250,7 @@ h1.last-name {
 
 .about-section { 
   min-height: 90vh; 
-  padding: 40px 20px; 
+  padding: 50px 20px; 
   background: var(--light-white); 
   display: flex; 
   justify-content: center; 
