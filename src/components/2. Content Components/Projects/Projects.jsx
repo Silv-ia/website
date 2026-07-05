@@ -9,9 +9,7 @@ const Projects = () => {
       <div className="section-container">
         <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
           <div className="section-title">
-            <h2>
-              Projects
-            </h2>
+            <h2>Projects</h2>
           </div>
         </div>
         <div className="project-grid">
