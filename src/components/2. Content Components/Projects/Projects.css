@@ -9,11 +9,6 @@
   background-color: var(--light-white);
   text-align: left;
   padding: 130px 0;
-
-  background-image:
-    radial-gradient(circle, rgba(70,80,95,.08) 1px, transparent 1px);
-
-  background-size: 20px 20px;
 }
 
 .section-title h2 {
