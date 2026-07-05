@@ -18,7 +18,7 @@ const Achievement = () => {
   }, [inView]);
 
   return (
-    <section id='Achievements' className="our-achievement section">
+    <section id='Education' className="our-achievement section">
       <div className="container">
         <div className="row">
           <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
