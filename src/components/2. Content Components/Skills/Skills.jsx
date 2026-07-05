@@ -29,9 +29,9 @@ const Skills = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title">
-                            <h3>
+                            <h2>
                                 Skills
-                            </h3>
+                            </h2>
                         </div>
                     </div>
                 </div>

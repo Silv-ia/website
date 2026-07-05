@@ -46,9 +46,9 @@ const Projects = () => {
     <section id="Projects" className="projects section">
       <div className="container">
         <div className="section-title">
-          <h3 className="wow zoomIn" data-wow-delay=".2s">
+          <h2 className="wow zoomIn" data-wow-delay=".2s">
             Projects
-          </h3>
+          </h2>
           <h2 className="wow fadeInUp" data-wow-delay=".4s">
             Lorem Ipsum
           </h2>
