@@ -252,13 +252,14 @@ const projectData = [
       "Logistic Regression"
     ],
     url: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
+    githubUrl: '',
   },
   {
-    title: 'Project 2',
-    description: 'Description of Project 2',
-    skills: ['Python', 'ML'],
+    title: 'AES encryption',
+    description: 'Fully implemented AES in ECB mode in Python.',
+    skills: ['Python', 'AES'],
     url: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/Silv-ia/DD2520',
   },
   
 ];
