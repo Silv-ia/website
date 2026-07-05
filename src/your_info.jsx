@@ -207,8 +207,8 @@ const categories = [
 
 // Here you can give in your achiements in a number counter animation
 const achievements = [
-  {word: 'M.Sc. Cybersecurity', value: 'KTH - Royal Institute of Technology', unit: '2027 • Stockholm, Sweden' },
-  {word: 'B.Sc. Information Technology', value: 'KTH - Royal Institute of Technology', unit: '2026 • Stockholm, Sweden' },
+  {word: 'M.Sc. Cybersecurity', value: 'KTH Royal Institute of Technology', unit: '2027 • Stockholm, Sweden' },
+  {word: 'B.Sc. Information Technology', value: 'KTH Royal Institute of Technology', unit: '2026 • Stockholm, Sweden' },
   {word: 'Changemaker Camp', value: 'Raoul Wallenberg Academy, Ashoka, Chefakademin', unit: '2021 • Stockholm, Sweden'},
   {word: 'High School Dipoma', value: 'ABB Industrigymnasium (Hitachi HS)', unit: '2021 • Stockholm, Sweden'}
   //{ word: 'degree', value: uni name, unit: ' years and location' },
