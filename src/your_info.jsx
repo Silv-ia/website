@@ -207,9 +207,9 @@ const categories = [
 
 // Here you can give in your achiements in a number counter animation
 const achievements = [
-  { word: 'Bachelor\'s degree', value: 100, unit: '%' },
-  { word: 'Master\'s degree', value: 50, unit: '%' },
-  //{ word: 'experience', value: 20, unit: ' years' },
+  { word: 'Bachelor\'s degree', value: KTH, unit: '2026 • Stockholm, Sweden' },
+  { word: 'Master\'s degree', value: KTH, unit: '2027 • Stockholm, Sweden' },
+  //{ word: 'degree', value: uni name, unit: ' years and location' },
 ];
 
 // Languages!!
