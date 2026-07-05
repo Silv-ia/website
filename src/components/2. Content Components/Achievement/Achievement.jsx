@@ -30,9 +30,9 @@ const Achievement = () => {
         <div className="education-grid">
           {achievements.map((skill, index) => (
               <div className="education-card" key={index}>
-                  <span>{skill.word}</span>
-                  <span>{skill.value}</span>
-                  <span>{skill.unit}</span>
+                  <span className='education-title'>{skill.word}</span>
+                  <span className='institution'>{skill.value}</span>
+                  <span className='year-loc'>{skill.unit}</span>
               </div>
           ))}
       </div>

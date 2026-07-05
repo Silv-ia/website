@@ -63,23 +63,42 @@
   background: white;
   border: 1px solid var(--sage-shadow);
   border-radius: 12px;
-  padding: 10px;
+  padding: 16px;
+
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
+  flex-direction: column;   /* <-- stack vertically */
+
+  align-items: flex-start;  /* left-align */
+  gap: 4px;
+
   transition: 0.3s;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,.05);
   font-family: "JetBrains Mono", monospace;
 }
 
+.education-title,
+.institution,
+.year-loc {
+    width: 100%;
+}
+
+.education-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.institution {
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+
+.year-loc {
+  font-size: 0.85rem;
+  color: var(--sage-shadow);
+}
 
 .education-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-.education-card span {
-    font-size: 0.95rem;
-    font-weight: 400;
 }
