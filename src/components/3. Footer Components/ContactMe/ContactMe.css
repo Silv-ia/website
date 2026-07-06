@@ -93,9 +93,6 @@ body {
   border: none;
   }
 
-
-
-
 .submit-button:hover {
   background-color: var(--highlight-color);
   transform: translateY(-1px);
@@ -111,4 +108,10 @@ body {
   .contact-form {
     margin-top: 1.7em;
   }
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+    color: var(--sage-shadow);
+    opacity: 0.7;
 }
