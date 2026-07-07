@@ -17,6 +17,7 @@ import AboutMe from './components/3. Footer Components/AboutMe/AboutMe';
 import Spinner from './components/4. Utility Components/Spinner/Spinner';
 import { name } from './your_info';
 import ScrollToTopButton from './components/4. Utility Components/ScrollToTopButton/ScrollToTopButton';
+import ContactMe from './components/3. Footer Components/ContactMe/ContactMe';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <ScrollToTopButton />
           <Achievement />
           <Projects />
+          <ContactMe />
           <AboutMe />
           
         </>
