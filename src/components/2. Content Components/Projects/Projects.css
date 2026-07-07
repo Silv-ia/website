@@ -78,6 +78,7 @@
 .description {
   font-size: 1rem;
   color: var(--terminal-black);
+  letter-spacing: -0.02em;
 }
 
 .project-links {
