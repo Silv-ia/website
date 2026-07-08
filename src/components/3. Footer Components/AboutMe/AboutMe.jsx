@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className="section-container">
         <footer className="footer">
           <span>© 2026 laira</span>
-          <span className="muted">· MIT licensed base</span>
+          <span className="muted"> · MIT licensed base</span>
         </footer>
       </div>
     </section>

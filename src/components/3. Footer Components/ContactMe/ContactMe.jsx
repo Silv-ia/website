@@ -52,9 +52,8 @@ const ContactMe = () => {
                   </button>
                 ) : (
                   <div className='success-message'>
-                    <h4>Message Sent Successfully!</h4>
+                    <h4>Message Sent.</h4>
                     <p>Thank you for contacting me.</p>
-                    
                   </div>
                 )}
               </div>
