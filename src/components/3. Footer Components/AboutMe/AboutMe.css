@@ -2,15 +2,8 @@
 
 .About {
   background-color: var(--steel-blue);
-  background-image:
-    radial-gradient(circle, rgba(70,80,95,.08) 1px, transparent 1px);
-
-  background-size: 20px 20px;
-}
-
-.section-container-f {
-  width: 40vw;
-  margin: 0 auto;
+  
+  height: 40vw;
 }
 
 .footer {
