@@ -19,11 +19,21 @@
   border-bottom: 1px solid rgba(255,255,255,.08);
 
   box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1rem;
+  color: var(--sage-shadow);
+  font-weight: 300;
 }
 
 .terminal-loader {
   padding: 10px 16px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1rem;
+  color: var(--terminal-text);
+  font-weight: 300;
 }
+
+
 .line {
   display: flex;
   align-items: center;
