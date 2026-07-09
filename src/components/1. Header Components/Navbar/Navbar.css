@@ -157,7 +157,7 @@ body {
     right: -100%;
     width: 70%;
     max-width: 300px;
-    background-color: var(--light-white);
+    background-color: var(--terminal-black);
     transition: right 0.3s;
     z-index: 999;
     box-shadow: var(--light-white) 5px;
