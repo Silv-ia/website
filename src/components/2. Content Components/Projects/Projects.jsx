@@ -53,7 +53,7 @@ const Projects = () => {
       <section id="Awards" className="awards section">
         <div className='section-container'>
           <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
-            <div className="title">
+            <div className="section-title">
               <h2>Awards</h2>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Projects = () => {
             {awardData.map((skill, index) => (
               <div className="education-card" key={index}>
                   <span className='education-title'>{skill.title}</span>
-                  <span className='description-data'>{skill.description}</span>
+                  <span className='description'>{skill.description}</span>
                   <span className='year-loc'>{skill.date}</span>
 
                   <div className='project-links'>
