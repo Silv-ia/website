@@ -65,6 +65,7 @@
 
 .terminal-input {
     width: 100%;
+    min-height: 100px;
     background: transparent;
     border: none;
     outline: none;
