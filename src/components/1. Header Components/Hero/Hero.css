@@ -390,6 +390,8 @@ h1.last-name {
 
 .btn-pos {
     display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;
     gap: 0.75rem;
     flex-wrap: wrap;
 }
