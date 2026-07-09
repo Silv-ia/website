@@ -27,7 +27,7 @@ const ContactMe = () => {
   return (
     <section id='ContactMe'>
       <div className='section-container'>
-        <div className="terminal-window">
+        <div className="terminal-window-cf">
           <div className="terminal-header">
             <span>bash</span>
           </div>
