@@ -75,7 +75,7 @@
 
 .terminal-textarea {
     width: 100%;
-    min-height: 140px;
+    min-height: 100px;
     resize: vertical;
     background: transparent;
     border: none;
