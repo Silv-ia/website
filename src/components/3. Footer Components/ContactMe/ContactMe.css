@@ -112,6 +112,6 @@
 .btn-cf:hover,
 .btn-cf:focus,
 .btn-cf:active {
-    box-shadow: none;
-    outline: none;
+    box-shadow: none !important;
+    outline: none !important;
 }
