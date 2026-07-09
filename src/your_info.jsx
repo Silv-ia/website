@@ -220,6 +220,12 @@ const cert = [
 
 const awardData = [
   {
+    title: 'Cybersecurity Talent of the Year Finalist',
+    description: 'Omegapoint',
+    date: '2024',
+    link: '',
+  },
+  {
     title: 'Scholarship',
     description: 'For good techincal results and good opportunities to continued technical studies after High School',
     date: '2021',
@@ -229,6 +235,12 @@ const awardData = [
     title: 'Scholarship',
     description: 'For a well done High School Degree Project',
     date: '2021',
+    link: '',
+  },
+  {
+    title: 'Scholarship',
+    description: 'For language',
+    date: '2020',
     link: '',
   },
 ]
