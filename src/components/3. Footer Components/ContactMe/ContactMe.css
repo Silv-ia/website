@@ -22,7 +22,7 @@
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
-  background-color: var(--terminal-black);
+  background-color: transparent;
   height: 50px;
   padding-left: 16px;
   border-radius: 6px;
