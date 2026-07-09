@@ -388,6 +388,12 @@ h1.last-name {
   font-size: 1em;
 }
 
+.btn-pos {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;
@@ -396,8 +402,6 @@ h1.last-name {
   padding: 0.4em 1.25rem;
   font-size: 0.9rem;
   margin-top: 0.6em;
-
-  margin-right: 12px;
 
   border: 1px solid;
   border-radius: 6px;
@@ -408,7 +412,6 @@ h1.last-name {
   color: var(--terminal-grey);
 
   white-space: nowrap;   /* Prevent text wrapping */
-  flex: 1;
 }
 
 .btn:hover {
