@@ -48,7 +48,7 @@ const ContactMe = () => {
               </div>
 
               <input
-                className="terminal-textarea"
+                className="terminal-input"
                 type="email"
                 name="user_email"
                 placeholder="your@email.com"
