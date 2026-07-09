@@ -44,7 +44,7 @@ const ContactMe = () => {
                 <span className="cmd-cf">compose</span>
               </div>
               <div className="terminal-line">
-                <span className="prompt">&gt; Email:</span>
+                <span className="prompt">$ Email:</span>
               </div>
 
               <input
@@ -56,7 +56,7 @@ const ContactMe = () => {
               />
 
               <div className="terminal-line">
-                <span className="prompt">&gt; Message:</span>
+                <span className="prompt">$ Message:</span>
               </div>
 
               <textarea
@@ -67,7 +67,7 @@ const ContactMe = () => {
               />
 
               <div className="terminal-line">
-                <span className="prompt">&gt; Send:</span>
+                <span className="prompt">$ Send:</span>
               </div>
               <button type="submit" className="btn-cf">
                 <span className="prompt">guest@laira:~$ </span>
