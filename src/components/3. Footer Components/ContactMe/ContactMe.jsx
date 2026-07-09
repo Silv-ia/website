@@ -27,42 +27,40 @@ const ContactMe = () => {
   return (
     <section id='ContactMe'>
       <div className='section-container'>
-        <div className='form-container'>
-          <div className='terminal-window'>
-            <form ref={form} onSubmit={sendEmail} className='contact-form'>
-              <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
-                <h2 className='title'>Contact Me</h2>
-              </div>
-              <div className='terminal-header'>
-                bash
-              </div>
-              <div className='hero-terminal'>
-                <div>
-                  <input
-                    type="email"
-                    name="user_email"
-                    placeholder="Enter your email..."
-                  />
+        <div className="terminal-window">
+          <div className="terminal-header">
+            <span>bash</span>
+          </div>
 
-                  <textarea
-                    name="message"
-                    placeholder="Type your message here..."
-                  />
-                </div>
-                <div className='submit-button-wrapper' data-wow-delay='.6s'>
-                  {!isMessageSent ? (
-                    <button type='submit' className='submit-button'>
-                      Send
-                    </button>
-                  ) : (
-                    <div className='success-message'>
-                      <h4>Message Sent.</h4>
-                      <p>Thank you for contacting me.</p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </form>
+          <div className="hero-terminal">
+            <div className="terminal-line">
+              <span className="prompt">guest@laira:~$ </span>
+              <span className="cmd">mail</span>
+            </div>
+            <div className="terminal-line">
+              <span className="prompt">&gt; Email:</span>
+            </div>
+
+            <input
+              className="terminal-input"
+              type="email"
+              name="user_email"
+              placeholder="your@email.com"
+            />
+
+            <div className="terminal-line">
+              <span className="prompt">&gt; Message:</span>
+            </div>
+
+            <textarea
+              className="terminal-textarea"
+              name="message"
+              placeholder="Type your message..."
+            />
+
+            <button className="btn">
+              Send
+            </button>
           </div>
         </div>
       </div>
