@@ -7,7 +7,7 @@ const AboutMe = () => {
   const { infotext , power_slogan } = aboutMeText;
   return (
     <section id="Footer" className="section About">
-      <div className="section-container-f">
+      <div className="section-container">
         <footer className="footer">
           <span>© 2026 laira</span>
           <span className="muted"> · MIT licensed base</span>
