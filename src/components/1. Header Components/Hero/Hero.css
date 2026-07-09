@@ -408,7 +408,7 @@ h1.last-name {
   border: 1px solid;
   border-radius: 6px;
 
-  border-color: var(--sage-shadow) !important;
+  border-color: var(--sage-shadow);
 
   background-color: var(--light-white);
   color: var(--terminal-grey);
