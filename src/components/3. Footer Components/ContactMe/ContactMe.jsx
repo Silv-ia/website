@@ -27,8 +27,6 @@ const ContactMe = () => {
   return (
     <section id='ContactMe'>
       <div className='section-container'>
-
-        
         <div className='form-container wow fadeInRight' data-wow-delay='.4s'>
           <div className='contact-form-wrapper d-flex justify-content-center'>
             <form ref={form} onSubmit={sendEmail} className='contact-form'>

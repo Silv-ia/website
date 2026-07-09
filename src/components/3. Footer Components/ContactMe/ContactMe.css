@@ -1,8 +1,5 @@
 @import url('../../../assets/css/main.css');
 
-body {
-  background-color: var(--medium-color) !important;
-}
 
 .contact-form-wrapper {
   -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
