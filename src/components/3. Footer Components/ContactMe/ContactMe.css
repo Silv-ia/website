@@ -95,8 +95,8 @@
 }
 
 .contact-form button[type='submit']:hover {
-  background-color: var(--highlight-color) !important;
-    color: var(--dark-color) !important;
+  background-color: var(--highlight-color);
+    color: var(--dark-color);
     transform: translateY(-1px);
   border: none;
   }
@@ -154,7 +154,15 @@
   color: var(--sage-green)
 }
 
+.btn-cf {
+  background-color: var(--accent-color);
+  color: var(--terminal-text);
+  border: 1px solid var(--sage-shadow);
+  transition: background-color .2s, transform .2s;
+}
+
 .btn-cf:hover {
-  background-color: var(--text-dark);
-  
+  background-color: var(--terminal-black);
+  color: var(--terminal-text);
+  transform: translateY(-1px);
 }
