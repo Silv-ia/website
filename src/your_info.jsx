@@ -215,7 +215,7 @@ const categories = [
 const achievements = [
   {word: 'M.Sc. Cybersecurity', value: 'KTH Royal Institute of Technology', unit: '2027 • Stockholm, Sweden' },
   {word: 'B.Sc. Information Technology', value: 'KTH Royal Institute of Technology', unit: '2026 • Stockholm, Sweden' },
-  {word: 'High School Diploma', value: 'ABB Industrigymnasium (Hitachi HS)', unit: '2021 • Stockholm, Sweden'},
+  {word: 'High School Diploma', value: 'ABB Industrigymnasium (Hitachigymnasiet)', unit: '2021 • Västerås, Sweden'},
   {word: 'Changemaker Camp', value: 'Raoul Wallenberg Academy, Chefakademin', unit: '2020 • Stockholm, Sweden'},
   //{ word: 'degree', value: uni name, unit: ' years and location' },
 ];
@@ -227,26 +227,26 @@ const cert = [
 const awardData = [
   {
     title: 'Cybersecurity Talent of the Year Finalist',
-    description: 'Omegapoint',
-    date: '2024',
+    description: 'Submitted a text of future cybersecurity risks and impacts across different sectors. Got invited to a live CTF.',
+    date: '2024 • Omegapoint',
     link: '',
   },
   {
     title: 'Scholarship',
     description: 'For good techincal results and good opportunities to continued technical university studies',
-    date: '2021',
+    date: '2021 • Hitachigymnasiet',
     link: '',
   },
   {
     title: 'Scholarship',
     description: 'For a well done High School Degree Project',
-    date: '2021',
+    date: '2021 • Hitachigymnasiet',
     link: '',
   },
   {
     title: 'Scholarship',
     description: 'For linguistic knowledge',
-    date: '2020',
+    date: '2020 • Hitachigymnasiet',
     link: '',
   },
 ]
