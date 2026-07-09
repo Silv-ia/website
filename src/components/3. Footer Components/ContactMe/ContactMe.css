@@ -76,7 +76,6 @@
 
 .terminal-textarea {
     width: 100%;
-    min-height: 100px;
     resize: vertical;
     background: transparent;
     border: none;
@@ -84,6 +83,7 @@
     color: var(--terminal-text);
     font: inherit;
     font-family: "JetBrains Mono", monospace;
+    margin-bottom: 1rem;
 }
 
 .cmd-cf {
