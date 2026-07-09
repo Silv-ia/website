@@ -227,7 +227,7 @@ const awardData = [
   },
   {
     title: 'Scholarship',
-    description: 'For good techincal results and good opportunities to continued technical studies after High School',
+    description: 'For good techincal results and good opportunities to continued technical university studies',
     date: '2021',
     link: '',
   },
@@ -239,7 +239,7 @@ const awardData = [
   },
   {
     title: 'Scholarship',
-    description: 'For language',
+    description: 'For language abilities',
     date: '2020',
     link: '',
   },
