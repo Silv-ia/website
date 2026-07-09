@@ -7,11 +7,7 @@
 }
 
 .contact-form {
-  padding: 30px 40px;
-  background-color: var(--light-color);
-  border-radius: 6px;
-  max-width: 400px;
-  border: 1px solid var(--light-color);
+    width: 100%;
 }
 
 .contact-form input,
