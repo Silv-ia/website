@@ -59,7 +59,8 @@ const ContactMe = () => {
             />
 
             <button className="btn">
-              <span>guest@laira:~$ send</span>   
+              <span className="prompt">guest@laira:~$ </span>
+              <span className="cmd">send</span> 
             </button>
           </div>
         </div>
