@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Spinner.css';
 
-const command = './lairas-portfolio.elf';
+const command = './lairas-portfolio';
 
 
 const Spinner = () => {
