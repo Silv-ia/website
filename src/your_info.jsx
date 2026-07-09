@@ -263,13 +263,6 @@ const projectData = [
     github: '',
   },
   {
-    title: 'Project 2',
-    description: 'Description of Project 2',
-    skills: ['Python', 'ML'],
-    website: '',
-    github: '',
-  },
-  {
     title: 'Occupant Window Behavior in Smart Buildings',
     description: 'Bachelor\'s Thesis Project. Sensor data processing from KTH Live-In Lab and multivariate logistic regression modeling.',
     skills: [
@@ -287,6 +280,20 @@ const projectData = [
     skills: ['Python', 'AES'],
     website: '',
     github: 'https://github.com/Silv-ia/DD2520',
+  },
+  {
+    title: 'Hardware Project: Handshake Game',
+    description: 'II1305. ICT project practicing Scrum and team work. I 3D printed the microcontroller holder, and participated in the game logic development.',
+    skills: ['Python', 'CAD', 'Soldering'],
+    website: '',
+    github: '',
+  },
+  {
+    title: 'HS Degree Project: The Dancing Robotic Arm Lilith',
+    description: 'We designed, built, and coded a robotic arm from scratch, using PVC pipes, servomotors, and 3D printed joints. I programmed the Arduinos to make the robotic arm dance to music. The purpose was to combine art and technology.',
+    skills: ['Arduino', 'CAD', 'Soldering'],
+    website: 'https://www.linkedin.com/in/silvialinlu/overlay/Project/1838174792/treasury/?profileId=ACoAADE56MIBp5YS7iKXCedMRufzyYaV6a1tcK8',
+    github: '',
   },
   
 ];
