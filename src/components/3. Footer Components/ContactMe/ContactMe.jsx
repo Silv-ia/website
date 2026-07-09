@@ -27,6 +27,9 @@ const ContactMe = () => {
   return (
     <section id='ContactMe'>
       <div className='section-container'>
+        <div className="section-title">
+            <h2>Contact Form</h2>
+          </div>
         <div className="terminal-window-cf">
           <div className="terminal-header">
             <span>bash</span>
