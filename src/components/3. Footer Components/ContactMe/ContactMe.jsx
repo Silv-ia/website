@@ -63,7 +63,7 @@ const ContactMe = () => {
               placeholder="Type your message..."
             />
 
-            <button className="btn">
+            <button className="btn-cf">
               <span className="prompt">guest@laira:~$ </span>
               <span className="cmd-cf">send</span> 
             </button>

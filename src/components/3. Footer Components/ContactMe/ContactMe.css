@@ -102,7 +102,7 @@
   }
 
 .submit-button:hover {
-  background-color: var(--highlight-color);
+  background-color: var(--text-dark);
   transform: translateY(-1px);
   box-shadow: 0px 2px 4px var(--dark-color);
 }
@@ -152,4 +152,8 @@
 
 .cmd-cf {
   color: var(--sage-green)
+}
+
+.btn-cf:hover {
+  background-color: var(--text-dark);
 }
