@@ -52,6 +52,7 @@ const ContactMe = () => {
                 type="email"
                 name="user_email"
                 placeholder="your@email.com"
+                required
               />
 
               <div className="terminal-line">
@@ -62,6 +63,7 @@ const ContactMe = () => {
                 className="terminal-textarea"
                 name="message"
                 placeholder="Type your message..."
+                required
               />
 
               <button type="submit" className="btn-cf">
