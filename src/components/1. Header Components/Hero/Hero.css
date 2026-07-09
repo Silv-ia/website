@@ -393,7 +393,8 @@ h1.last-name {
   justify-content: center;
   align-items: center;
 
-  padding: 0.4em 3em;
+  padding: 0.4em 1.25rem;
+  font-size: 0.9rem;
   margin-top: 0.6em;
 
   margin-right: 12px;
