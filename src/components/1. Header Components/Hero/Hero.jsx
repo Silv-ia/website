@@ -36,10 +36,13 @@ const Hero = () => {
                 <Typewriter />
         
               </div>
+
               <div className='btn-pos'>
                 {socialProfiles.map((profile, index) => (
                   <a
                     href={profile.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className='btn wow fadeInLeft'
                     data-wow-delay={`${index * 0.2 + 0.8}s`}
                     key={index}
