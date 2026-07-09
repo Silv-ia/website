@@ -59,7 +59,7 @@ const Projects = () => {
           </div>
           <div className="education-grid">
             {awardData.map((skill, index) => (
-              <div className="project-card" key={index}>
+              <div className="education-card" key={index}>
                   <h3 className='proj-title'>{skill.title}</h3>
                   <span className='description'>{skill.description}</span>
                   <span className='year-loc'>{skill.date}</span>
