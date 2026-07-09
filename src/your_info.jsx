@@ -27,13 +27,13 @@ const socialProfiles = [
   {
     name: 'LinkedIn',
     icon: 'lni lni-linkedin',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/silvialinlu/',
     label: '$ linkedin',
   },
   {
     name: 'GitHub',
     icon: 'lni lni-github',
-    url: 'https://github.com/',
+    url: 'https://github.com/Silv-ia',
     label: '$ git clone repos'
   },
   {
