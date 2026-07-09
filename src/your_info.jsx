@@ -262,9 +262,9 @@ const languages = [
 
 const projectData = [
   {
-    title: 'Project 1',
-    description: 'Description of Project 1',
-    skills: ['Python', 'ML'],
+    title: 'CTF chals',
+    description: 'wip',
+    skills: ['Forensics', 'Docker'],
     website: '',
     github: '',
   },
