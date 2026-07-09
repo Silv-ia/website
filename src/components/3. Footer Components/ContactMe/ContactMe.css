@@ -7,7 +7,7 @@
 }
 
 
-.terminal-window { 
+.terminal-window-cf { 
   width: 100%; 
   min-height: 40vh; 
   background-color: var(--terminal-black); 
