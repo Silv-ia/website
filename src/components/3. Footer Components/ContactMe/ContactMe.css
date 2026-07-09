@@ -97,9 +97,11 @@
   gap: 0.5rem;
 
   padding: 0.6rem 1.25rem;
-  background-color: var(--terminal-text);
+  background-color: transparent;
+  
   color: var(--terminal-text);
   transition: background-color .2s, transform .2s;
+
 }
 
 .btn-cf:hover {
