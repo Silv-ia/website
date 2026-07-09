@@ -36,38 +36,40 @@ const ContactMe = () => {
           <div className="terminal-header">
             <span>bash</span>
           </div>
+          
+          <form ref={form} onSubmit={sendEmail} className="contact-form">
+            <div className="hero-terminal">
+              <div className="terminal-line">
+                <span className="prompt">guest@laira:~$ </span>
+                <span className="cmd-cf">compose</span>
+              </div>
+              <div className="terminal-line">
+                <span className="prompt">&gt; Email:</span>
+              </div>
 
-          <div className="hero-terminal">
-            <div className="terminal-line">
-              <span className="prompt">guest@laira:~$ </span>
-              <span className="cmd-cf">compose</span>
+              <input
+                className="terminal-textarea"
+                type="email"
+                name="user_email"
+                placeholder="your@email.com"
+              />
+
+              <div className="terminal-line">
+                <span className="prompt">&gt; Message:</span>
+              </div>
+
+              <textarea
+                className="terminal-textarea"
+                name="message"
+                placeholder="Type your message..."
+              />
+
+              <button className="btn-cf">
+                <span className="prompt">guest@laira:~$ </span>
+                <span className="cmd-cf">send</span> 
+              </button>
             </div>
-            <div className="terminal-line">
-              <span className="prompt">&gt; Email:</span>
-            </div>
-
-            <input
-              className="terminal-textarea"
-              type="email"
-              name="user_email"
-              placeholder="your@email.com"
-            />
-
-            <div className="terminal-line">
-              <span className="prompt">&gt; Message:</span>
-            </div>
-
-            <textarea
-              className="terminal-textarea"
-              name="message"
-              placeholder="Type your message..."
-            />
-
-            <button className="btn-cf">
-              <span className="prompt">guest@laira:~$ </span>
-              <span className="cmd-cf">send</span> 
-            </button>
-          </div>
+          </form>
         </div>
       </div>
     </section>
