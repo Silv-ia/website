@@ -2,13 +2,11 @@
 
 .About {
   background-color: var(--steel-blue);
-  
-  height: 40vw;
 }
 
 .footer {
   text-align: center;
-  padding: 1px 0;
+  padding: 0 0;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.8rem;
   color: var(--sage-green);
