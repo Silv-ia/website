@@ -218,6 +218,21 @@ const cert = [
   {word: 'High School'},
 ]
 
+const awardData = [
+  {
+    title: 'Scholarship',
+    description: 'For good techincal results and good opportunities to continued technical studies after High School',
+    date: '2021',
+    link: '',
+  },
+  {
+    title: 'Scholarship',
+    description: 'For a well done High School Degree Project',
+    date: '2021',
+    link: '',
+  },
+]
+
 // Languages!!
 const languages = [
   { word: 'English', value: 100, unit: '%' },
@@ -296,6 +311,7 @@ export {
   categories,
   achievements,
   projectData,
+  awardData,
   aboutMeText,
   emailConfig,
   cert,

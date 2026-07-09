@@ -69,8 +69,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
+                <a href="#Awards" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                  <span className='link-span'>/awards</span>
+                </a>
+              </li>
+              <li className="nav-item">
                 <a href="#ContactMe" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>/contact me</span>
+                  <span className='link-span'>/contact</span>
                 </a>
               </li>
               
