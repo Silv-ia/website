@@ -227,7 +227,7 @@ const cert = [
 const awardData = [
   {
     title: 'Cybersecurity Talent of the Year Finalist',
-    description: 'Submitted a text of future cybersecurity risks and impacts across different sectors. Got invited to a live CTF.',
+    description: 'Submitted a reflection of future cybersecurity risks across different sectors. Invited to live CTF.',
     date: '2024 • Omegapoint',
     link: '',
   },
