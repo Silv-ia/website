@@ -27,9 +27,11 @@ const ContactMe = () => {
   return (
     <section id='ContactMe'>
       <div className='section-container'>
-        <div className="section-title">
+        <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
+          <div className="section-title">
             <h2>Contact Form</h2>
           </div>
+        </div>
         <div className="terminal-window-cf">
           <div className="terminal-header">
             <span>bash</span>
