@@ -98,14 +98,12 @@
 
   padding: 0.6rem 1.25rem;
   background-color: transparent;
-  
+
   color: var(--terminal-text);
   transition: background-color .2s, transform .2s;
 
 }
 
 .btn-cf:hover {
-  background-color: var(--terminal-black);
-  color: var(--terminal-text);
   transform: translateY(-1px);
 }
