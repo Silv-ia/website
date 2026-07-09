@@ -6,7 +6,7 @@ import { aboutMeText } from '../../../your_info';
 const AboutMe = () => {
   const { infotext , power_slogan } = aboutMeText;
   return (
-    <section id="Footer" className="section About">
+    <section id="Footer" className="About">
       <div className="section-container">
         <footer className="footer">
           <span>© 2026 laira</span>

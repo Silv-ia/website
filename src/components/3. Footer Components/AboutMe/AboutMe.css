@@ -1,7 +1,8 @@
 @import url('../../../assets/css/main.css');
 
 .About {
-  background-color: var(--steel-blue);
+  background-color: var(--terminal-black);
+  padding: 12px 0;
 }
 
 .footer {
