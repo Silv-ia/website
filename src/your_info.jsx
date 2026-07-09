@@ -239,7 +239,7 @@ const awardData = [
   },
   {
     title: 'Scholarship',
-    description: 'For language abilities',
+    description: 'For linguistic knowledge',
     date: '2020',
     link: '',
   },
