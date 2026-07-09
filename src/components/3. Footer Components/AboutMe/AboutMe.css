@@ -1,7 +1,7 @@
 @import url('../../../assets/css/main.css');
 
 .About {
-  background-color: var(--light-white);
+  background-color: var(--steel-blue);
   background-image:
     radial-gradient(circle, rgba(70,80,95,.08) 1px, transparent 1px);
 
