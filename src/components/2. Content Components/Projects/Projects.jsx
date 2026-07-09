@@ -65,8 +65,8 @@ const Projects = () => {
                   <span className='year-loc'>{skill.date}</span>
 
                   <div className='project-links'>
-                    {proj.website && (
-                      <a href={proj.website} target="_blank" rel="noreferrer">
+                    {skill.link && (
+                      <a href={skill.link} target="_blank" rel="noreferrer">
                         <FaGlobe />
                       </a>
                     )}
