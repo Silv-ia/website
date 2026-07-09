@@ -121,3 +121,16 @@
     font-family: "JetBrains Mono", monospace;
     font-size: 1rem;
 }
+
+.terminal-textarea {
+    width: 100%;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: var(--terminal-text);
+
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+}
