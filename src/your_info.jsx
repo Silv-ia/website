@@ -40,7 +40,7 @@ const socialProfiles = [
     name: 'Email',
     icon: 'lni lni-github',
     url: 'https://laira.online/#ContactMe',
-    label: '$ contact me'
+    label: '$ send email'
   },
   //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
   //   {
