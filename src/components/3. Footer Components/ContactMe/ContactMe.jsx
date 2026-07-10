@@ -98,6 +98,8 @@ const ContactMe = () => {
               </div>
               <div className="terminal-line">
                 <span className="cmd-cf">MESSAGE =&gt; </span>
+              </div>
+              <div className="terminal-line">
                 <textarea
                   className="terminal-textarea"
                   name="message"
