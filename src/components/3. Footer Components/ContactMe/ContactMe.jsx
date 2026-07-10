@@ -91,17 +91,23 @@ const ContactMe = () => {
               </div>
 
               <div className="terminal-line">
-                {!isMessageSent ? (
-                  <button type="submit" className="btn-cf">
-                    <span className="prompt">auxiliary(contact/email) &gt;</span>
-                    <span className="cmd-cf"> run</span>
-                  </button>
-                ) : (
-                  <span className="cmd-cf">
-                    [+] Message sent successfully.
-                  </span>
-                )}
+                <button type="submit" className="btn-cf">
+                  <span className="prompt">auxiliary(contact/email) &gt;</span>
+                  <span className="cmd-cf"> run</span>
+                </button>
               </div>
+
+              {isMessageSent && (
+                <>
+                  <div className="terminal-line">
+                    <span className="cmd-cf">[*] Connecting...</span>
+                  </div>
+
+                  <div className="terminal-line">
+                    <span className="cmd-cf">[+] Message sent successfully.</span>
+                  </div>
+                </>
+              )}
 
             </div>
 
