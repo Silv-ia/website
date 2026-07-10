@@ -62,36 +62,28 @@ const ContactMe = () => {
                 <span className="prompt">
                   auxiliary(contact/email) &gt; set EMAIL
                 </span>
+                <input
+                  className="terminal-input"
+                  type="email"
+                  name="user_email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="your@email.com"
+                  required
+                />
               </div>
-
-              <div className="terminal-line">
-                <span className={email ? "cmd-cf" : "placeholder"}>
-                  EMAIL =&gt; {email || "your@email.com"}
-                </span>
-              </div>
-
-              <input
-                className="terminal-input"
-                type="email"
-                name="user_email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Type here..."
-                required
-              />
 
               <div className="terminal-line">
                 <span className="prompt">
                   auxiliary(contact/email) &gt; set MESSAGE
                 </span>
+                <textarea
+                  className="terminal-textarea"
+                  name="message"
+                  placeholder="Type your message..."
+                  required
+                />
               </div>
-
-              <textarea
-                className="terminal-textarea"
-                name="message"
-                placeholder="Type your message..."
-                required
-              />
 
               <div className="terminal-line">
                 {!isMessageSent ? (
