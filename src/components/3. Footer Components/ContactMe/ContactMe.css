@@ -33,10 +33,9 @@
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
-  background-color: transparent;
-  height: 50px;
-  padding-left: 16px;
-  border-radius: 6px;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .contact-form textarea {
