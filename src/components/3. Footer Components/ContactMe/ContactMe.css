@@ -3,7 +3,7 @@
 
 .terminal-window-cf { 
   width: 100%; 
-  min-height: 40vh; 
+  min-height: 60vh; 
   background-color: var(--terminal-black); 
   border: 2px solid var(--steel-blue); 
   border-radius: 6px; /* less rounded */ 
