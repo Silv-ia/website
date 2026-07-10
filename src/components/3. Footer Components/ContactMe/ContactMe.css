@@ -52,7 +52,7 @@
 .contact-form input::placeholder,
 .contact-form textarea::placeholder,
 .contact-form button::placeholder {
-  color: var(--terminal-text);
+  color: var(--sage-shadow);
   font-weight: 300;
   opacity: 1;
   font-family: "JetBrains Mono", monospace;
