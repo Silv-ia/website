@@ -62,7 +62,7 @@ const ContactMe = () => {
                 <span className="prompt">
                   auxiliary(contact/email) &gt; set EMAIL
                 </span>
-                <input
+                <textarea
                   className="terminal-input"
                   type="email"
                   name="user_email"
