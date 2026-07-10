@@ -73,6 +73,11 @@ const Navbar = () => {
                   <span className='link-span'>/awards</span>
                 </a>
               </li>
+              <li className="nav-item">
+                <a href="#ContactMe" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
+                  <span className='link-span'>/contact</span>
+                </a>
+              </li>
               
               {/*<li className="nav-item"> OTHER (writing things)
                 <a href={url} className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
