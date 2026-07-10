@@ -9,7 +9,6 @@ const ContactMe = () => {
   const [isMessageSent, setMessageSent] = useState(false);
 
   const [email, setEmail] = useState("");
-  const [output, setOutput] = useState([]);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,8 +21,13 @@ const ContactMe = () => {
         console.log(result.text);
 
         setMessageSent(true);
+
         e.target.reset();
         setEmail("");
+
+        setTimeout(() => {
+          setMessageSent(false);
+        }, 4000);
       })
       .catch((error) => {
         console.log(error.text);
