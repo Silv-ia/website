@@ -41,10 +41,10 @@ const ContactMe = () => {
             <div className="contact-terminal">
               <div className="terminal-line">
                 <span className="prompt">guest@laira:~$ </span>
-                <span className="cmd-cf">compose</span>
+                <span className="cmd-cf">./compose</span>
               </div>
               <div className="terminal-line">
-                <span className="prompt">Email:</span>
+                <span className="prompt">sender:</span>
               </div>
 
               <div className="terminal-input-line">
@@ -59,7 +59,7 @@ const ContactMe = () => {
               </div>
 
               <div className="terminal-line">
-                <span className="prompt">Message:</span>
+                <span className="prompt">message:</span>
               </div>
 
               <div className="terminal-input-line">
