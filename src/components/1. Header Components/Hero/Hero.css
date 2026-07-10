@@ -327,7 +327,7 @@ h1.last-name {
   width: 100%; 
   font-family: "JetBrains Mono", monospace; 
   font-weight: 300; 
-  align-items: center; 
+  align-items: flex-start; 
   text-align: left; 
   color: var(--terminal-text); 
 
