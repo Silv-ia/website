@@ -8,6 +8,10 @@
   flex-direction: column;
 }
 
+.bash {
+  color: var(--sage-green);
+}
+
 .terminal-top {
   width: 100%;
   height: 42px;

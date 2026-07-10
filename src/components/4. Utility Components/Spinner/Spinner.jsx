@@ -38,7 +38,7 @@ const Spinner = () => {
   return (
     <div id="page-loader">
       <div className="terminal-top">
-        <span>bash</span>
+        <span className='bash'>bash</span>
       </div>
       <div className="terminal-loader">
 
