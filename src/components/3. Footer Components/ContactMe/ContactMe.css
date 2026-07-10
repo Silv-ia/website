@@ -95,7 +95,7 @@
 
 .terminal-textarea {
     flex: 1;
-    min-height: 120px;
+    min-height: 80px;
 
     background: transparent;
     border: none;
