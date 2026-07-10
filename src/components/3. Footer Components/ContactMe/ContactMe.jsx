@@ -47,14 +47,16 @@ const ContactMe = () => {
                 <span className="prompt"> Email:</span>
               </div>
 
-              <span className="prompt">$ </span>
-              <input
-                className="terminal-input"
-                type="email"
-                name="user_email"
-                placeholder="your@email.com"
-                required
-              />
+              <div className="terminal-input-line">
+                <span className="prompt">$</span>
+                <input
+                  className="terminal-input"
+                  type="email"
+                  name="user_email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
 
               <div className="terminal-line">
                 <span className="prompt"> Message:</span>

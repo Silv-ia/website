@@ -75,6 +75,16 @@
     font-family: "JetBrains Mono", monospace;
 }
 
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.terminal-input {
+    flex: 1;
+}
+
 .terminal-textarea {
     width: 100%;
     resize: vertical;
