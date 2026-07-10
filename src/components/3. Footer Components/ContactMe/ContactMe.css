@@ -128,3 +128,15 @@
     box-shadow: none !important;
     outline: none !important;
 }
+
+.terminal-line {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.terminal-input,
+.terminal-textarea {
+    flex: 1;
+    margin-left: 0.5rem;
+}
