@@ -6,6 +6,8 @@ import { emailConfig } from '../../../your_info';
 const ContactMe = () => {
   const form = useRef();
 
+  const [isMessageSent, setMessageSent] = useState(false);
+
   const [email, setEmail] = useState("");
   const [output, setOutput] = useState([]);
 
