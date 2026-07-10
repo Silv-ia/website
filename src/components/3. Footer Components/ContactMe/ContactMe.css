@@ -72,6 +72,10 @@
     font: inherit;
     margin-left: .5rem;
     font-family: "JetBrains Mono", monospace;
+
+    padding: 0;  
+    height: auto;        
+    line-height: 1.5;
 }
 
 .terminal-input-line {
@@ -95,6 +99,7 @@
     font-family: "JetBrains Mono", monospace;
 
     margin-left: .5rem;
+    padding: 0;          
 }
 
 .cmd-cf {
