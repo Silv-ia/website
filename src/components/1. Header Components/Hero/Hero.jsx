@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
             <div className="terminal-window">
               <div className="terminal-header">
-                <span>bash</span>
+                <span className='bash'>bash</span>
               </div>
 
               <div className="hero-terminal">

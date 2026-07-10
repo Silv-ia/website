@@ -34,7 +34,7 @@ const ContactMe = () => {
         </div>
         <div className="terminal-window-cf">
           <div className="terminal-header">
-            <span>bash</span>
+            <span className='bash'>bash</span>
           </div>
           
           <form ref={form} onSubmit={sendEmail} className="contact-form">
