@@ -86,13 +86,6 @@
     line-height: 1.5;
 }
 
-.terminal-input-line {
-    display: flex;
-    align-items: flex-start;
-    gap: .5rem;
-    width: 100%;
-}
-
 .terminal-textarea {
     flex: 1;
     min-height: 80px;
@@ -107,8 +100,11 @@
     font-family: "JetBrains Mono", monospace;
 
     margin-left: .5rem;
-    padding: 0;          
+    padding: 0;  
+    line-height: 1.5;
+    padding-top: 4px;        
 }
+
 
 .cmd-cf {
   color: var(--sage-green)
