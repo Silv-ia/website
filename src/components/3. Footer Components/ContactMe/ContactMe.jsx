@@ -76,8 +76,9 @@ const ContactMe = () => {
 
               <div className="terminal-line">
                 <span className="prompt">
-                  auxiliary(contact/email) &gt; set EMAIL
+                  auxiliary(contact/email) &gt; 
                 </span>
+                <span className="cmd-cf">set EMAIL</span>
               </div>
 
               <div className="terminal-line">
@@ -93,8 +94,9 @@ const ContactMe = () => {
 
               <div className="terminal-line">
                 <span className="prompt">
-                  auxiliary(contact/email) &gt; set MESSAGE
+                  auxiliary(contact/email) &gt; 
                 </span>
+                <span className="cmd-cf">set MESSAGE</span>
               </div>
               <div className="terminal-line">
                 <span className="cmd-cf">MESSAGE =&gt; </span>
