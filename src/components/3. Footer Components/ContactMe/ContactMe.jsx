@@ -101,7 +101,7 @@ const ContactMe = () => {
                 <textarea
                   className="terminal-textarea"
                   name="message"
-                  placeholder="message..."
+                  placeholder="Type message..."
                   required
                 />
               </div>
