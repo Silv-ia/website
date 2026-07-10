@@ -36,12 +36,7 @@ const socialProfiles = [
     url: 'https://github.com/Silv-ia',
     label: '$ git clone repos'
   },
-  {
-    name: 'Email',
-    icon: 'lni lni-github',
-    url: '#ContactMe',
-    label: '$ send email'
-  },
+
   //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
   //   {
   //     name: 'Twitter',
