@@ -31,7 +31,7 @@ const ContactMe = () => {
             "[*] Connecting...",
             "[*] Sending message..."
           ]);
-        }, 500);
+        }, 750);
 
         setTimeout(() => {
           setOutput([
