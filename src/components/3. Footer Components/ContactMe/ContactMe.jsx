@@ -66,8 +66,6 @@ const ContactMe = () => {
                   className="terminal-input"
                   type="email"
                   name="user_email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="your@email.com"
                   required
                 />
@@ -77,10 +75,10 @@ const ContactMe = () => {
                 <span className="prompt">
                   auxiliary(contact/email) &gt; set MESSAGE
                 </span>
-                <textarea
+                <input
                   className="terminal-textarea"
                   name="message"
-                  placeholder="Type your message..."
+                  placeholder="message..."
                   required
                 />
               </div>
