@@ -72,9 +72,6 @@ const ContactMe = () => {
                 />
               </div>
 
-              <div className="terminal-line">
-                <span className="prompt">Send:</span>
-              </div>
               <button type="submit" className="btn-cf">
                 <span className="prompt">guest@laira:~$ </span>
                 <span className="cmd-cf">send</span>
