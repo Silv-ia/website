@@ -7,6 +7,7 @@ const ContactMe = () => {
   const form = useRef();
 
   const [isMessageSent, setMessageSent] = useState(false);
+  const [output, setOutput] = useState([]);
 
   const [email, setEmail] = useState("");
 
@@ -20,14 +21,29 @@ const ContactMe = () => {
       .then((result) => {
         console.log(result.text);
 
-        setMessageSent(true);
-
         e.target.reset();
         setEmail("");
 
+        setOutput(["[*] Connecting..."]);
+
         setTimeout(() => {
-          setMessageSent(false);
-        }, 2000);
+          setOutput([
+            "[*] Connecting...",
+            "[*] Sending message..."
+          ]);
+        }, 500);
+
+        setTimeout(() => {
+          setOutput([
+            "[*] Connecting...",
+            "[*] Sending message...",
+            "[+] Message sent successfully."
+          ]);
+        }, 1000);
+
+        setTimeout(() => {
+          setOutput([]);
+        }, 4000);
       })
       .catch((error) => {
         console.log(error.text);
