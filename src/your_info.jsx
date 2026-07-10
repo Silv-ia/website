@@ -269,6 +269,13 @@ const projectData = [
     github: '',
   },
   {
+    title: 'AES encryption',
+    description: 'Fully implemented AES in ECB mode in Python.',
+    skills: ['Python', 'AES'],
+    website: '',
+    github: 'https://github.com/Silv-ia/DD2520',
+  },
+  {
     title: 'Occupant Window Behavior in Smart Buildings',
     description: 'Bachelor\'s Thesis Project. Sensor data processing from KTH Live-In Lab and multivariate logistic regression modeling.',
     skills: [
@@ -279,13 +286,6 @@ const projectData = [
     ],
     website: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
     github: '',
-  },
-  {
-    title: 'AES encryption',
-    description: 'Fully implemented AES in ECB mode in Python.',
-    skills: ['Python', 'AES'],
-    website: '',
-    github: 'https://github.com/Silv-ia/DD2520',
   },
   {
     title: 'Hardware Project: Handshake Game',
