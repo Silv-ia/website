@@ -64,37 +64,37 @@
 }
 
 .terminal-input {
-    width: 100%;
-    min-height: 100px;
+    flex: 1;
     background: transparent;
     border: none;
     outline: none;
     color: var(--terminal-text);
     font: inherit;
-    margin-bottom: 1rem;
+    margin-left: .5rem;
     font-family: "JetBrains Mono", monospace;
 }
 
 .terminal-input-line {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.terminal-input {
-    flex: 1;
+    align-items: flex-start;
+    gap: .5rem;
+    width: 100%;
 }
 
 .terminal-textarea {
-    width: 100%;
-    resize: vertical;
+    flex: 1;
+    min-height: 120px;
+
     background: transparent;
     border: none;
     outline: none;
+    resize: vertical;
+
     color: var(--terminal-text);
     font: inherit;
     font-family: "JetBrains Mono", monospace;
-    margin-bottom: 1rem;
+
+    margin-left: .5rem;
 }
 
 .cmd-cf {
@@ -127,16 +127,4 @@
 .btn-cf:active {
     box-shadow: none !important;
     outline: none !important;
-}
-
-.terminal-line {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.terminal-input,
-.terminal-textarea {
-    flex: 1;
-    margin-left: 0.5rem;
 }
