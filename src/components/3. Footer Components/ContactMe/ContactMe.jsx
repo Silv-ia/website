@@ -19,24 +19,14 @@ const ContactMe = () => {
       .then((result) => {
         console.log(result.text);
 
-        setOutput([
-          "[*] Connecting...",
-          "[*] Sending message...",
-          "[+] Message sent successfully."
-        ]);
-
+        setMessageSent(true);
         e.target.reset();
         setEmail("");
       })
       .catch((error) => {
         console.log(error.text);
-
-        setOutput([
-          "[*] Connecting...",
-          "[-] Failed to send message."
-        ]);
       });
-  };
+};
 
   return (
     <section id="ContactMe">
@@ -98,19 +88,17 @@ const ContactMe = () => {
               />
 
               <div className="terminal-line">
-                <button type="submit" className="btn-cf">
-                  <span className="prompt">
-                    auxiliary(contact/email) &gt;
+                {!isMessageSent ? (
+                  <button type="submit" className="btn-cf">
+                    <span className="prompt">auxiliary(contact/email) &gt;</span>
+                    <span className="cmd-cf"> run</span>
+                  </button>
+                ) : (
+                  <span className="cmd-cf">
+                    [+] Message sent successfully.
                   </span>
-                  <span className="cmd-cf"> run</span>
-                </button>
+                )}
               </div>
-
-              {output.map((line, index) => (
-                <div key={index} className="terminal-line">
-                  <span>{line}</span>
-                </div>
-              ))}
 
             </div>
 
