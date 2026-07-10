@@ -62,13 +62,15 @@ const ContactMe = () => {
                 <span className="prompt">Message:</span>
               </div>
 
-              <span className="prompt">$ </span>
-              <textarea
-                className="terminal-textarea"
-                name="message"
-                placeholder="Type your message..."
-                required
-              />
+              <div className="terminal-input-line">
+                <span className="prompt">$</span>
+                <textarea
+                  className="terminal-textarea"
+                  name="message"
+                  placeholder="Type your message..."
+                  required
+                />
+              </div>
 
               <div className="terminal-line">
                 <span className="prompt">Send:</span>
