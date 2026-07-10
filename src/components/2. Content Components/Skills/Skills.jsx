@@ -43,7 +43,7 @@ const Skills = () => {
                             }`}
                             onClick={() => setActiveTab(category.name)}
                         >
-                            {category.title}
+                            <h3 className='proj-title'>{category.title}</h3>
                         </button>
                     ))}
                 </div>
