@@ -24,6 +24,14 @@ const ContactMe = () => {
       });
   };
 
+  const [email, setEmail] = useState("");
+
+  setOutput([
+                  "[*] Connecting...",
+                  "[*] Sending message...",
+                  "[+] Message sent successfully."
+              ]);
+
   return (
     <section id='ContactMe'>
       <div className='section-container'>
@@ -34,36 +42,41 @@ const ContactMe = () => {
         </div>
         <div className="terminal-window-cf">
           <div className="terminal-header">
-            <span className='bash'>bash</span>
+            <span className="bash">msfconsole</span>
           </div>
           
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div className="contact-terminal">
               <div className="terminal-line">
-                <span className="prompt">guest@laira:~$ </span>
-                <span className="cmd-cf">./compose</span>
-              </div>
-              <div className="terminal-line">
-                <span className="prompt">sender:</span>
+                <span className="prompt">msf &gt;</span>
+                <span className="cmd-cf">use auxiliary/contact/email</span>
               </div>
 
-              <div className="terminal-input-line">
-                <span className="prompt">$</span>
-                <input
+              <div className="terminal-line">
+                  <span className="prompt">
+                      auxiliary(contact/email) &gt; set EMAIL
+                  </span>
+              </div>
+
+              <div className="terminal-line">
+                  <span className="cmd-cf">
+                      EMAIL =&gt; {email || "your@email.com"}
+                  </span>
+              </div>
+
+              <input
+                  value={email}
+                  onChange={(e)=>setEmail(e.target.value)}
                   className="terminal-input"
                   type="email"
                   name="user_email"
-                  placeholder="your@email.com"
+                  placeholder="Type here..."
                   required
-                />
-              </div>
+              />
 
-              <div className="terminal-line">
-                <span className="prompt">message:</span>
-              </div>
 
               <div className="terminal-input-line">
-                <span className="prompt">$</span>
+                <span className="prompt">auxiliary(contact/email) &gt; set MESSAGE</span>
                 <textarea
                   className="terminal-textarea"
                   name="message"
@@ -72,10 +85,13 @@ const ContactMe = () => {
                 />
               </div>
 
-              <button type="submit" className="btn-cf">
-                <span className="prompt">guest@laira:~$ </span>
-                <span className="cmd-cf">send</span>
-              </button>
+              <div className="terminal-line">
+                <button type="submit" className="btn-cf">
+                  <span className="prompt">auxiliary(contact/email) &gt;</span>
+                  <span className="cmd-cf"> run</span>
+                </button>
+              </div>
+              
             </div>
           </form>
         </div>
