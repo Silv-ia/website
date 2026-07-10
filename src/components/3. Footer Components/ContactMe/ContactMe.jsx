@@ -113,17 +113,13 @@ const ContactMe = () => {
                 </button>
               </div>
 
-              {isMessageSent && (
-                <>
-                  <div className="terminal-line">
-                    <span className="cmd-cf">[*] Connecting...</span>
-                  </div>
-
-                  <div className="terminal-line">
-                    <span className="cmd-cf">[+] Message sent successfully.</span>
-                  </div>
-                </>
-              )}
+              {output.map((line, index) => (
+                <div key={index} className="terminal-line">
+                  <span className={line.startsWith("[+]") ? "cmd-cf" : "prompt"}>
+                    {line}
+                  </span>
+                </div>
+              ))}
 
             </div>
 
