@@ -58,7 +58,7 @@ const ContactMe = () => {
                 <span className="cmd-cf">use auxiliary/contact/email</span>
               </div>
 
-              <div className='terminal-line'>
+              <div className="terminal-line">
                 <span className="prompt">
                   auxiliary(contact/email) &gt; set EMAIL
                 </span>
@@ -75,13 +75,13 @@ const ContactMe = () => {
                 />
               </div>
 
-              <div className='terminal-line'>
+              <div className="terminal-line">
                 <span className="prompt">
                   auxiliary(contact/email) &gt; set MESSAGE
                 </span>
               </div>
               <div className="terminal-line">
-                <span className='cmd-cf'>MESSAGE =&gt; </span>
+                <span className="cmd-cf">MESSAGE =&gt; </span>
                 <textarea
                   className="terminal-textarea"
                   name="message"
