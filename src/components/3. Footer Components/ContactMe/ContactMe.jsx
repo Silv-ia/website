@@ -26,12 +26,6 @@ const ContactMe = () => {
 
   const [email, setEmail] = useState("");
 
-  setOutput([
-                  "[*] Connecting...",
-                  "[*] Sending message...",
-                  "[+] Message sent successfully."
-              ]);
-
   return (
     <section id='ContactMe'>
       <div className='section-container'>
@@ -91,6 +85,12 @@ const ContactMe = () => {
                   <span className="cmd-cf"> run</span>
                 </button>
               </div>
+
+              {output.map((line, index) => (
+                  <div key={index} className="terminal-line">
+                      <span>{line}</span>
+                  </div>
+              ))}
               
             </div>
           </form>
