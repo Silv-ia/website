@@ -38,7 +38,7 @@ const ContactMe = () => {
           </div>
           
           <form ref={form} onSubmit={sendEmail} className="contact-form">
-            <div className="hero-terminal">
+            <div className="contact-terminal">
               <div className="terminal-line">
                 <span className="prompt">guest@laira:~$ </span>
                 <span className="cmd-cf">compose</span>
