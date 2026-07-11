@@ -4,6 +4,7 @@ import { projectData, awardData } from '../../../your_info';
 import { FaGithub, FaGlobe, FaImage } from "react-icons/fa";
 
 const Projects = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
 
   return (
     <>
@@ -33,12 +34,22 @@ const Projects = () => {
                       </a>
                     )}
 
-                    {proj.imageurl && (
-                      <a href={proj.imageurl} target="_blank" rel="noreferrer">
-                        <FaImage />
-                      </a>
-                    )}
+                    <button
+                      className="icon-btn"
+                      onClick={() => setSelectedImage(proj.imageurl)}
+                    >
+                      <FaImage />
+                    </button>
                   </div>
+
+                  {selectedImage && (
+                    <div
+                      className="image-modal"
+                      onClick={() => setSelectedImage(null)}
+                    >
+                      <img src={selectedImage} alt="" />
+                    </div>
+                  )}
                 </div>
 
                 <span className='description'>{proj.description}</span>
