@@ -87,7 +87,7 @@ const ContactMe = () => {
                   className="terminal-input"
                   type="email"
                   name="user_email"
-                  placeholder="your@email.com"
+                  placeholder="Enter your@email.com..."
                   required
                 />
               </div>
