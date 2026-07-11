@@ -146,17 +146,10 @@
   border-radius: 8px;
 }
 
-.icon-btn {
-  background: none;
-  border: none;
-  color: var(--sage-shadow); 
-  cursor: pointer;
-  padding: 0;
-
-  display: flex;
-  align-items: center;
-}
-
-.icon-btn:hover {
-  color: var(--sage-green);
+.project-links button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: inherit;
 }
