@@ -126,9 +126,6 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-  #nav-length {
-    width: 100%;
-  }
 
   .border-hover {
     border-top: 0;
