@@ -84,9 +84,7 @@ const ContactMe = () => {
               </div>
 
               <div className="terminal-line">
-                <span className="cmd-cf">EMAIL =&gt; </span>
-              </div>
-              <div>
+                <span className="cmd-cf desktop-prompt">EMAIL =&gt; </span>
                 <input
                   className="terminal-input"
                   type="email"
@@ -105,9 +103,7 @@ const ContactMe = () => {
                 <span className="cmd-cf desktop-prompt">set MESSAGE</span>
               </div>
               <div className="terminal-line">
-                <span className="cmd-cf">MESSAGE =&gt; </span>
-              </div>
-              <div>
+                <span className="cmd-cf desktop-prompt">MESSAGE =&gt; </span>
                 <textarea
                   className="terminal-textarea"
                   name="message"
