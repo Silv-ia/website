@@ -262,6 +262,7 @@ const projectData = [
     skills: ['Forensics', 'Docker'],
     website: '',
     github: '',
+    imageurl: '',
   },
   {
     title: 'AES encryption',
@@ -269,6 +270,7 @@ const projectData = [
     skills: ['Python', 'AES'],
     website: '',
     github: 'https://github.com/Silv-ia/DD2520',
+    imageurl: '',
   },
   {
     title: 'Occupant Window Behavior in Smart Buildings',
@@ -281,6 +283,7 @@ const projectData = [
     ],
     website: 'https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-375960', 
     github: '',
+    imageurl: '',
   },
   {
     title: 'Hardware Project: Handshake Game',
@@ -288,13 +291,15 @@ const projectData = [
     skills: ['Python', 'CAD', 'Soldering'],
     website: '',
     github: '',
+    imageurl: '',
   },
   {
     title: 'HS Degree Project: The Dancing Robotic Arm Lilith',
     description: 'We designed, built, and coded a robotic arm from scratch, using PVC pipes, servomotors, and 3D printed joints. I programmed the Arduinos to make the robotic arm dance to music. The purpose was to combine art and technology.',
     skills: ['Arduino', 'CAD', 'Soldering'],
-    website: 'https://www.linkedin.com/in/silvialinlu/overlay/Project/1838174792/treasury/?profileId=ACoAADE56MIBp5YS7iKXCedMRufzyYaV6a1tcK8',
+    website: '',
     github: '',
+    imageurl: '/images/mekanisk-dansare.jpg',
   },
   
 ];

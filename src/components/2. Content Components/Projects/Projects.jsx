@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import { projectData, awardData } from '../../../your_info';
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import { FaGithub, FaGlobe, FaImage } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -30,6 +30,12 @@ const Projects = () => {
                     {proj.website && (
                       <a href={proj.website} target="_blank" rel="noreferrer">
                         <FaGlobe />
+                      </a>
+                    )}
+
+                    {proj.imageurl && (
+                      <a href={proj.imageurl} target="_blank" rel="noreferrer">
+                        <FaImage />
                       </a>
                     )}
                   </div>
