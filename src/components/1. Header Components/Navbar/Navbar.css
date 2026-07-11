@@ -240,7 +240,8 @@ body {
 @media screen and (min-width: 992px) {
   .navbar-content {
     display: flex;
-    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .home-btn {
