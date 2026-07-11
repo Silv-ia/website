@@ -151,6 +151,7 @@
   .terminal-textarea {
     width: 100%;
     margin-left: 0;
+    min-width: 0;
   }
 
   .btn-cf {
