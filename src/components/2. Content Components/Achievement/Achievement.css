@@ -109,7 +109,7 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .education-grid {
     grid-template-columns: 1fr;
   }
