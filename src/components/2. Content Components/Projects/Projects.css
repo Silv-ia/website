@@ -151,5 +151,5 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    color: inherit;
+    color: inherit !important;
 }
