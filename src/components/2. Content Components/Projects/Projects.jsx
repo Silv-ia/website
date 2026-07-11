@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
 import { projectData, awardData } from '../../../your_info';
 import { FaGithub, FaGlobe, FaImage } from "react-icons/fa";
@@ -34,22 +34,16 @@ const Projects = () => {
                       </a>
                     )}
 
-                    <button
-                      className="icon-btn"
-                      onClick={() => setSelectedImage(proj.imageurl)}
-                    >
-                      <FaImage />
-                    </button>
+                    {proj.imageurl && (
+                      <button
+                        className="icon-btn"
+                        onClick={() => setSelectedImage(proj.imageurl)}
+                        aria-label="View image"
+                      >
+                        <FaImage />
+                      </button>
+                    )}
                   </div>
-
-                  {selectedImage && (
-                    <div
-                      className="image-modal"
-                      onClick={() => setSelectedImage(null)}
-                    >
-                      <img src={selectedImage} alt="" />
-                    </div>
-                  )}
                 </div>
 
                 <span className='description'>{proj.description}</span>
@@ -62,6 +56,15 @@ const Projects = () => {
                 </div>
               </div>
             ))}
+
+            {selectedImage && (
+              <div
+                className="image-modal"
+                onClick={() => setSelectedImage(null)}
+              >
+                <img src={selectedImage} alt="" />
+              </div>
+            )}
           </div>
         </div>
       </section>
