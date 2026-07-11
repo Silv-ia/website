@@ -53,85 +53,87 @@ const ContactMe = () => {
   return (
     <section id="ContactMe">
       <div className="section-container">
+        <div className="contact-area">
 
-        <div className="name-container wow fadeInLeft" data-wow-delay=".4s">
-          <div className="section-title">
-            <h2>Contact Form</h2>
-          </div>
-        </div>
-
-        <div className="terminal-window-cf">
-          <div className="terminal-header">
-            <span className="bash">msfconsole</span>
+          <div className="name-container wow fadeInLeft" data-wow-delay=".4s">
+            <div className="section-title">
+              <h2>Contact Form</h2>
+            </div>
           </div>
 
-          <form ref={form} onSubmit={sendEmail} className="contact-form">
-
-            <div className="contact-terminal">
-
-              <div className="terminal-line">
-                <span className="prompt">msf6 &gt; </span>
-                <span className="cmd-cf desktop-prompt">use auxiliary/contact/email</span>
-              </div>
-
-              <div className="terminal-line">
-                <span className="prompt desktop-prompt">
-                  auxiliary(contact/email) &gt; 
-                </span>
-                <span className="prompt mobile-prompt">msf6 &gt; </span>
-                <span className="cmd-cf">set EMAIL</span>
-                 
-              </div>
-
-              <div className="terminal-line">
-                <span className="cmd-cf desktop-prompt">EMAIL =&gt; </span>
-                <input
-                  className="terminal-input"
-                  type="email"
-                  name="user_email"
-                  placeholder="Enter your@email.com..."
-                  required
-                />
-              </div>
-
-              <div className="terminal-line">
-                <span className="prompt desktop-prompt">
-                  auxiliary(contact/email) &gt; 
-                </span>
-                
-                <span className="prompt mobile-prompt">msf6 &gt; </span>
-                <span className="cmd-cf">set MESSAGE</span>
-              </div>
-              <div className="terminal-line">
-                <span className="cmd-cf desktop-prompt">MESSAGE =&gt; </span>
-                <textarea
-                  className="terminal-textarea"
-                  name="message"
-                  placeholder="Type message..."
-                  required
-                />
-              </div>
-
-              <div className="terminal-line">
-                <button type="submit" className="btn-cf">
-                  <span className="prompt desktop-prompt">auxiliary(contact/email) &gt;</span>
-                  <span className="prompt mobile-prompt">msf6 &gt;</span>
-                  <span className="cmd-cf"> run</span>
-                </button>
-              </div>
-
-              {output.map((line, index) => (
-                <div key={index} className="terminal-line">
-                  <span className={line.startsWith("[+]") ? "cmd-cf" : "prompt"}>
-                    {line}
-                  </span>
-                </div>
-              ))}
-
+          <div className="terminal-window-cf">
+            <div className="terminal-header">
+              <span className="bash">msfconsole</span>
             </div>
 
-          </form>
+            <form ref={form} onSubmit={sendEmail} className="contact-form">
 
+              <div className="contact-terminal">
+
+                <div className="terminal-line">
+                  <span className="prompt">msf6 &gt; </span>
+                  <span className="cmd-cf desktop-prompt">use auxiliary/contact/email</span>
+                </div>
+
+                <div className="terminal-line">
+                  <span className="prompt desktop-prompt">
+                    auxiliary(contact/email) &gt; 
+                  </span>
+                  <span className="prompt mobile-prompt">msf6 &gt; </span>
+                  <span className="cmd-cf">set EMAIL</span>
+                  
+                </div>
+
+                <div className="terminal-line">
+                  <span className="cmd-cf desktop-prompt">EMAIL =&gt; </span>
+                  <input
+                    className="terminal-input"
+                    type="email"
+                    name="user_email"
+                    placeholder="Enter your@email.com..."
+                    required
+                  />
+                </div>
+
+                <div className="terminal-line">
+                  <span className="prompt desktop-prompt">
+                    auxiliary(contact/email) &gt; 
+                  </span>
+                  
+                  <span className="prompt mobile-prompt">msf6 &gt; </span>
+                  <span className="cmd-cf">set MESSAGE</span>
+                </div>
+                <div className="terminal-line">
+                  <span className="cmd-cf desktop-prompt">MESSAGE =&gt; </span>
+                  <textarea
+                    className="terminal-textarea"
+                    name="message"
+                    placeholder="Type message..."
+                    required
+                  />
+                </div>
+
+                <div className="terminal-line">
+                  <button type="submit" className="btn-cf">
+                    <span className="prompt desktop-prompt">auxiliary(contact/email) &gt;</span>
+                    <span className="prompt mobile-prompt">msf6 &gt;</span>
+                    <span className="cmd-cf"> run</span>
+                  </button>
+                </div>
+
+                {output.map((line, index) => (
+                  <div key={index} className="terminal-line">
+                    <span className={line.startsWith("[+]") ? "cmd-cf" : "prompt"}>
+                      {line}
+                    </span>
+                  </div>
+                ))}
+
+              </div>
+
+            </form>
+
+          </div>
         </div>
 
       </div>
