@@ -122,10 +122,3 @@
 
   font-family: "JetBrains Mono", monospace;
 }
-
-
-@media (max-width: 991px) {
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-}
