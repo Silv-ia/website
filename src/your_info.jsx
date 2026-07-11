@@ -2,6 +2,7 @@
 
 // your_info.jsx
 import profileImage from './assets/images/profile.jpg';
+import mekaniskDansare from "./assets/images/mekanisk-dansare.jpg";
 
 const backgroundImageUrl = '';
 
@@ -299,7 +300,7 @@ const projectData = [
     skills: ['Arduino', 'CAD', 'Soldering'],
     website: '',
     github: '',
-    imageurl: '/images/mekanisk-dansare.jpg',
+    imageurl: mekaniskDansare,
   },
   
 ];
