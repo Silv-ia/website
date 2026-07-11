@@ -148,30 +148,30 @@
 
 
 @media (max-width: 767px) {
+  .desktop-prompt {
+    display: none !important;
+  }
+
+  .mobile-prompt {
+    display: inline !important;
+  }
 
   .terminal-line {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 0.35rem;
+    width: 100%;
+    gap: 0;
   }
 
   .terminal-input,
   .terminal-textarea {
     width: 100%;
-    margin-left: 0;
     min-width: 0;
+    margin-left: 0.5rem;
   }
 
   .btn-cf {
     padding-left: 0;
-  }
-
-  .desktop-prompt {
-      display: none;
-  }
-
-  .mobile-prompt {
-      display: inline;
   }
 }
