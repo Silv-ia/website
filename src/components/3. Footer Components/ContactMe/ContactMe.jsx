@@ -114,7 +114,8 @@ const ContactMe = () => {
 
               <div className="terminal-line">
                 <button type="submit" className="btn-cf">
-                  <span className="prompt">auxiliary(contact/email) &gt;</span>
+                  <span className="prompt desktop-prompt">auxiliary(contact/email) &gt;</span>
+                  <span className="prompt mobile-prompt">msf6 &gt;</span>
                   <span className="cmd-cf"> run</span>
                 </button>
               </div>
