@@ -389,6 +389,9 @@ h1.last-name {
 .prompt { 
   color: var(--sage-shadow) !important; 
   font-size: 1em;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .btn-pos {
