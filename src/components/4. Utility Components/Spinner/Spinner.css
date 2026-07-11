@@ -49,6 +49,13 @@
   padding-right: 0.5rem;
 }
 
+.command-s {
+  flex: 1;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .output {
   display: flex;
   flex-direction: column;

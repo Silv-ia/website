@@ -45,7 +45,7 @@ const Spinner = () => {
         <div className='terminal-spinner'>
           <div className="line prompt-line">
             <span className="prompt">guest@laira:~$ </span>
-            <span>{displayed}</span>
+            <span className="command-s">{displayed}</span>
             {!showLoading && <span className="cursor" />}
           </div>
 
