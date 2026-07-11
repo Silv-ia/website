@@ -392,7 +392,6 @@ h1.last-name {
   white-space: normal;
   overflow-wrap: anywhere;
   word-break: break-word;
-  display: inline;
 }
 
 .btn-pos {
