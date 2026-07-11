@@ -52,8 +52,7 @@ const ContactMe = () => {
 
   return (
     <section id="ContactMe">
-      <div className="section-container">
-        <div className="contact-area">
+      <div className="section-container contact-area">
 
           <div className="name-container wow fadeInLeft" data-wow-delay=".4s">
             <div className="section-title">
@@ -136,7 +135,6 @@ const ContactMe = () => {
           </div>
         </div>
 
-      </div>
     </section>
   );
 };
