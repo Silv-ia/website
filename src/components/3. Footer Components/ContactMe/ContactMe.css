@@ -137,3 +137,23 @@
     box-shadow: none !important;
     outline: none !important;
 }
+
+@media (max-width: 992px) {
+
+  .terminal-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .terminal-input,
+  .terminal-textarea {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .btn-cf {
+    padding-left: 0;
+  }
+}
