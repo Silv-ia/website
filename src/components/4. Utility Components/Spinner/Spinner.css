@@ -39,7 +39,7 @@
 
 
 .line {
-  display: flex;
+  display: block;
   align-items: center;
   margin: 8px 0;
 }
@@ -47,13 +47,7 @@
 .prompt {
   color: var(--terminal-text);
   padding-right: 0.5rem;
-}
-
-.command-s {
-  flex: 1;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  display: inline;
 }
 
 .output {
