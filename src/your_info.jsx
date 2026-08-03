@@ -209,7 +209,7 @@ const categories = [
 
 // Here you can give in your achiements in a number counter animation
 const achievements = [
-  {word: 'Exchange semester', value: 'Technische Universität Wien', unit: '2027 • Wien, Austria' },
+  {word: 'Erasmus, TU Wien', value: 'Technische Universität Wien', unit: '2027 • Wien, Austria' },
   {word: 'M.Sc. Cybersecurity', value: 'KTH Royal Institute of Technology', unit: '2027 • Stockholm, Sweden' },
   {word: 'Summer School', value: 'ICSSS: NCIA, Europol, Leiden University, Security Delta', unit: '2026 • Den Haag, Netherlands' },
   {word: 'B.Sc. Information Technology', value: 'KTH Royal Institute of Technology', unit: '2026 • Stockholm, Sweden' },
