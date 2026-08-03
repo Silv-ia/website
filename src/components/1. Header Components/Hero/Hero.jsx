@@ -105,7 +105,7 @@ const Hero = () => {
                 </p>
 
                 <div className="terminal-line">
-                  <span className="prompt">guest@laira:~$ </span>
+                  <span className="prompt">root@laira:~$ </span>
                   <span className="cursor"></span>
                 </div>
               </div>

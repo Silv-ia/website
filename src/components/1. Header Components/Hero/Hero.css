@@ -323,6 +323,7 @@ h1.last-name {
 .terminal-line { 
   display: flex; 
   justify-content: flex-start; 
+  flex-wrap: wrap;
   width: 100%; 
   font-family: "JetBrains Mono", monospace; 
   font-weight: 300; 
