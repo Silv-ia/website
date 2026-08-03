@@ -75,7 +75,7 @@ const Hero = () => {
               <div className="hero-terminal">
 
                 <div className="terminal-line">
-                  <span className="prompt">guest@laira:~$ </span>
+                  <span className="prompt">root@laira:~$ </span>
                   <span className='cmd'>whoami</span>
                 </div>
 
@@ -86,7 +86,7 @@ const Hero = () => {
                 <p>I am a dancer who likes learning languages and solving puzzles.</p>
 
                 <div className="terminal-line">
-                  <span className="prompt">guest@laira:~$ </span>
+                  <span className="prompt">root@laira:~$ </span>
                   <span className='cmd'>cat education.txt</span>
                   <span></span>
                 </div>
@@ -95,7 +95,7 @@ const Hero = () => {
                 <p>BSc Information Technology</p>
 
                 <div className="terminal-line">
-                  <span className="prompt">guest@laira:~$ </span>
+                  <span className="prompt">root@laira:~$ </span>
                   <span className='cmd'>ls interests</span>
                   <span></span>
                 </div>

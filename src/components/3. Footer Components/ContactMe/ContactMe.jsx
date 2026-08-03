@@ -71,6 +71,7 @@ const ContactMe = () => {
 
                 <div className="terminal-line">
                   <span className="prompt">msf6 &gt; </span>
+                  <span className="cmd-cf mobile-prompt">use contact</span>
                   <span className="cmd-cf desktop-prompt">use auxiliary/contact/email</span>
                 </div>
 

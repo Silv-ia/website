@@ -13,7 +13,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: var(--light-white);
+    background-color: var(--steel-blue);
     color: var(--text-dark);
     font-size: 20px;
     z-index: 999;
