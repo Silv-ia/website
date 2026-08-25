@@ -211,7 +211,7 @@ const categories = [
 const achievements = [
   {word: 'Erasmus, TU Wien', value: 'Technische Universität Wien', unit: '2027 • Wien, Austria' },
   {word: 'M.Sc. Cybersecurity', value: 'KTH Royal Institute of Technology', unit: '2027 • Stockholm, Sweden' },
-  {word: 'Summer School', value: 'ICSSS: NCIA, Europol, Leiden University, Security Delta', unit: '2026 • Den Haag, Netherlands' },
+  {word: 'Summer School', value: 'ICSSS: NCIA, Europol, Leiden Univ., HSD', unit: '2026 • Den Haag, Netherlands' },
   {word: 'B.Sc. Information Technology', value: 'KTH Royal Institute of Technology', unit: '2026 • Stockholm, Sweden' },
   {word: 'High School Diploma', value: 'ABB Industrigymnasium (Hitachigymnasiet)', unit: '2021 • Västerås, Sweden'},
   {word: 'Changemaker Camp', value: 'Raoul Wallenberg Academy, Chefakademin', unit: '2020 • Stockholm, Sweden'},
@@ -259,6 +259,14 @@ const languages = [
 ];
 
 const projectData = [
+  {
+    title: 'ICSSS - OT security challenge',
+    description: 'OT security challenge by NCSC-NL. We designed two creative attacks targeting the factory of a coffee producing company, Dutch Slurp, to maximise the impact to production and the reputation. The attack designs followed the MITRE ATT&CK framework, and used STRIDE. We also proposed mitigation strategies in line with the NIS 2 Directive, i.e., securing supply chains and implementing network segmentation.',
+    skills: ['OT security', 'MITRE ATT&CK', 'STRIDE', 'NIS 2', 'Network'],
+    website: '',
+    github: '',
+    imageurl: '',
+  },
   {
     title: 'CTF chals',
     description: 'wip',
